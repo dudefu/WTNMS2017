@@ -1,0 +1,1317 @@
+16/09/13 10:43:37.576 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+16/09/13 10:43:42.857 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/13 10:43:44.963 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - OID config read Finish......
+16/09/13 10:43:47.060 INFO  [com.jhw.adm.comclient.jms.MessageSend] - *Connect Success*
+16/09/13 10:43:47.075 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Init Receive Constructor
+16/09/13 10:43:47.076 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - JMS Send service init Finish......
+16/09/13 10:43:47.233 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(COM2) opened...
+16/09/13 10:43:47.309 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - PLC Service Init Finish......
+16/09/13 10:43:47.393 WARN  [com.jhw.adm.comclient.protocol.snmp.TrapMonitor$ConsumeTrap] - TrapQueue empty!
+16/09/13 10:43:47.433 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Snmp Trap service init Finish......
+16/09/13 10:43:47.669 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Gprs service init Finish......
+16/09/13 10:43:47.670 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Heartbeat Setup Finish......
+16/09/13 10:43:47.686 INFO  [com.jhw.adm.comclient.service.DeviceLogService$4] - Launching device log listen thread.
+16/09/13 10:43:47.699 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - DeviceLog Listen Setup Finish......
+16/09/13 10:43:47.700 INFO  [com.jhw.adm.comclient.service.DeviceLogService$5] - Launching handle device log thread.
+16/09/13 10:43:48.671 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:43:48.863 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:43:48.878 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:43:48.879 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:43:48.880 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:44:00.264 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:44:00.265 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - MsgName：TOPOSEARCH,msgID：1
+16/09/13 10:44:00.289 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:44:00.306 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Start ip:192.168.1.38
+16/09/13 10:44:00.328 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Ip Segment:192.168.1.1 - 192.168.1.255
+16/09/13 10:44:00.330 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - TOPOLOGY_THREADPOOL_COUNT >>> 220
+16/09/13 10:44:00.330 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ICMP dectecting......
+16/09/13 10:44:00.331 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ICMP dectect finish -> 0
+16/09/13 10:44:00.591 INFO  [com.jhw.adm.comclient.service.SystemHandler] - ***系统类型: RS609-3GF6T
+16/09/13 10:44:00.601 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - JHW device Type:RS609-3GF6T
+16/09/13 10:44:00.672 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:44:00.697 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:44:00.700 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:44:00.700 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:44:00.815 INFO  [com.jhw.adm.comclient.protocol.snmp.Request] - SnmpResult：Success
+16/09/13 10:44:00.892 INFO  [com.jhw.adm.comclient.service.LldpHandler] - remotePort: Ethernet0/21
+16/09/13 10:44:07.235 ERROR [com.jhw.adm.comclient.protocol.snmp.Request] - 192.168.0.234/161 Snmp Time out
+16/09/13 10:44:07.235 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Finish discovery, now Arrangeing data......
+16/09/13 10:44:12.672 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:44:12.699 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:44:12.700 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:44:12.700 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:44:13.244 ERROR [com.jhw.adm.comclient.protocol.snmp.Request] - 192.168.0.234/161 Snmp Time out
+16/09/13 10:44:13.274 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - 发现二层: 192.168.1.38
+16/09/13 10:44:13.275 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Snmp dectecting......
+16/09/13 10:44:23.141 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+16/09/13 10:44:24.673 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:44:24.695 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:44:24.698 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:44:24.698 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:44:32.417 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+16/09/13 10:44:36.674 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:44:36.697 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:44:36.700 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:44:36.700 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:44:41.215 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+16/09/13 10:44:48.419 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+16/09/13 10:44:48.419 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Snmp dectect finish -> 0
+16/09/13 10:44:48.674 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:44:48.722 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:44:48.723 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:44:48.723 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:44:49.439 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ***拓扑发现结束***
+16/09/13 10:45:00.675 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:45:00.742 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:45:00.744 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:45:00.746 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:45:05.242 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:45:05.244 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - MsgName：TOPOSEARCH,msgID：1
+16/09/13 10:45:05.245 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:45:05.279 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Start ip:192.168.1.38
+16/09/13 10:45:05.279 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Ip Segment:192.168.1.1 - 192.168.1.255
+16/09/13 10:45:05.280 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - TOPOLOGY_THREADPOOL_COUNT >>> 220
+16/09/13 10:45:05.280 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ICMP dectecting......
+16/09/13 10:45:05.280 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ICMP dectect finish -> 0
+16/09/13 10:45:05.309 INFO  [com.jhw.adm.comclient.service.SystemHandler] - ***系统类型: RS609-3GF6T
+16/09/13 10:45:05.319 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - JHW device Type:RS609-3GF6T
+16/09/13 10:45:05.502 INFO  [com.jhw.adm.comclient.protocol.snmp.Request] - SnmpResult：Success
+16/09/13 10:45:05.534 INFO  [com.jhw.adm.comclient.service.LldpHandler] - remotePort: Ethernet0/21
+16/09/13 10:45:11.822 ERROR [com.jhw.adm.comclient.protocol.snmp.Request] - 192.168.0.234/161 Snmp Time out
+16/09/13 10:45:11.823 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Finish discovery, now Arrangeing data......
+16/09/13 10:45:12.676 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:45:12.690 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:45:12.691 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:45:12.691 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:45:17.828 ERROR [com.jhw.adm.comclient.protocol.snmp.Request] - 192.168.0.234/161 Snmp Time out
+16/09/13 10:45:17.834 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - 发现二层: 192.168.1.38
+16/09/13 10:45:17.835 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Snmp dectecting......
+16/09/13 10:45:24.667 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+16/09/13 10:45:24.676 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:45:24.697 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:45:24.702 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:45:24.702 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:45:31.865 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+16/09/13 10:45:36.677 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:45:36.696 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:45:36.697 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:45:36.697 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:45:38.674 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+16/09/13 10:45:45.475 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+16/09/13 10:45:45.475 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Snmp dectect finish -> 0
+16/09/13 10:45:46.481 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ***拓扑发现结束***
+16/09/13 10:45:48.678 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:45:48.698 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:45:48.699 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:45:48.699 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:46:00.678 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:46:00.690 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:46:00.690 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:46:00.690 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:46:12.679 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:46:12.701 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:46:12.703 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:46:12.703 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:46:24.680 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:46:24.693 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:46:24.694 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:46:24.694 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:46:36.681 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:46:36.703 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:46:36.704 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:46:36.705 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:46:48.681 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:46:48.693 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:46:48.694 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:46:48.695 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:47:00.682 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:47:00.711 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:47:00.712 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:47:00.712 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:47:12.683 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:47:12.700 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:47:12.701 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:47:12.702 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:47:24.683 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:47:24.713 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:47:24.714 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:47:24.715 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:47:36.684 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:47:36.707 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:47:36.708 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:47:36.709 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:47:48.685 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:47:48.696 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:47:48.697 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:47:48.697 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:48:00.685 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:48:00.704 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:48:00.705 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:48:00.706 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:48:12.686 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:48:12.708 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:48:12.710 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:48:12.710 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:48:24.687 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:48:24.706 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:48:24.709 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:48:24.709 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:48:36.687 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:48:36.701 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:48:36.702 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:48:36.702 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:48:48.688 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:48:48.707 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:48:48.708 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:48:48.708 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:49:00.689 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:49:00.701 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:49:00.702 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:49:00.703 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:49:12.689 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:49:12.708 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:49:12.708 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:49:12.710 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:49:24.690 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:49:24.711 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:49:24.712 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:49:24.712 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:49:36.691 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:49:36.703 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:49:36.707 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:49:36.707 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:49:48.692 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:49:48.703 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:49:48.703 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:49:48.703 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:50:00.692 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:50:00.702 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:50:00.703 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:50:00.704 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:50:12.705 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:50:12.739 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:50:12.740 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:50:12.740 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:50:24.706 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:50:24.727 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:50:24.728 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:50:24.729 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:50:36.706 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:50:36.724 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:50:36.725 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:50:36.725 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:50:48.707 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:50:48.744 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:50:48.745 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:50:48.746 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:51:00.708 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:51:00.720 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:51:00.721 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:51:00.721 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:51:12.708 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:51:12.718 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:51:12.719 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:51:12.719 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:51:24.709 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:51:24.733 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:51:24.734 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:51:24.734 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:51:36.710 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:51:36.723 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:51:36.724 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:51:36.724 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:51:48.710 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:51:48.721 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:51:48.722 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:51:48.723 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:52:00.711 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:52:00.721 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:52:00.722 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:52:00.722 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:52:12.712 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:52:12.724 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:52:12.725 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:52:12.725 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:52:24.712 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:52:24.735 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:52:24.736 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:52:24.737 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:52:36.713 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:52:36.731 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:52:36.733 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:52:36.735 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:52:48.714 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:52:48.727 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:52:48.727 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:52:48.727 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:53:00.715 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:53:00.733 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:53:00.735 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:53:00.735 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:53:12.715 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:53:12.732 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:53:12.733 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:53:12.734 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:53:24.716 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:53:24.734 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:53:24.736 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:53:24.736 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:53:36.717 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:53:36.727 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:53:36.727 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:53:36.728 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:53:48.717 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:53:48.727 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:53:48.728 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:53:48.728 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:54:00.718 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:54:00.739 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:54:00.743 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:54:00.744 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:54:12.719 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:54:12.729 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:54:12.730 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:54:12.730 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:54:24.719 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:54:24.736 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:54:24.737 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:54:24.737 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:54:36.720 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:54:36.732 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:54:36.733 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:54:36.733 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:54:48.721 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:54:48.731 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:54:48.732 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:54:48.733 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:55:00.721 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:55:00.739 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:55:00.740 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:55:00.740 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:55:12.722 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:55:12.734 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:55:12.735 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:55:12.735 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:55:24.723 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:55:24.734 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:55:24.735 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:55:24.735 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:55:36.723 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:55:36.733 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:55:36.733 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:55:36.734 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:55:48.724 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:55:48.734 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:55:48.735 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:55:48.736 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:56:00.725 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:56:00.735 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:56:00.736 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:56:00.737 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:56:12.725 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:56:12.741 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:56:12.741 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:56:12.741 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:56:24.726 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:56:24.740 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:56:24.741 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:56:24.742 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:58:07.151 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+16/09/13 10:58:11.665 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/13 10:58:12.334 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - OID config read Finish......
+16/09/13 10:58:13.379 INFO  [com.jhw.adm.comclient.jms.MessageSend] - *Connect Success*
+16/09/13 10:58:13.381 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Init Receive Constructor
+16/09/13 10:58:13.382 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - JMS Send service init Finish......
+16/09/13 10:58:13.454 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(COM2) opened...
+16/09/13 10:58:13.467 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - PLC Service Init Finish......
+16/09/13 10:58:13.506 WARN  [com.jhw.adm.comclient.protocol.snmp.TrapMonitor$ConsumeTrap] - TrapQueue empty!
+16/09/13 10:58:13.507 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Snmp Trap service init Finish......
+16/09/13 10:58:13.516 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Gprs service init Finish......
+16/09/13 10:58:13.517 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Heartbeat Setup Finish......
+16/09/13 10:58:13.520 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - DeviceLog Listen Setup Finish......
+16/09/13 10:58:13.520 INFO  [com.jhw.adm.comclient.service.DeviceLogService$4] - Launching device log listen thread.
+16/09/13 10:58:13.522 INFO  [com.jhw.adm.comclient.service.DeviceLogService$5] - Launching handle device log thread.
+16/09/13 10:58:14.517 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:58:14.565 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:58:14.566 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:58:14.566 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:58:14.567 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:58:26.518 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:58:26.540 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:58:26.542 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:58:26.542 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:58:38.519 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:58:38.532 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:58:38.532 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:58:38.532 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:58:50.520 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:58:50.532 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:58:50.533 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:58:50.533 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:59:02.520 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:59:02.532 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:59:02.532 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:59:02.532 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:59:14.521 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:59:14.540 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:59:14.541 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:59:14.541 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:59:26.522 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:59:26.541 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:59:26.541 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:59:26.542 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 10:59:38.522 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:59:38.541 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:59:38.542 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:59:38.546 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 10:59:50.523 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 10:59:50.542 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 10:59:50.542 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 10:59:50.543 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 11:00:02.524 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:00:02.543 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:00:02.545 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:00:02.545 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 11:00:14.524 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:00:14.543 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:00:14.544 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:00:14.545 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 11:00:26.525 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:00:26.544 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:00:26.545 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:00:26.546 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 11:00:38.526 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:00:38.537 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:00:38.538 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:00:38.538 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 11:00:50.526 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:00:50.544 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:00:50.546 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:00:50.546 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 11:01:02.527 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:01:02.547 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:01:02.547 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:01:02.548 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 11:01:14.528 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:01:14.547 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:01:14.548 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:01:14.548 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 11:01:26.528 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:01:26.549 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:01:26.551 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:01:26.551 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 11:01:38.529 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:01:38.563 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:01:38.563 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:01:38.564 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 11:01:50.530 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:01:50.549 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:01:50.550 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:01:50.550 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 11:02:02.531 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:02:02.544 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:02:02.545 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:02:02.546 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 11:02:14.531 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:02:14.562 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:02:14.563 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:02:14.563 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 11:02:26.532 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:02:26.551 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:02:26.553 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:02:26.553 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 11:02:38.533 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:02:38.552 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:02:38.556 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:02:38.557 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 11:02:50.533 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:02:50.552 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:02:50.555 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:02:50.555 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 11:03:02.534 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:03:02.546 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:03:02.546 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:03:02.547 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 11:03:14.535 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:03:14.575 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:03:14.577 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:03:14.578 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 11:03:26.535 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:03:26.558 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:03:26.559 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:03:26.560 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 11:03:38.536 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:03:38.548 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:03:38.550 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:03:38.550 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 11:03:50.537 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:03:50.556 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:03:50.559 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:03:50.559 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 11:04:02.537 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:04:02.556 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:04:02.557 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:04:02.558 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 11:04:14.538 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:04:14.557 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:04:14.558 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:04:14.558 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 11:04:26.539 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:04:26.558 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:04:26.559 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:04:26.560 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 11:04:38.539 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:04:38.558 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:04:38.560 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:04:38.560 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 11:04:50.540 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:04:50.551 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:04:50.552 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:04:50.552 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 11:05:02.541 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:05:02.557 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:05:02.560 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:05:02.562 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 11:05:14.541 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:05:14.558 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:05:14.559 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:05:14.560 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 11:05:26.542 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:05:26.552 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:05:26.553 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:05:26.553 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 11:05:38.543 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:05:38.560 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:05:38.561 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:05:38.563 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 11:05:50.544 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:05:50.577 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:05:50.579 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:05:50.579 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 11:06:02.544 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:06:02.558 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:06:02.559 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:06:02.559 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 11:06:14.545 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:06:14.562 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:06:14.563 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:06:14.563 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 11:06:26.546 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:06:26.569 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:06:26.572 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:06:26.573 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 11:06:38.546 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:06:38.558 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:06:38.559 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:06:38.560 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 11:06:50.547 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:06:50.564 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:06:50.566 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:06:50.566 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 11:07:02.548 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:07:02.567 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:07:02.568 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:07:02.569 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 11:07:14.548 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:07:14.565 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:07:14.566 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:07:14.567 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 11:07:26.549 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:07:26.567 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:07:26.568 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:07:26.568 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 11:07:38.550 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:07:38.567 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:07:38.568 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:07:38.569 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 11:07:50.550 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:07:50.568 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:07:50.569 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:07:50.569 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 11:08:02.551 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:08:02.567 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:08:02.569 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:08:02.569 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 11:08:14.552 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:08:14.570 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:08:14.571 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:08:14.572 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 11:08:26.552 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:08:26.569 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:08:26.570 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:08:26.570 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 11:08:38.553 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:08:38.563 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:08:38.564 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:08:38.564 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 11:08:50.554 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:08:50.570 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:08:50.572 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:08:50.572 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 11:09:02.555 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:09:02.565 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:09:02.565 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:09:02.565 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 11:09:14.555 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:09:14.573 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:09:14.576 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:09:14.576 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 11:09:26.556 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:09:26.571 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:09:26.572 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:09:26.572 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 11:09:38.557 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:09:38.601 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:09:38.602 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:09:38.604 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 11:09:50.557 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:09:50.574 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:09:50.575 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:09:50.575 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 11:10:02.558 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:10:02.575 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:10:02.576 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:10:02.577 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 11:10:14.559 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:10:14.577 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:10:14.577 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:10:14.577 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 11:10:26.559 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:10:26.576 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:10:26.577 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:10:26.577 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 11:10:38.560 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:10:38.571 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:10:38.572 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:10:38.572 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 11:10:50.562 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:10:50.579 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:10:50.581 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:10:50.582 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 11:11:02.562 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:11:02.579 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:11:02.580 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:11:02.581 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 11:11:14.563 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:11:14.580 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:11:14.581 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:11:14.581 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 11:11:26.564 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:11:26.581 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:11:26.582 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:11:26.582 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 11:11:38.564 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 11:11:38.581 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 11:11:38.583 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 11:11:38.584 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 11:11:48.000 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/13 11:11:48.195 INFO  [com.jhw.adm.comclient.jms.MessageSend] - true false
+16/09/13 11:11:48.195 WARN  [com.jhw.adm.comclient.jms.MessageSend] - 2&&&Receive Thread alive
+16/09/13 11:11:48.213 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(COM2) closed...
+16/09/13 11:11:48.228 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@1ee4648: startup date [Tue Sep 13 10:58:04 CST 2016]; root of context hierarchy
+16/09/13 11:11:48.230 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+16/09/13 11:11:48.279 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/09/13 11:11:48.281 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1f48262: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+16/09/13 11:11:48.288 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(COM2) closed...
+16/09/13 11:11:48.288 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+16/09/13 11:11:48.289 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+16/09/13 11:11:48.289 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/09/13 11:11:48.291 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+16/09/13 13:11:31.561 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+16/09/13 13:12:41.622 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/13 13:12:43.250 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - OID config read Finish......
+16/09/13 13:12:46.824 INFO  [com.jhw.adm.comclient.jms.MessageSend] - *Connect Success*
+16/09/13 13:12:46.838 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Init Receive Constructor
+16/09/13 13:12:46.838 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - JMS Send service init Finish......
+16/09/13 13:12:47.086 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(COM2) opened...
+16/09/13 13:12:47.125 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - PLC Service Init Finish......
+16/09/13 13:12:47.204 WARN  [com.jhw.adm.comclient.protocol.snmp.TrapMonitor$ConsumeTrap] - TrapQueue empty!
+16/09/13 13:12:47.236 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Snmp Trap service init Finish......
+16/09/13 13:12:47.397 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Gprs service init Finish......
+16/09/13 13:12:47.398 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Heartbeat Setup Finish......
+16/09/13 13:12:47.415 INFO  [com.jhw.adm.comclient.service.DeviceLogService$4] - Launching device log listen thread.
+16/09/13 13:12:47.427 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - DeviceLog Listen Setup Finish......
+16/09/13 13:12:47.427 INFO  [com.jhw.adm.comclient.service.DeviceLogService$5] - Launching handle device log thread.
+16/09/13 13:12:48.398 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:12:48.610 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:12:48.633 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:12:48.633 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:12:48.634 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:13:00.399 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:13:00.431 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:13:00.432 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:13:00.437 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:13:12.400 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:13:12.420 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:13:12.421 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:13:12.423 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:13:24.400 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:13:24.412 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:13:24.413 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:13:24.413 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:13:36.401 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:13:36.444 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:13:36.445 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:13:36.446 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:13:48.402 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:13:48.421 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:13:48.422 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:13:48.423 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:14:00.402 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:14:00.426 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:14:00.427 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:14:00.428 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:14:12.403 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:14:12.423 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:14:12.424 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:14:12.425 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:14:24.404 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:14:24.423 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:14:24.424 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:14:24.425 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:14:36.405 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:14:36.424 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:14:36.425 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:14:36.426 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:14:48.405 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:14:48.444 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:14:48.447 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:14:48.447 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:15:00.406 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:15:00.419 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:15:00.420 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:15:00.420 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:15:12.407 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:15:12.436 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:15:12.437 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:15:12.438 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:15:24.407 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:15:24.426 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:15:24.427 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:15:24.428 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:15:36.408 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:15:36.464 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:15:36.466 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:15:36.466 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:15:48.409 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:15:48.429 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:15:48.431 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:15:48.432 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:16:00.409 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:16:00.430 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:16:00.432 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:16:00.432 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:16:12.410 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:16:12.451 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:16:12.453 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:16:12.453 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:16:24.411 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:16:24.430 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:16:24.430 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:16:24.433 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:16:36.411 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:16:36.430 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:16:36.432 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:16:36.432 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:16:48.412 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:16:48.456 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:16:48.457 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:16:48.460 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:17:00.413 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:17:00.432 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:17:00.433 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:17:00.434 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:17:12.413 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:17:12.433 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:17:12.434 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:17:12.434 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:17:24.414 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:17:24.432 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:17:24.434 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:17:24.434 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:17:36.415 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:17:36.434 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:17:36.434 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:17:36.436 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:17:48.416 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:17:48.428 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:17:48.429 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:17:48.429 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:18:00.416 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:18:00.435 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:18:00.436 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:18:00.437 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:18:12.417 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:18:12.435 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:18:12.437 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:18:12.438 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:18:24.418 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:18:24.441 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:18:24.441 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:18:24.442 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:18:36.418 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:18:36.438 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:18:36.441 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:18:36.442 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:18:48.419 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:18:48.438 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:18:48.439 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:18:48.440 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:19:00.420 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:19:00.439 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:19:00.440 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:19:00.441 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:19:12.420 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:19:12.437 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:19:12.439 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:19:12.439 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:19:24.421 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:19:24.439 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:19:24.440 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:19:24.441 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:19:36.422 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:19:36.439 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:19:36.440 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:19:36.441 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:19:48.422 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:19:48.439 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:19:48.441 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:19:48.441 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:20:00.423 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:20:00.444 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:20:00.444 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:20:00.445 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:20:12.424 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:20:12.447 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:20:12.448 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:20:12.449 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:20:24.424 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:20:24.443 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:20:24.445 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:20:24.445 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:20:36.425 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:20:36.442 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:20:36.443 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:20:36.444 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:20:48.426 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:20:48.444 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:20:48.446 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:20:48.449 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:21:00.426 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:21:00.438 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:21:00.439 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:21:00.439 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:21:12.427 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:21:12.445 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:21:12.446 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:21:12.447 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:21:24.428 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:21:24.439 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:21:24.440 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:21:24.440 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:21:36.429 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:21:36.441 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:21:36.441 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:21:36.441 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:21:48.429 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:21:48.440 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:21:48.441 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:21:48.441 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:22:00.430 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:22:00.440 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:22:00.441 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:22:00.442 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:22:12.431 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:22:12.448 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:22:12.451 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:22:12.451 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:22:24.431 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:22:24.448 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:22:24.450 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:22:24.453 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:22:36.432 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:22:36.450 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:22:36.451 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:22:36.452 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:22:48.433 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:22:48.450 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:22:48.452 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:22:48.452 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:23:00.433 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:23:00.450 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:23:00.451 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:23:00.452 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:23:12.434 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:23:12.451 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:23:12.452 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:23:12.453 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:23:24.435 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:23:24.452 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:23:24.454 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:23:24.455 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:23:36.435 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:23:36.452 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:23:36.453 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:23:36.453 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:23:48.436 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:23:48.455 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:23:48.456 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:23:48.457 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:24:00.437 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:24:00.455 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:24:00.456 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:24:00.456 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:24:12.437 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:24:12.454 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:24:12.455 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:24:12.456 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:24:24.438 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:24:24.448 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:24:24.449 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:24:24.449 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:24:36.439 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:24:36.456 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:24:36.458 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:24:36.458 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:24:48.440 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:24:48.456 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:24:48.459 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:24:48.459 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:25:00.440 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:25:00.458 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:25:00.462 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:25:00.463 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:25:12.441 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:25:12.459 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:25:12.461 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:25:12.462 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:25:24.442 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:25:24.459 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:25:24.460 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:25:24.461 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:25:36.442 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:25:36.460 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:25:36.460 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:25:36.460 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:25:48.443 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:25:48.460 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:25:48.461 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:25:48.462 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:26:00.444 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:26:00.455 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:26:00.455 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:26:00.455 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:26:12.444 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:26:12.461 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:26:12.462 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:26:12.463 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:26:24.445 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:26:24.462 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:26:24.463 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:26:24.464 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:26:36.446 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:26:36.464 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:26:36.465 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:26:36.467 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:26:48.446 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:26:48.464 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:26:48.465 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:26:48.466 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:27:00.447 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:27:00.465 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:27:00.466 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:27:00.467 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:27:12.448 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:27:12.465 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:27:12.467 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:27:12.467 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:27:24.448 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:27:24.465 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:27:24.467 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:27:24.467 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:27:36.449 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:27:36.467 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:27:36.468 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:27:36.470 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:27:48.450 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:27:48.468 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:27:48.469 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:27:48.470 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:28:00.451 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:28:00.468 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:28:00.470 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:28:00.471 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:28:12.451 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:28:12.470 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:28:12.471 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:28:12.471 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:28:24.452 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:28:24.477 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:28:24.477 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:28:24.478 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:28:36.453 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:28:36.470 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:28:36.474 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:28:36.475 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:28:48.453 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:28:48.470 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:28:48.471 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:28:48.471 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:29:00.454 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:29:00.473 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:29:00.474 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:29:00.475 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:29:12.455 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:29:12.472 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:29:12.473 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:29:12.474 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:29:24.455 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:29:24.472 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:29:24.473 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:29:24.473 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:29:36.456 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:29:36.479 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:29:36.480 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:29:36.480 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:29:48.457 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:29:48.474 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:29:48.477 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:29:48.477 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:30:00.457 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:30:00.470 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:30:00.470 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:30:00.471 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:30:12.458 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:30:12.475 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:30:12.477 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:30:12.477 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:30:24.459 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:30:24.476 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:30:24.478 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:30:24.478 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:30:36.459 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:30:36.477 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:30:36.478 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:30:36.478 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:30:48.460 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:30:48.480 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:30:48.481 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:30:48.482 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:31:00.461 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:31:00.480 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:31:00.482 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:31:00.483 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:31:12.461 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:31:12.478 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:31:12.479 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:31:12.479 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:31:24.462 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:31:24.472 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:31:24.473 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:31:24.474 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:31:36.463 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:31:36.481 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:31:36.482 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:31:36.483 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:31:48.464 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:31:48.494 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:31:48.494 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:31:48.495 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:32:00.464 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:32:00.490 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:32:00.491 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:32:00.491 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:32:12.465 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:32:12.475 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:32:12.476 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:32:12.476 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:32:24.466 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:32:24.484 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:32:24.486 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:32:24.486 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:32:36.466 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:32:36.480 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:32:36.481 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:32:36.481 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:32:48.467 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:32:48.477 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:32:48.478 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:32:48.479 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:33:00.468 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:33:00.478 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:33:00.481 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:33:00.481 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:33:12.468 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:33:12.485 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:33:12.487 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:33:12.487 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:33:24.469 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:33:24.480 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:33:24.481 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:33:24.482 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:33:36.472 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:33:36.499 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:33:36.499 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:33:36.499 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:33:48.472 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:33:48.489 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:33:48.490 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:33:48.491 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:34:00.473 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:34:00.492 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:34:00.495 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:34:00.495 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:34:12.474 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:34:12.490 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:34:12.492 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:34:12.492 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:34:24.474 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:34:24.490 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:34:24.492 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:34:24.493 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:34:36.475 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:34:36.492 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:34:36.493 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:34:36.493 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:34:48.476 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:34:48.493 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:34:48.494 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:34:48.495 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:35:00.477 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:35:00.494 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:35:00.497 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:35:00.497 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:35:12.477 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:35:12.494 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:35:12.495 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:35:12.496 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:35:24.478 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:35:24.495 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:35:24.496 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:35:24.497 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:35:36.479 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:35:36.496 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:35:36.496 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:35:36.498 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:35:48.479 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:35:48.496 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:35:48.496 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:35:48.497 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:36:00.480 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:36:00.499 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:36:00.500 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:36:00.502 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:36:12.481 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:36:12.504 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:36:12.505 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:36:12.505 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:36:24.481 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:36:24.499 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:36:24.500 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:36:24.501 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:36:36.482 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:36:36.492 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:36:36.493 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:36:36.494 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:36:48.483 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:36:48.500 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:36:48.501 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:36:48.501 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:37:00.483 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:37:00.500 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:37:00.504 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:37:00.504 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 13:37:12.484 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 13:37:12.495 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 13:37:12.495 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 13:37:12.495 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 13:37:18.477 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/13 13:37:18.706 INFO  [com.jhw.adm.comclient.jms.MessageSend] - true false
+16/09/13 13:37:18.706 WARN  [com.jhw.adm.comclient.jms.MessageSend] - 2&&&Receive Thread alive
+16/09/13 13:37:18.723 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(COM2) closed...
+16/09/13 13:37:18.739 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@184ec44: startup date [Tue Sep 13 13:11:23 CST 2016]; root of context hierarchy
+16/09/13 13:37:18.742 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+16/09/13 13:37:18.755 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/09/13 13:37:18.757 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@814013: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+16/09/13 13:37:18.770 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(COM2) closed...
+16/09/13 13:37:18.779 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+16/09/13 13:37:18.779 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+16/09/13 13:37:18.779 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/09/13 13:37:18.781 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+16/09/13 14:10:20.455 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+16/09/13 14:10:27.981 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/13 14:10:28.863 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - OID config read Finish......
+16/09/13 14:10:30.056 INFO  [com.jhw.adm.comclient.jms.MessageSend] - *Connect Success*
+16/09/13 14:10:30.057 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Init Receive Constructor
+16/09/13 14:10:30.057 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - JMS Send service init Finish......
+16/09/13 14:10:30.203 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(COM2) opened...
+16/09/13 14:10:30.229 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - PLC Service Init Finish......
+16/09/13 14:10:30.269 WARN  [com.jhw.adm.comclient.protocol.snmp.TrapMonitor$ConsumeTrap] - TrapQueue empty!
+16/09/13 14:10:30.271 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Snmp Trap service init Finish......
+16/09/13 14:10:30.405 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Gprs service init Finish......
+16/09/13 14:10:30.405 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Heartbeat Setup Finish......
+16/09/13 14:10:30.409 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - DeviceLog Listen Setup Finish......
+16/09/13 14:10:30.410 INFO  [com.jhw.adm.comclient.service.DeviceLogService$4] - Launching device log listen thread.
+16/09/13 14:10:30.412 INFO  [com.jhw.adm.comclient.service.DeviceLogService$5] - Launching handle device log thread.
+16/09/13 14:10:31.405 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 14:10:31.445 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 14:10:31.446 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 14:10:31.446 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 14:10:31.447 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 14:10:43.406 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 14:10:43.464 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 14:10:43.465 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 14:10:43.465 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 14:10:55.407 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 14:10:55.427 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 14:10:55.428 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 14:10:55.428 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 14:11:07.407 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 14:11:07.449 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 14:11:07.450 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 14:11:07.451 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 14:11:19.408 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 14:11:19.437 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 14:11:19.437 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 14:11:19.437 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 14:11:31.409 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 14:11:31.458 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 14:11:31.458 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 14:11:31.461 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 14:11:43.410 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 14:11:43.467 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 14:11:43.468 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 14:11:43.468 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 14:11:55.410 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 14:11:55.464 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 14:11:55.465 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 14:11:55.466 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 14:12:01.157 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/13 14:12:01.373 INFO  [com.jhw.adm.comclient.jms.MessageSend] - true false
+16/09/13 14:12:01.374 WARN  [com.jhw.adm.comclient.jms.MessageSend] - 2&&&Receive Thread alive
+16/09/13 14:12:01.411 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(COM2) closed...
+16/09/13 14:12:01.427 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@482923: startup date [Tue Sep 13 14:10:17 CST 2016]; root of context hierarchy
+16/09/13 14:12:01.429 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+16/09/13 14:12:01.439 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/09/13 14:12:01.440 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1f48262: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+16/09/13 14:12:01.444 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(COM2) closed...
+16/09/13 14:12:01.445 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+16/09/13 14:12:01.446 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+16/09/13 14:12:01.446 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/09/13 14:12:01.449 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+16/09/13 14:48:06.721 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+16/09/13 14:48:12.211 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/13 14:48:13.009 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - OID config read Finish......
+16/09/13 14:48:14.161 INFO  [com.jhw.adm.comclient.jms.MessageSend] - *Connect Success*
+16/09/13 14:48:14.162 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Init Receive Constructor
+16/09/13 14:48:14.163 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - JMS Send service init Finish......
+16/09/13 14:48:14.239 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(COM2) opened...
+16/09/13 14:48:14.252 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - PLC Service Init Finish......
+16/09/13 14:48:14.287 WARN  [com.jhw.adm.comclient.protocol.snmp.TrapMonitor$ConsumeTrap] - TrapQueue empty!
+16/09/13 14:48:14.292 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Snmp Trap service init Finish......
+16/09/13 14:48:14.300 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Gprs service init Finish......
+16/09/13 14:48:14.301 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Heartbeat Setup Finish......
+16/09/13 14:48:14.304 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - DeviceLog Listen Setup Finish......
+16/09/13 14:48:14.305 INFO  [com.jhw.adm.comclient.service.DeviceLogService$5] - Launching handle device log thread.
+16/09/13 14:48:14.306 INFO  [com.jhw.adm.comclient.service.DeviceLogService$4] - Launching device log listen thread.
+16/09/13 14:48:15.302 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 14:48:15.460 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 14:48:15.463 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 14:48:15.463 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 14:48:15.465 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 14:48:27.303 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 14:48:27.324 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 14:48:27.325 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 14:48:27.325 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 14:48:39.303 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 14:48:39.323 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 14:48:39.324 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 14:48:39.325 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 14:48:51.304 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 14:48:51.323 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 14:48:51.324 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 14:48:51.325 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 14:49:03.305 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 14:49:03.324 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 14:49:03.325 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 14:49:03.328 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 14:49:15.305 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 14:49:15.322 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 14:49:15.323 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 14:49:15.323 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 14:49:27.306 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 14:49:27.325 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 14:49:27.326 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 14:49:27.326 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 14:49:39.307 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 14:49:39.326 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 14:49:39.328 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 14:49:39.329 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 14:49:51.307 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 14:49:51.325 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 14:49:51.327 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 14:49:51.328 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 14:50:03.308 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 14:50:03.325 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 14:50:03.325 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 14:50:03.327 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 14:50:15.309 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 14:50:15.339 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 14:50:15.340 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 14:50:15.340 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 14:50:27.309 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 14:50:27.328 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 14:50:27.329 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 14:50:27.330 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 14:50:39.310 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 14:50:39.329 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 14:50:39.330 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 14:50:39.331 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 14:50:51.311 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 14:50:51.329 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 14:50:51.330 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 14:50:51.330 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 15:12:37.252 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+16/09/13 15:12:38.258 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/13 15:12:38.952 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - OID config read Finish......
+16/09/13 15:12:40.016 INFO  [com.jhw.adm.comclient.jms.MessageSend] - *Connect Success*
+16/09/13 15:12:40.018 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Init Receive Constructor
+16/09/13 15:12:40.018 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - JMS Send service init Finish......
+16/09/13 15:12:40.102 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(COM2) opened...
+16/09/13 15:12:40.138 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - PLC Service Init Finish......
+16/09/13 15:12:40.175 WARN  [com.jhw.adm.comclient.protocol.snmp.TrapMonitor$ConsumeTrap] - TrapQueue empty!
+16/09/13 15:12:40.176 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Snmp Trap service init Finish......
+16/09/13 15:12:40.186 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Gprs service init Finish......
+16/09/13 15:12:40.187 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Heartbeat Setup Finish......
+16/09/13 15:12:40.189 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - DeviceLog Listen Setup Finish......
+16/09/13 15:12:40.190 INFO  [com.jhw.adm.comclient.service.DeviceLogService$5] - Launching handle device log thread.
+16/09/13 15:12:40.190 INFO  [com.jhw.adm.comclient.service.DeviceLogService$4] - Launching device log listen thread.
+16/09/13 15:12:41.188 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/13 15:12:41.246 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/13 15:12:41.248 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/13 15:12:41.249 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/13 15:12:41.255 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/13 15:28:47.916 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/13 15:28:48.027 ERROR [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - javax.naming.NameNotFoundException: remote not bound
+16/09/13 15:28:50.436 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/13 15:28:50.443 ERROR [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - javax.naming.NameNotFoundException: remote not bound
+16/09/13 15:28:51.780 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/13 15:28:51.784 ERROR [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - javax.naming.NameNotFoundException: remote not bound
+16/09/13 15:28:54.157 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/13 15:28:54.164 ERROR [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - javax.naming.NameNotFoundException: remote not bound
+16/09/13 15:28:54.491 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+16/09/13 15:28:56.805 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+16/09/13 15:28:56.813 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/09/13 15:28:56.815 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/09/13 15:28:56.816 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/09/13 15:28:56.826 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@184ec44: startup date [Tue Sep 13 15:28:41 CST 2016]; root of context hierarchy
+16/09/13 15:28:56.831 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+16/09/13 15:28:56.834 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/09/13 15:28:56.837 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@195d4fe: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+16/09/13 15:28:56.850 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'hongdianService': java.lang.NullPointerException
+16/09/13 15:28:56.851 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'heartbeatService': java.lang.NullPointerException
+16/09/13 15:28:56.853 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+16/09/13 15:28:56.854 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+16/09/13 15:28:56.854 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+16/09/13 15:28:56.854 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/09/13 15:28:56.855 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.

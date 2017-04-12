@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_18" class="java.beans.XMLDecoder"> 
+ <object class="com.jhw.adm.client.model.SystemData"> 
+  <void property="feps"> 
+   <object class="java.util.HashSet"> 
+    <void method="add"> 
+     <object id="FEPEntity0" class="com.jhw.adm.server.entity.nets.FEPEntity"> 
+      <void property="code"> 
+       <string>WTFEP</string> 
+      </void> 
+      <void property="directSwitchIp"> 
+       <string>192.168.100.165</string> 
+      </void> 
+      <void property="fepName"> 
+       <string>WTFEP</string> 
+      </void> 
+      <void property="ipValue"> 
+       <string>192.168.1.254</string> 
+      </void> 
+      <void property="loginName"> 
+       <string>WTFEP</string> 
+      </void> 
+      <void property="loginPassword"> 
+       <string>WTFEP</string> 
+      </void> 
+      <void property="segment"> 
+       <object class="java.util.ArrayList"> 
+        <void method="add"> 
+         <object class="com.jhw.adm.server.entity.nets.IPSegment"> 
+          <void property="beginIp"> 
+           <string>192.168.1.1</string> 
+          </void> 
+          <void property="endIp"> 
+           <string>192.168.1.254</string> 
+          </void> 
+          <void property="fepEntity"> 
+           <object idref="FEPEntity0"/> 
+          </void> 
+         </object> 
+        </void> 
+       </object> 
+      </void> 
+      <void property="status"> 
+       <object class="com.jhw.adm.server.entity.nets.StatusEntity"/> 
+      </void> 
+     </object> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="topDiagram"> 
+   <object class="com.jhw.adm.server.entity.tuopos.TopDiagramEntity"> 
+    <void property="name"> 
+     <string>WTFEP 网络拓扑图</string> 
+    </void> 
+    <void property="nodes"> 
+     <object class="java.util.HashSet"/> 
+    </void> 
+   </object> 
+  </void> 
+ </object> 
+</java> 

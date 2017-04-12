@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project name="ear" default="main" basedir=".">
+	<!--<property file="${basedir}\build.properties" />-->
+	<property name="dist.dir" value="dist" />
+	<property name="classes.dir" value="build/classes" />
+	<property name="ejbModule.dir" value="ejbModule" />
+	<property name="lib.dir" value="lib" />
+	<property name="admServerClient.jar.name" value="admserverclient.jar" />
+
+	
+	<path id="jboss-lib-classpath" description="编译时引用的jar包的路径">
+		<fileset dir="${lib.dir}">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+	
+	
+	<target name="init" description="生成classes文件夹">
+		<mkdir dir="${classes.dir}" />
+	</target>
+	
+	<target name="compile" depends="init" description="编绎admserverClient的代码">
+		<javac destdir="${classes.dir}" source="1.6" verbose="false" target="1.6" debug="false" deprecation="false" optimize="true" failonerror="true">
+			<src path="${ejbModule.dir}" />
+			<classpath refid="jboss-lib-classpath" />
+			<compilerarg line="-encoding gbk -Xlint:unchecked" />
+		</javac>
+	</target>
+	
+	
+	<target name="copy" depends="compile" description="创建META-INF文件夹以及拷贝MANIFEST.MF和jndi.properties到文件夹中">
+		<mkdir dir="${classes.dir}\META-INF" />
+		<copy todir="${classes.dir}\META-INF">
+			<fileset dir="${ejbModule.dir}\META-INF">
+				<include name="MANIFEST.MF" />
+			</fileset>
+		</copy>
+		
+		<copy todir="${classes.dir}">
+			<fileset dir="${ejbModule.dir}">
+				<!--<include name="jndi.properties" />-->
+				<include name="*.*" />
+			</fileset>
+		</copy>
+	</target>
+
+	
+	
+	<target name="jar" depends="copy" description="生成admserverclient.jar">
+		<jar destfile="${dist.dir}\${admServerClient.jar.name}" basedir="${classes.dir}" manifest="${classes.dir}\META-INF\MANIFEST.MF" />
+	</target>
+	
+	<target name="main" depends="clean,jar" description="主运行命令" />
+	<mkdir dir="${dist.dir}" />
+	<target name="clean">
+		<delete>
+			<fileset dir="${dist.dir}/">
+				<include name="${admServerClient.jar.name}" />
+			</fileset>
+		</delete>
+
+	</target>
+</project>

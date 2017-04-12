@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_13" class="java.beans.XMLDecoder">
+ <object class="com.jhw.adm.client.model.ClientConfig">
+  <void property="lastUser">
+   <string>admin</string>
+  </void>
+  <void property="mapFileName">
+   <string>E:\深圳地图\深圳.mxd</string>
+  </void>
+  <void property="rePeatNum">
+   <int>3</int>
+  </void>
+  <void property="servers">
+   <void method="add">
+    <object class="com.jhw.adm.client.model.ServerInfo">
+     <void property="address">
+      <string>localhost</string>
+     </void>
+     <void property="name">
+      <string>localhost</string>
+     </void>
+     <void property="port">
+      <int>1099</int>
+     </void>
+     <void property="timeout">
+      <int>100</int>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="com.jhw.adm.client.model.ServerInfo">
+     <void property="address">
+      <string>192.168.100.165</string>
+     </void>
+     <void property="name">
+      <string>192.168.100.165</string>
+     </void>
+     <void property="port">
+      <int>1099</int>
+     </void>
+     <void property="timeout">
+      <int>100</int>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="wavFileName">
+   <string>C:\Documents and Settings\Administrator\桌面\报警声音\ALARM6.WAV</string>
+  </void>
+ </object>
+</java>

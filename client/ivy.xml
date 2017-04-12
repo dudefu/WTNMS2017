@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+	<info revision="2.1" organisation="jhw" module="adm2000-client"
+		status="integration">
+	</info>
+
+	<configurations>
+		<conf name="runtime" visibility="public" description="" />
+		<conf name="compile" visibility="public" description="" extends="runtime" />
+		<conf name="test" visibility="private" description="" extends="compile" />
+	</configurations>
+	<dependencies defaultconf="compile" defaultconfmapping="*->compile,master,default">
+		<!-- springframework 2.5.6.SEC01
+		<dependency org="org.springframework" name="spring-aop"
+			force="true" rev="2.5.6.SEC01" conf="runtime->default" />
+
+		<dependency org="org.springframework" name="spring-jms"
+			force="true" rev="2.5.6.SEC01" conf="runtime->default" />
+		-->
+		<!-- springframework 3.0.0 -->
+		<dependency org="org.springframework" name="spring-aop"
+			force="true" rev="3.0.0.RELEASE" conf="runtime->default" />
+		<dependency org="org.springframework" name="spring-context"
+			force="true" rev="3.0.0.RELEASE" conf="runtime->default" />
+		<dependency org="org.springframework" name="spring-jms"
+			force="true" rev="3.0.0.RELEASE" conf="runtime->default" />
+			
+		<dependency org="org.springframework" name="spring-tx"
+			force="true" rev="3.0.0.RELEASE" conf="runtime->default" />
+			
+		<dependency org="org.apache.geronimo.specs" name="geronimo-jms_1.1_spec"
+			force="true" rev="1.1" conf="runtime->default" />
+		
+		<!-- AOP -->	
+		<dependency org="org.aspectj" name="aspectjrt" rev="1.6.1"
+			force="true" conf="runtime->default" />
+		<dependency org="org.aspectj" name="aspectjweaver" rev="1.6.1"
+			force="true" conf="runtime->default" />
+		<dependency org="cglib" name="cglib-nodep" rev="2.1_3"
+			force="true" conf="runtime->default" />
+			
+		<!-- logging slf4j 1.6.1 + logback 0.9.25 -->
+		<dependency org="org.slf4j" name="jcl-over-slf4j" rev="1.6.1"
+			force="true" conf="runtime->default" />
+		<dependency org="ch.qos.logback" name="logback-classic"
+			rev="0.9.25" force="true" conf="runtime->default" />
+			
+		<dependency org="dom4j" name="dom4j" rev="1.6.1" force="true"
+			conf="runtime->default" />
+			
+		<dependency org="commons-configuration" name="commons-configuration" rev="1.6" force="true"
+			conf="runtime->default" />
+		<dependency org="commons-io" name="commons-io" rev="1.4" force="true"
+			conf="runtime->default" />
+			
+		<!-- thirdparty -->	
+		<dependency org="jfree" name="jfreechart" rev="1.0.12" force="true"
+			conf="runtime->default" />
+		<dependency org="org.jhotdraw" name="jhotdraw" rev="7.6.1.dev2" force="true"
+			conf="runtime->default" />
+		<dependency org="org.swinglabs" name="swingx" rev="1.6.1" force="true"
+			conf="runtime->default" />
+		<dependency org="org.swinglabs" name="jxlayer" rev="3.0.3" force="true"
+			conf="runtime->default" />
+		<dependency org="net.java.dev.beansbinding" name="beansbinding" rev="1.2.1" force="true"
+			conf="runtime->default" />
+		<dependency org="com.ezware" name="TaskDialog" rev="1.0.0" force="true"
+			conf="runtime->default" />
+		<dependency org="pt.ipb.agentapi" name="mibs" rev="1.0" force="true"
+			conf="runtime->default" />
+		<dependency org="com.esri.arcgis" name="arcobjects" rev="9.3.0" force="true"
+			conf="runtime->default" />
+
+		<!-- compile -->
+
+		<!-- test -->
+		<dependency org="junit" name="junit" rev="4.7" force="true"
+			conf="test->default" />
+		<dependency org="org.springframework" name="spring-test"
+			rev="2.5.6.SEC01" force="true" conf="test->default" />
+			
+		<exclude org="commons-logging" artifact="commons-logging"></exclude>
+		<override org="junit" module="junit" matcher="exact" rev="4.7" />
+	</dependencies>
+</ivy-module>

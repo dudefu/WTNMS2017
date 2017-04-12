@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration>
+
+<configuration>
+
+	<!--
+	<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{80}:%L - %msg%n</pattern>
+        </encoder>
+	</appender>
+	
+	<appender name="SOCKET" class="ch.qos.logback.classic.net.SocketAppender">
+        <remoteHost>localhost</remoteHost>
+        <port>4567</port>
+        <reconnectionDelay>30000</reconnectionDelay>
+        <includeCallerData>true</includeCallerData>
+    </appender>
+	-->
+	<appender name="ROLLINGFILE"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${user.dir}/logs/WTFEP.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>logs/WTFEP.%d{yyyy-MM-dd}.log.zip</fileNamePattern>
+		</rollingPolicy>
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{80}:%L - %msg%n</pattern>
+		</layout>
+	</appender>
+	<logger name="org.springframework">
+		<level value="WARN" />
+	</logger>
+	<logger name="com.jhw.adm.client.core.MessageDispatcher">
+		<level value="WARN" />
+	</logger>
+	<logger name="com.jhw.adm.client.core.JBossJmsTemplate">
+		<level value="WARN" />
+	</logger>
+	<logger name="com.jhw.adm.client.ui.DesktopScope">
+		<level value="WARN" />
+	</logger>
+
+	<!-- all, trace, debug, info, warn, error, off -->
+	<root level="info">
+		<!--
+		<appender-ref ref="CONSOLE" />
+		<appender-ref ref="SOCKET" />
+		-->
+		<appender-ref ref="ROLLINGFILE" />
+	</root>
+
+</configuration> 

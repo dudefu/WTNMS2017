@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<langue>english</langue>
+	<opt>manual</opt>
+	<ems-bind>0.0.0.0</ems-bind>
+	<ems-port>8888</ems-port>
+	<trap-port>162</trap-port>
+	<snmp-timeout>5000</snmp-timeout>
+	<snmp-retries>3</snmp-retries>
+	<poll-interval>20000</poll-interval>
+	<poll-queue-interval>5000</poll-queue-interval>
+
+	<!-- mysql-->
+	<database-connection>
+		<driver>com.mysql.jdbc.Driver</driver>
+		<url>jdbc:mysql://127.0.0.1:3306/admserver?autoReconnect=true&amp;amp;useUnicode=true&amp;amp;characterEncoding=utf8</url>
+		<name>root</name>
+		<password>123456</password>
+		<maxidle>122</maxidle>
+		<maxactive>122</maxactive>
+		<maxwait>222</maxwait>
+	</database-connection>
+	
+	<!-- poll thread pool config-->
+	<pollthread-object-pool>
+		<max-active>-1</max-active>
+		<max-idle>10</max-idle>
+		<init-size>10</init-size>
+	</pollthread-object-pool>
+	
+</config>

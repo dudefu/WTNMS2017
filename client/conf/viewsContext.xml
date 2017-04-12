@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jee="http://www.springframework.org/schema/jee" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="
+			http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+			http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+			http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.0.xsd
+			http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+			http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+			http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd"
+	default-lazy-init="true">
+
+	<bean id="batchConfigureMACView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="macConfigurationView"></property>
+		<property name="explorerView" ref="switcherExplorerView"></property>
+	</bean>
+
+	<bean id="batchConfigureVLANView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="configureVLANView"></property>
+		<property name="explorerView" ref="switcherExplorerView"></property>
+	</bean>
+	
+	<bean id="batchLLDPConfigurationView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="lldpConfigurationView"></property>
+		<property name="explorerView" ref="switcherExplorerView"></property>
+	</bean>
+	<bean id="batchSTPConfigurationView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="stpConfigurationView"></property>
+		<property name="explorerView" ref="switcherExplorerView"></property>
+	</bean>
+	<bean id="batchSNTPConfigurationView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="sntpConfigurationView"></property>
+		<property name="explorerView" ref="switcherExplorerView"></property>
+	</bean>
+	<bean id="batchIGMPConfigurationView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="igmpConfigurationView"></property>
+		<property name="explorerView" ref="switcherExplorerView"></property>
+	</bean>
+	<bean id="batchQOSConfigurationView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="qosConfigurationView"></property>
+		<property name="explorerView" ref="switcherExplorerView"></property>
+	</bean>
+	<!-- 
+	<bean id="batchSwitcherSystemUpgradeView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="switcherSystemUpgradeView"></property>
+		<property name="explorerView" ref="switcherExplorerView"></property>
+	</bean>
+	 -->
+	<bean id="batchConfigureSNMPView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="configureSNMPView"></property>
+		<property name="explorerView" ref="switcherExplorerView"></property>
+	</bean>
+	<bean id="batchSerialPortConfigView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="serialPortConfigView"></property>
+		<property name="explorerView" ref="switcherExplorerView"></property>
+	</bean>
+	<bean id="batchBaseInfoView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="baseInfoView"></property>
+		<property name="explorerView" ref="switcherExplorerView"></property>
+	</bean>
+	<bean id="batchIpAddressView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="ipAddressView"></property>
+		<property name="explorerView" ref="switcherExplorerView"></property>
+	</bean>
+	<bean id="batchConfigurePortView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="configurePortView"></property>
+		<property name="explorerView" ref="switcherExplorerView"></property>
+	</bean>
+	<bean id="batchLACPPortAggrView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="lacpPortAggrView"></property>
+		<property name="explorerView" ref="switcherExplorerView"></property>
+	</bean>
+	<bean id="batchMirrorPortView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="mirrorPortView"></property>
+		<property name="explorerView" ref="switcherExplorerView"></property>
+	</bean>
+	<bean id="batchTrunkPortAggrView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="trunkPortAggrView"></property>
+		<property name="explorerView" ref="switcherExplorerView"></property>
+	</bean>
+	<bean id="batchGHRINGConfigurationView" class="com.jhw.adm.client.views.CompositeConfigureView"  scope="desktop">
+		<property name="configureView" ref="ghRINGConfigurationView"></property>
+		<property name="explorerView" ref="switcherExplorerView"></property>
+	</bean>
+	<bean id="batchGHRINGSimulationConfigurationView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="ghRINGSimulationConfigurationView"></property>
+		<property name="explorerView" ref="switcherExplorerView"></property>
+	</bean>
+	<bean id="batchConfigPortWarningView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="configPortWarningView"></property>
+		<property name="explorerView" ref="switcherExplorerView"></property>
+	</bean>
+	<bean id="batchLayer2InterfaceView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="layer2InterfaceView"></property>
+		<property name="explorerView" ref="switcherExplorerView"></property>
+	</bean>
+	<bean id="batchLayer3InterfaceView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="layer3InterfaceView"></property>
+		<property name="explorerView" ref="switcherExplorerView"></property>
+	</bean>
+	<bean id="batchRoutetableView" class="com.jhw.adm.client.views.CompositeConfigureView"  scope="desktop">
+		<property name="configureView" ref="routetableView"></property>
+		<property name="explorerView" ref="switcherExplorerView"></property>
+	</bean>
+	<bean id="batchARPtableView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="ARPtableView"></property>
+		<property name="explorerView" ref="switcherExplorerView"></property>
+	</bean>
+	<bean id="batchForwardtableView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="forwardtableView"></property>
+		<property name="explorerView" ref="switcherExplorerView"></property>
+	</bean>
+	
+	
+	<bean id="batchPortFlowLayer3View" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="portFlowLayer3View"></property>
+		<property name="explorerView" ref="switchLayer3ExplorerView"></property>
+	</bean>
+	
+	<bean id="batchVlanManageLayer3View" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="vlanManageLayer3View"></property>
+		<property name="explorerView" ref="switchLayer3ExplorerView"></property>
+	</bean>
+	
+	<bean id="batchLayer3STPConfigurationView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="layer3STPManagementView"></property>
+		<property name="explorerView" ref="switchLayer3ExplorerView"></property>
+	</bean>
+	
+	<bean id="batchLayer3LLDPConfigurationView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="layer3LLDPManagementView"></property>
+		<property name="explorerView" ref="switchLayer3ExplorerView"></property>
+	</bean>
+	
+	<bean id="batchConfigureSnmpHostView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="configureSnmpHostView"></property>
+		<property name="explorerView" ref="switchLayer3ExplorerView"></property>
+	</bean>
+	
+	<!-- 
+	<bean id="batchDataSynchronizationView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="dataSynchronizationView"></property>
+		<property name="explorerView" ref="switcherExplorerView"></property>
+	</bean>
+ 	-->
+
+	<bean id="batchCarrierInfoView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="carrierInfoView"></property>
+		<property name="explorerView" ref="carrierExplorerView"></property>
+	</bean>
+	<bean id="batchCarrierConfigureWaveBandView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="carrierConfigureWaveBandView"></property>
+		<property name="explorerView" ref="carrierExplorerView"></property>
+	</bean>
+	<bean id="batchCarrierConfigureRouteView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="carrierConfigureRouteView"></property>
+		<property name="explorerView" ref="carrierExplorerView"></property>
+	</bean>
+	<bean id="batchCarrierConfigurePortView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="carrierConfigurePortView"></property>
+		<property name="explorerView" ref="carrierExplorerView"></property>
+	</bean>
+	<bean id="batchCarrierSystemUpgradeView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="carrierSystemUpgradeView"></property>
+		<property name="explorerView" ref="carrierExplorerView"></property>
+	</bean>
+	
+	
+	<bean id="batchGPRSView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="gprsView"></property>
+		<property name="explorerView" ref="gprsExplorerView"></property>
+	</bean>
+	
+	<bean id="batchOLTSlotInformateionView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="OLTSlotInformateionView"></property>
+		<property name="explorerView" ref="OLTExplorerView"></property>
+	</bean>
+	
+	<bean id="batchOLTBaseInfoView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="OLTBaseInfoView"></property>
+		<property name="explorerView" ref="OLTExplorerView"></property>
+	</bean>
+	
+	<bean id="batchOLTChipInformationView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="OLTChipInformationView"></property>
+		<property name="explorerView" ref="OLTExplorerView"></property>
+	</bean>
+	<bean id="batchOLTMulticastView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="OLTMulticastView"></property>
+		<property name="explorerView" ref="OLTExplorerView"></property>
+	</bean>
+	<bean id="batchOLTVlanConfigView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="OLTVlanConfigView"></property>
+		<property name="explorerView" ref="OLTExplorerView"></property>
+	</bean>
+	<bean id="batchOLTDBAInformationView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="OLTDBAInformationView"></property>
+		<property name="explorerView" ref="OLTExplorerView"></property>
+	</bean>
+	<bean id="batchONUManagementView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="ONUManagementView"></property>
+		<property name="explorerView" ref="OLTExplorerView"></property>
+	</bean>
+	<bean id="batchOLTSTPConfigurationView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="OLTSTPConfigurationView"></property>
+		<property name="explorerView" ref="OLTExplorerView"></property>
+	</bean>
+	<bean id="batchONUPortConfigurationView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="ONUPortConfigurationView"></property>
+		<property name="explorerView" ref="OLTExplorerView"></property>
+	</bean>
+	
+	<bean id="batchVlanManagementView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="vlanManagementView"></property>
+		<property name="explorerView" ref="OLTExplorerView"></property>
+	</bean>
+	
+	<bean id="batchONUBaseInfoView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="ONUBaseInfoView"></property>
+		<property name="explorerView" ref="ONUExplorerView"></property>
+	</bean>
+	
+	<bean id="batchOpticalSplitterBaseInfoView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="OpticalSplitterBaseInfoView"></property>
+		<property name="explorerView" ref="OLTExplorerView"></property>
+	</bean>
+	
+	<bean id="batchONULLIDCofnigView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="ONULLIDCofnigView"></property>
+		<property name="explorerView" ref="OLTExplorerView"></property>
+	</bean>
+	
+	<bean id="batchLayer3PortInformationView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="layer3PortInformationView"></property>
+		<property name="explorerView" ref="switchLayer3ExplorerView"></property>
+	</bean>
+	
+	<bean id="batchSwitchLayer3BaseInfoView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="switchLayer3BaseInfoView"></property>
+		<property name="explorerView" ref="switchLayer3ExplorerView"></property>
+	</bean>
+	
+	<bean id="batchOltPortInformationView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="oltPortInformationView"></property>
+		<property name="explorerView" ref="OLTExplorerView"></property>
+	</bean>
+
+	<bean id="batchVirtualNetworkElementManagementView" class="com.jhw.adm.client.views.CompositeConfigureView" scope="desktop">
+		<property name="configureView" ref="virtualNetworkElementManagementView"></property>
+		<property name="explorerView" ref="virtualElementExplorerView"></property>
+	</bean>
+	
+</beans>

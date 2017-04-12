@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="
+			http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+			http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+			http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+	<bean id="vlan3Service" class="com.jhw.adm.comclient.service.switch3.Vlan3Service">
+		<property name="snmpV2"><ref bean="snmpV2"/></property>	
+		<property name="messageSend"><ref bean="messageSend"/></property>	
+	</bean>	
+
+	<bean id="baseConfig3Service" class="com.jhw.adm.comclient.service.switch3.BaseConfig3Service">
+		<property name="snmpV2"><ref bean="snmpV2"/></property>	
+		<property name="messageSend"><ref bean="messageSend"/></property>	
+	</bean>	
+
+	<bean id="stp3Service" class="com.jhw.adm.comclient.service.switch3.STP3Service">
+		<property name="snmpV2"><ref bean="snmpV2"/></property>	
+		<property name="messageSend"><ref bean="messageSend"/></property>
+		<property name="vlan3Service"><ref bean="vlan3Service"/></property>		
+	</bean>	
+
+	<bean id="lldp3Service" class="com.jhw.adm.comclient.service.switch3.LLDP3Service">
+		<property name="snmpV2"><ref bean="snmpV2"/></property>	
+		<property name="messageSend"><ref bean="messageSend"/></property>	
+		<property name="vlan3Service"><ref bean="vlan3Service"/></property>			
+	</bean>	
+
+</beans>

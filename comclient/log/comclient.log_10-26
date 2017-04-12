@@ -1,0 +1,1356 @@
+16/10/26 13:33:33.182 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/10/26 13:34:10.311 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - OID config read Finish......
+16/10/26 13:34:13.605 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: wtfep not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor262.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$1.run(Transport.java:177)
+	at sun.rmi.transport.Transport$1.run(Transport.java:174)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:173)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:553)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:808)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:667)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/10/26 13:34:15.821 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: wtfep not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor262.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$1.run(Transport.java:177)
+	at sun.rmi.transport.Transport$1.run(Transport.java:174)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:173)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:553)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:808)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:667)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/10/26 13:34:18.022 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: wtfep not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor262.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$1.run(Transport.java:177)
+	at sun.rmi.transport.Transport$1.run(Transport.java:174)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:173)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:553)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:808)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:667)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/10/26 13:34:20.302 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: wtfep not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor262.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$1.run(Transport.java:177)
+	at sun.rmi.transport.Transport$1.run(Transport.java:174)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:173)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:553)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:808)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:667)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/10/26 13:34:22.471 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: wtfep not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor262.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$1.run(Transport.java:177)
+	at sun.rmi.transport.Transport$1.run(Transport.java:174)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:173)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:553)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:808)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:667)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/10/26 13:34:24.656 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: wtfep not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor262.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$1.run(Transport.java:177)
+	at sun.rmi.transport.Transport$1.run(Transport.java:174)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:173)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:553)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:808)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:667)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/10/26 13:34:26.825 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: wtfep not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor262.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$1.run(Transport.java:177)
+	at sun.rmi.transport.Transport$1.run(Transport.java:174)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:173)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:553)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:808)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:667)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/10/26 13:34:29.026 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: wtfep not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor262.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$1.run(Transport.java:177)
+	at sun.rmi.transport.Transport$1.run(Transport.java:174)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:173)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:553)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:808)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:667)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/10/26 13:34:30.696 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/10/26 13:34:30.900 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+16/10/26 13:34:30.916 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 13:34:30.916 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 13:34:30.931 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 13:34:30.931 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@d3db51: startup date [Wed Oct 26 13:30:41 GMT+08:00 2016]; root of context hierarchy
+16/10/26 13:34:30.931 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+16/10/26 13:34:30.962 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/10/26 13:34:30.962 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1642bd6: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+16/10/26 13:34:30.994 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'hongdianService': java.lang.NullPointerException
+16/10/26 13:34:30.994 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'heartbeatService': java.lang.NullPointerException
+16/10/26 13:34:30.994 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+16/10/26 13:34:30.994 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+16/10/26 13:34:30.994 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+16/10/26 13:34:31.009 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/10/26 13:34:31.009 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+16/10/26 13:34:31.056 INFO  [com.jhw.adm.comclient.jms.MessageSend] - *Connect Success*
+16/10/26 13:34:31.072 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Init Receive Constructor
+16/10/26 13:34:31.072 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - JMS Send service init Finish......
+16/10/26 13:57:36.900 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+16/10/26 13:57:48.087 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/10/26 13:57:49.456 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - OID config read Finish......
+16/10/26 13:57:50.748 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: wtfep not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor262.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$1.run(Transport.java:177)
+	at sun.rmi.transport.Transport$1.run(Transport.java:174)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:173)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:553)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:808)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:667)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/10/26 13:57:52.865 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: wtfep not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor262.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$1.run(Transport.java:177)
+	at sun.rmi.transport.Transport$1.run(Transport.java:174)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:173)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:553)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:808)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:667)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/10/26 13:57:55.106 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: wtfep not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor262.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$1.run(Transport.java:177)
+	at sun.rmi.transport.Transport$1.run(Transport.java:174)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:173)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:553)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:808)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:667)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/10/26 13:57:57.196 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: wtfep not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor262.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$1.run(Transport.java:177)
+	at sun.rmi.transport.Transport$1.run(Transport.java:174)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:173)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:553)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:808)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:667)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/10/26 13:57:59.076 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/10/26 13:57:59.298 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: wtfep not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor262.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$1.run(Transport.java:177)
+	at sun.rmi.transport.Transport$1.run(Transport.java:174)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:173)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:553)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:808)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:667)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/10/26 13:57:59.305 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+16/10/26 13:57:59.323 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 13:57:59.333 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 13:57:59.334 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 13:57:59.335 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@482923: startup date [Wed Oct 26 13:57:33 GMT+08:00 2016]; root of context hierarchy
+16/10/26 13:57:59.341 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+16/10/26 13:57:59.365 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/10/26 13:57:59.366 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@19bfb30: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+16/10/26 13:57:59.407 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'hongdianService': java.lang.NullPointerException
+16/10/26 13:57:59.408 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'heartbeatService': java.lang.NullPointerException
+16/10/26 13:57:59.409 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+16/10/26 13:57:59.410 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+16/10/26 13:57:59.411 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+16/10/26 13:57:59.411 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/10/26 13:57:59.411 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+16/10/26 13:58:51.620 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+16/10/26 13:59:30.251 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/10/26 13:59:38.227 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/10/26 13:59:42.060 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/10/26 13:59:45.938 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/10/26 13:59:49.802 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/10/26 13:59:51.912 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+16/10/26 13:59:51.917 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 13:59:51.925 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 13:59:51.926 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 13:59:51.935 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@184ec44: startup date [Wed Oct 26 13:58:45 GMT+08:00 2016]; root of context hierarchy
+16/10/26 13:59:51.939 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+16/10/26 13:59:51.966 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/10/26 13:59:51.966 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@127fa12: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+16/10/26 13:59:51.970 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'hongdianService': java.lang.NullPointerException
+16/10/26 13:59:51.970 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'heartbeatService': java.lang.NullPointerException
+16/10/26 13:59:51.975 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+16/10/26 13:59:51.978 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+16/10/26 13:59:51.978 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+16/10/26 13:59:51.985 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/10/26 13:59:51.987 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+16/10/26 14:02:15.547 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+16/10/26 14:02:20.146 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/10/26 14:02:25.141 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/10/26 14:02:33.483 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/10/26 14:02:35.041 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+16/10/26 14:02:35.044 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 14:02:35.056 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 14:02:35.056 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 14:02:35.080 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@482923: startup date [Wed Oct 26 14:02:11 GMT+08:00 2016]; root of context hierarchy
+16/10/26 14:02:35.082 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+16/10/26 14:02:35.088 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/10/26 14:02:35.088 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@19bfb30: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+16/10/26 14:02:35.093 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'hongdianService': java.lang.NullPointerException
+16/10/26 14:02:35.094 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'heartbeatService': java.lang.NullPointerException
+16/10/26 14:02:35.096 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+16/10/26 14:02:35.100 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+16/10/26 14:02:35.100 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+16/10/26 14:02:35.101 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/10/26 14:02:35.108 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+16/10/26 14:08:47.286 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+16/10/26 14:08:54.667 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/10/26 14:12:24.385 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/10/26 14:12:50.338 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/10/26 14:14:10.299 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+16/10/26 14:14:10.310 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 14:14:10.320 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 14:14:10.320 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 14:14:10.465 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@482923: startup date [Wed Oct 26 14:08:40 GMT+08:00 2016]; root of context hierarchy
+16/10/26 14:14:10.469 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+16/10/26 14:14:10.482 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/10/26 14:14:10.484 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@127fa12: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+16/10/26 14:14:10.603 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'hongdianService': java.lang.NullPointerException
+16/10/26 14:14:10.604 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'heartbeatService': java.lang.NullPointerException
+16/10/26 14:14:10.606 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+16/10/26 14:14:10.609 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+16/10/26 14:14:10.610 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+16/10/26 14:14:10.610 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/10/26 14:14:10.617 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+16/10/26 14:16:40.717 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+16/10/26 14:16:53.586 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/10/26 14:16:57.319 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+16/10/26 14:16:57.321 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 14:16:57.322 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 14:16:57.323 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 14:16:57.340 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@c2ff5: startup date [Wed Oct 26 14:16:33 GMT+08:00 2016]; root of context hierarchy
+16/10/26 14:16:57.342 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+16/10/26 14:16:57.350 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/10/26 14:16:57.352 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1f48262: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+16/10/26 14:16:57.357 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'hongdianService': java.lang.NullPointerException
+16/10/26 14:16:57.358 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'heartbeatService': java.lang.NullPointerException
+16/10/26 14:16:57.360 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+16/10/26 14:16:57.362 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+16/10/26 14:16:57.363 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+16/10/26 14:16:57.363 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/10/26 14:16:57.366 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+16/10/26 14:21:36.631 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+16/10/26 14:21:40.094 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/10/26 14:21:43.451 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+16/10/26 14:21:43.454 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 14:21:43.456 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 14:21:43.456 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 14:21:43.467 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@482923: startup date [Wed Oct 26 14:21:32 GMT+08:00 2016]; root of context hierarchy
+16/10/26 14:21:43.470 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+16/10/26 14:21:44.030 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/10/26 14:21:44.031 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@19bfb30: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+16/10/26 14:21:44.032 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'hongdianService': java.lang.NullPointerException
+16/10/26 14:21:44.033 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'heartbeatService': java.lang.NullPointerException
+16/10/26 14:21:44.035 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+16/10/26 14:21:44.036 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+16/10/26 14:21:44.036 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+16/10/26 14:21:44.036 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/10/26 14:21:44.037 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+16/10/26 14:24:44.756 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/10/26 14:24:48.092 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+16/10/26 14:24:48.099 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 14:24:48.099 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 14:24:48.100 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 14:24:48.178 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@1b383e9: startup date [Wed Oct 26 14:24:38 GMT+08:00 2016]; root of context hierarchy
+16/10/26 14:24:48.180 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+16/10/26 14:24:48.187 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/10/26 14:24:48.188 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@814013: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+16/10/26 14:24:48.289 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'hongdianService': java.lang.NullPointerException
+16/10/26 14:24:48.291 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'heartbeatService': java.lang.NullPointerException
+16/10/26 14:24:48.292 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+16/10/26 14:24:48.293 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+16/10/26 14:24:48.294 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+16/10/26 14:24:48.294 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/10/26 14:24:48.301 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+16/10/26 14:27:59.287 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+16/10/26 14:28:03.377 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/10/26 14:28:06.839 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+16/10/26 14:28:06.841 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 14:28:06.842 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 14:28:06.843 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 14:28:06.861 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@1ee4648: startup date [Wed Oct 26 14:27:56 GMT+08:00 2016]; root of context hierarchy
+16/10/26 14:28:06.869 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+16/10/26 14:28:06.884 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/10/26 14:28:06.888 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1a68ef9: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+16/10/26 14:28:06.891 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'hongdianService': java.lang.NullPointerException
+16/10/26 14:28:06.892 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'heartbeatService': java.lang.NullPointerException
+16/10/26 14:28:06.894 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+16/10/26 14:28:06.895 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+16/10/26 14:28:06.895 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+16/10/26 14:28:06.896 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/10/26 14:28:06.897 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+16/10/26 14:31:56.892 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+16/10/26 14:32:00.863 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/10/26 14:32:04.334 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+16/10/26 14:32:04.337 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 14:32:04.338 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 14:32:04.338 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 14:32:04.377 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@1b383e9: startup date [Wed Oct 26 14:31:54 GMT+08:00 2016]; root of context hierarchy
+16/10/26 14:32:04.380 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+16/10/26 14:32:04.387 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/10/26 14:32:04.387 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@814013: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+16/10/26 14:32:04.389 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'hongdianService': java.lang.NullPointerException
+16/10/26 14:32:04.390 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'heartbeatService': java.lang.NullPointerException
+16/10/26 14:32:04.393 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+16/10/26 14:32:04.396 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+16/10/26 14:32:04.396 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+16/10/26 14:32:04.397 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/10/26 14:32:04.397 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+16/10/26 14:46:18.028 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+16/10/26 14:46:23.523 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/10/26 14:46:27.287 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/10/26 14:46:29.632 ERROR [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - javax.naming.CommunicationException: Could not obtain connection to any of these urls: localhost:1099 and discovery failed with error: javax.naming.CommunicationException: Receive timed out [Root exception is java.net.SocketTimeoutException: Receive timed out] [Root exception is javax.naming.CommunicationException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused: connect]]]
+16/10/26 14:46:30.491 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+16/10/26 14:46:30.497 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 14:46:30.498 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 14:46:30.499 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 14:46:30.505 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@482923: startup date [Wed Oct 26 14:46:15 GMT+08:00 2016]; root of context hierarchy
+16/10/26 14:46:30.507 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+16/10/26 14:46:30.518 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/10/26 14:46:30.519 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@19bfb30: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+16/10/26 14:46:30.520 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'hongdianService': java.lang.NullPointerException
+16/10/26 14:46:30.522 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'heartbeatService': java.lang.NullPointerException
+16/10/26 14:46:30.525 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+16/10/26 14:46:30.527 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+16/10/26 14:46:30.527 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+16/10/26 14:46:30.527 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/10/26 14:46:30.528 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+16/10/26 14:48:25.108 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+16/10/26 14:48:31.894 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/10/26 14:48:35.383 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/10/26 14:48:36.415 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - OID config read Finish......
+16/10/26 14:48:40.217 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: wtfep not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$1.run(Transport.java:177)
+	at sun.rmi.transport.Transport$1.run(Transport.java:174)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:173)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:553)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:808)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:667)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/10/26 14:48:42.353 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: wtfep not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$1.run(Transport.java:177)
+	at sun.rmi.transport.Transport$1.run(Transport.java:174)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:173)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:553)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:808)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:667)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/10/26 14:48:44.466 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: wtfep not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor316.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$1.run(Transport.java:177)
+	at sun.rmi.transport.Transport$1.run(Transport.java:174)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:173)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:553)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:808)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:667)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/10/26 14:48:46.584 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: wtfep not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor316.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$1.run(Transport.java:177)
+	at sun.rmi.transport.Transport$1.run(Transport.java:174)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:173)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:553)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:808)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:667)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/10/26 14:48:48.693 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: wtfep not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor316.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$1.run(Transport.java:177)
+	at sun.rmi.transport.Transport$1.run(Transport.java:174)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:173)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:553)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:808)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:667)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/10/26 14:48:50.816 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: wtfep not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor316.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$1.run(Transport.java:177)
+	at sun.rmi.transport.Transport$1.run(Transport.java:174)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:173)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:553)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:808)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:667)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/10/26 14:48:52.939 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: wtfep not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor316.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$1.run(Transport.java:177)
+	at sun.rmi.transport.Transport$1.run(Transport.java:174)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:173)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:553)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:808)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:667)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/10/26 14:48:55.054 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: wtfep not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor316.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$1.run(Transport.java:177)
+	at sun.rmi.transport.Transport$1.run(Transport.java:174)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:173)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:553)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:808)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:667)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/10/26 14:48:57.170 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: wtfep not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor316.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$1.run(Transport.java:177)
+	at sun.rmi.transport.Transport$1.run(Transport.java:174)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:173)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:553)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:808)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:667)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/10/26 14:48:59.274 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: wtfep not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor316.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$1.run(Transport.java:177)
+	at sun.rmi.transport.Transport$1.run(Transport.java:174)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:173)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:553)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:808)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:667)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/10/26 14:49:01.382 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: wtfep not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor316.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$1.run(Transport.java:177)
+	at sun.rmi.transport.Transport$1.run(Transport.java:174)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:173)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:553)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:808)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:667)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/10/26 14:49:03.495 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: wtfep not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor316.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$1.run(Transport.java:177)
+	at sun.rmi.transport.Transport$1.run(Transport.java:174)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:173)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:553)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:808)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:667)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/10/26 14:49:05.729 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: wtfep not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor316.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$1.run(Transport.java:177)
+	at sun.rmi.transport.Transport$1.run(Transport.java:174)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:173)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:553)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:808)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:667)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/10/26 14:49:05.785 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/10/26 14:49:06.058 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+16/10/26 14:49:06.073 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 14:49:06.083 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 14:49:06.084 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 14:49:06.086 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@99681b: startup date [Wed Oct 26 14:48:17 GMT+08:00 2016]; root of context hierarchy
+16/10/26 14:49:06.087 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+16/10/26 14:49:06.091 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/10/26 14:49:06.092 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@814013: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+16/10/26 14:49:06.094 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'hongdianService': java.lang.NullPointerException
+16/10/26 14:49:06.095 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'heartbeatService': java.lang.NullPointerException
+16/10/26 14:49:06.096 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+16/10/26 14:49:06.097 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+16/10/26 14:49:06.098 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+16/10/26 14:49:06.098 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/10/26 14:49:06.099 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+16/10/26 14:50:39.369 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+16/10/26 14:50:45.803 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/10/26 14:50:47.069 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - OID config read Finish......
+16/10/26 14:50:48.383 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: wtfep not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor316.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$1.run(Transport.java:177)
+	at sun.rmi.transport.Transport$1.run(Transport.java:174)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:173)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:553)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:808)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:667)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:316)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:309)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/10/26 14:50:50.490 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: wtfep not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor316.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$1.run(Transport.java:177)
+	at sun.rmi.transport.Transport$1.run(Transport.java:174)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:173)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:553)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:808)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:667)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:316)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:309)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/10/26 14:50:52.717 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: wtfep not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor316.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$1.run(Transport.java:177)
+	at sun.rmi.transport.Transport$1.run(Transport.java:174)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:173)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:553)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:808)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:667)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:316)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:309)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/10/26 14:50:54.819 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: wtfep not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor316.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$1.run(Transport.java:177)
+	at sun.rmi.transport.Transport$1.run(Transport.java:174)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:173)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:553)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:808)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:667)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:316)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:309)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/10/26 14:50:56.945 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: wtfep not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor316.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$1.run(Transport.java:177)
+	at sun.rmi.transport.Transport$1.run(Transport.java:174)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:173)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:553)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:808)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:667)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:316)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:309)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/10/26 14:50:59.036 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: wtfep not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor316.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$1.run(Transport.java:177)
+	at sun.rmi.transport.Transport$1.run(Transport.java:174)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:173)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:553)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:808)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:667)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:316)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:309)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/10/26 14:50:59.472 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/10/26 14:50:59.656 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+16/10/26 14:50:59.668 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 14:50:59.678 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 14:50:59.679 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 14:50:59.680 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@1b383e9: startup date [Wed Oct 26 14:50:35 GMT+08:00 2016]; root of context hierarchy
+16/10/26 14:50:59.682 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+16/10/26 14:50:59.687 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/10/26 14:50:59.688 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@814013: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+16/10/26 14:50:59.689 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'hongdianService': java.lang.NullPointerException
+16/10/26 14:50:59.689 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'heartbeatService': java.lang.NullPointerException
+16/10/26 14:50:59.691 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+16/10/26 14:50:59.692 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+16/10/26 14:50:59.692 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+16/10/26 14:50:59.692 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/10/26 14:50:59.693 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+16/10/26 14:54:25.291 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+16/10/26 14:54:29.397 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/10/26 14:54:30.739 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - OID config read Finish......
+16/10/26 14:54:32.028 INFO  [com.jhw.adm.comclient.jms.MessageSend] - *Connect Success*
+16/10/26 14:54:32.039 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Init Receive Constructor
+16/10/26 14:54:32.040 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - JMS Send service init Finish......
+16/10/26 14:54:32.477 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(COM2) opened...
+16/10/26 14:54:32.547 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - PLC Service Init Finish......
+16/10/26 14:54:32.634 WARN  [com.jhw.adm.comclient.protocol.snmp.TrapMonitor$ConsumeTrap] - TrapQueue empty!
+16/10/26 14:54:32.686 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Snmp Trap service init Finish......
+16/10/26 14:54:33.235 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Gprs service init Finish......
+16/10/26 14:54:33.238 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Heartbeat Setup Finish......
+16/10/26 14:54:33.387 INFO  [com.jhw.adm.comclient.service.DeviceLogService$4] - Launching device log listen thread.
+16/10/26 14:54:33.387 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - DeviceLog Listen Setup Finish......
+16/10/26 14:54:33.391 INFO  [com.jhw.adm.comclient.service.DeviceLogService$5] - Launching handle device log thread.
+16/10/26 14:54:34.238 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/10/26 14:54:34.754 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/10/26 14:54:34.766 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/10/26 14:54:34.767 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread£º0
+16/10/26 14:54:34.768 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread£º1
+16/10/26 14:54:46.239 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/10/26 14:54:46.294 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/10/26 14:54:46.295 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/10/26 14:54:46.297 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread£º0
+16/10/26 14:54:58.240 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/10/26 14:54:58.313 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/10/26 14:54:58.314 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/10/26 14:54:58.314 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread£º1
+16/10/26 14:54:58.382 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/10/26 14:54:58.594 INFO  [com.jhw.adm.comclient.jms.MessageSend] - true false
+16/10/26 14:54:58.595 WARN  [com.jhw.adm.comclient.jms.MessageSend] - 2&&&Receive Thread alive
+16/10/26 14:54:58.611 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(COM2) closed...
+16/10/26 14:54:58.629 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@99681b: startup date [Wed Oct 26 14:54:22 GMT+08:00 2016]; root of context hierarchy
+16/10/26 14:54:58.631 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+16/10/26 14:54:58.644 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/10/26 14:54:58.646 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@195d4fe: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+16/10/26 14:54:58.652 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(COM2) closed...
+16/10/26 14:54:58.654 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+16/10/26 14:54:58.655 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+16/10/26 14:54:58.655 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/10/26 14:54:58.655 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+16/10/26 14:55:46.638 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+16/10/26 14:57:10.060 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/10/26 14:57:10.767 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - OID config read Finish......
+16/10/26 14:57:11.795 INFO  [com.jhw.adm.comclient.jms.MessageSend] - *Connect Success*
+16/10/26 14:57:11.797 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Init Receive Constructor
+16/10/26 14:57:11.797 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - JMS Send service init Finish......
+16/10/26 14:57:12.017 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(COM2) opened...
+16/10/26 14:57:12.075 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - PLC Service Init Finish......
+16/10/26 14:57:12.134 WARN  [com.jhw.adm.comclient.protocol.snmp.TrapMonitor$ConsumeTrap] - TrapQueue empty!
+16/10/26 14:57:12.135 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Snmp Trap service init Finish......
+16/10/26 14:57:12.147 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Gprs service init Finish......
+16/10/26 14:57:12.147 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Heartbeat Setup Finish......
+16/10/26 14:57:12.149 INFO  [com.jhw.adm.comclient.service.DeviceLogService$4] - Launching device log listen thread.
+16/10/26 14:57:12.150 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - DeviceLog Listen Setup Finish......
+16/10/26 14:57:12.150 INFO  [com.jhw.adm.comclient.service.DeviceLogService$5] - Launching handle device log thread.
+16/10/26 14:57:13.147 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/10/26 14:57:13.205 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/10/26 14:57:13.207 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/10/26 14:57:13.207 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread£º1
+16/10/26 14:57:13.207 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread£º0
+16/10/26 14:57:18.994 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/10/26 14:57:19.222 INFO  [com.jhw.adm.comclient.jms.MessageSend] - true false
+16/10/26 14:57:19.223 WARN  [com.jhw.adm.comclient.jms.MessageSend] - 2&&&Receive Thread alive
+16/10/26 14:57:19.253 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(COM2) closed...
+16/10/26 14:57:19.267 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@99681b: startup date [Wed Oct 26 14:57:01 GMT+08:00 2016]; root of context hierarchy
+16/10/26 14:57:19.269 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+16/10/26 14:57:19.278 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/10/26 14:57:19.279 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@814013: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+16/10/26 14:57:19.285 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(COM2) closed...
+16/10/26 14:57:19.286 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+16/10/26 14:57:19.288 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+16/10/26 14:57:19.288 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/10/26 14:57:19.288 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+16/10/26 14:57:44.279 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+16/10/26 14:57:44.287 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 14:57:44.289 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 14:57:44.290 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/10/26 14:57:44.305 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@184ec44: startup date [Wed Oct 26 14:57:22 GMT+08:00 2016]; root of context hierarchy
+16/10/26 14:57:44.309 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+16/10/26 14:57:44.310 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/10/26 14:57:44.311 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1884174: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+16/10/26 14:57:44.324 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'hongdianService': java.lang.NullPointerException
+16/10/26 14:57:44.325 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'heartbeatService': java.lang.NullPointerException
+16/10/26 14:57:44.327 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+16/10/26 14:57:44.335 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+16/10/26 14:57:44.335 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+16/10/26 14:57:44.336 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/10/26 14:57:44.337 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="
+			http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+			http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+			http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+	<bean id="waveBandService" class="com.jhw.adm.comclient.carrier.WaveBandService">
+		<property name="messageSend"><ref bean="messageSend"/></property>	
+	</bean>	
+	<bean id="autoMonitorSetService" class="com.jhw.adm.comclient.carrier.AutoMonitorSetService">
+		<property name="messageSend"><ref bean="messageSend"/></property>		
+	</bean>	
+	<bean id="baseOperateService" class="com.jhw.adm.comclient.carrier.BaseOperateService" destroy-method="stop">
+		<property name="messageSend"><ref bean="messageSend"/></property>		
+	</bean>	
+	<bean id="portQueryService" class="com.jhw.adm.comclient.carrier.PortQueryService">
+		<property name="messageSend"><ref bean="messageSend"/></property>		
+	</bean>				
+	<bean id="routingQueryService" class="com.jhw.adm.comclient.carrier.RoutingQueryService">
+		<property name="messageSend"><ref bean="messageSend"/></property>		
+	</bean>			
+	<bean id="routingSetService" class="com.jhw.adm.comclient.carrier.RoutingSetService">
+		<property name="messageSend"><ref bean="messageSend"/></property>		
+	</bean>				
+	<bean id="serialSetService" class="com.jhw.adm.comclient.carrier.SerialSetService">
+	</bean>		
+
+</beans>

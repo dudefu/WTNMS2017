@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="
+			http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+			http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+			http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+	<bean id="loginUI" class="com.jhw.adm.comclient.ui.LoginUI">
+		<property name="loginDialog"><ref bean="loginDialog"/></property>	
+	</bean>	
+	<bean id="loginDialog" class="com.jhw.adm.comclient.ui.LoginDialog">
+		<property name="loginImagePanel"><ref bean="loginImagePanel"/></property>		
+		<property name="consolePanel"><ref bean="consolePanel"/></property>
+		
+		<property name="hongdianService"><ref bean="hongdianService"/></property>
+		<property name="trapMonitor"><ref bean="trapMonitor"/></property>
+		<property name="baseOperateService"><ref bean="baseOperateService"/></property>
+		<property name="messageSend"><ref bean="messageSend"/></property>
+		<property name="heartbeatService"><ref bean="heartbeatService"/></property>
+		<property name="deviceLogService"><ref bean="deviceLogService"/></property>
+	</bean>	
+	
+	<bean id="loginImagePanel" class="com.jhw.adm.comclient.ui.LoginImagePanel">
+	</bean>	
+	<bean id="consolePanel" class="com.jhw.adm.comclient.ui.ConsolePanel">
+		<property name="loginUI"><ref bean="loginUI"/></property>		
+		<property name="tabbedPanel"><ref bean="tabbedPanel"/></property>
+	</bean>	
+
+	<bean id="tabbedPanel" class="com.jhw.adm.comclient.ui.TabbedPanel">
+		<property name="logPanel"><ref bean="logPanel"/></property>
+		<property name="diagnoseView"><ref bean="diagnoseView"/></property>
+	</bean>		
+	<bean id="logPanel" class="com.jhw.adm.comclient.ui.LogPanel">
+	</bean>		
+
+	<bean id="diagnoseView" class="com.jhw.adm.comclient.ui.DiagnoseView">
+		<property name="eponHandler"><ref bean="eponHandler"/></property>		
+		<property name="topologyHandler"><ref bean="topologyHandler"/></property>
+		<property name="lldpHandler"><ref bean="lldpHandler"/></property>
+	</bean>		
+</beans>

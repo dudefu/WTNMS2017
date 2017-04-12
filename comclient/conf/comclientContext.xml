@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="
+			http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+			http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+			http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+	<import resource="handler-context.xml"/>
+	<import resource="service-context.xml"/>
+	<import resource="quartz-context.xml"/>
+	<import resource="carrier-context.xml"/>
+	<import resource="gprs-context.xml"/>
+	<import resource="epon-context.xml"/>
+	<import resource="ui-context.xml"/>
+	<import resource="switch3-context.xml"/>
+	
+	<!-- SNMP -->
+	<bean id="snmpV2" class="com.jhw.adm.comclient.protocol.snmp.SnmpV2"/>
+	<bean id="snmpV3" class="com.jhw.adm.comclient.protocol.snmp.SnmpV3"/>
+	
+	<bean id="dataBufferBuilder" class="com.jhw.adm.comclient.data.DataBufferBuilder"/>
+	
+	<bean id="snmpTrap" class="com.jhw.adm.comclient.protocol.snmp.SnmpTrap"/>
+	
+	<bean id="trapMonitor" class="com.jhw.adm.comclient.protocol.snmp.TrapMonitor">
+		<property name="snmpTrap"><ref bean="snmpTrap"/></property>
+		<property name="messageSend"><ref bean="messageSend"/></property>
+		<property name="systemHandler"><ref bean="systemHandler"/></property>
+		<property name="eponHandler"><ref bean="eponHandler"/></property>
+		<property name="topologyHandler"><ref bean="topologyHandler"/></property>
+	</bean>
+	
+	<!-- JMS -->
+	<bean id="messageSend" class="com.jhw.adm.comclient.jms.MessageSend">
+		<property name="messageQueueHandler"><ref bean="messageQueueHandler"/></property>	
+	</bean>		
+
+	<bean id="messageQueueHandler" class="com.jhw.adm.comclient.jms.MessageQueueHandler" destroy-method="close">		
+		<property name="topologyService"><ref bean="topologyService"/></property>
+		<property name="synEquipmentService"><ref bean="synEquipmentService"/></property>	
+		<property name="vlanService"><ref bean="vlanService"/></property>
+		<property name="macService"><ref bean="macService"/></property>
+		<property name="mirrorService"><ref bean="mirrorService"/></property>
+		<property name="qosService"><ref bean="qosService"/></property>
+		<property name="portService"><ref bean="portService"/></property>
+		<property name="igmpService"><ref bean="igmpService"/></property>
+		<property name="stpService"><ref bean="stpService"/></property>
+		<property name="sntpService"><ref bean="sntpService"/></property>
+		<property name="performanceService"><ref bean="performanceService"/></property>
+		<property name="pingService"><ref bean="pingService"/></property>
+		<property name="ghringService"><ref bean="ghringService"/></property>
+		<property name="serialService"><ref bean="serialService"/></property>
+		<property name="rmonService"><ref bean="rmonService"/></property>
+		<property name="lldpService"><ref bean="lldpService"/></property>
+		<property name="snmpService"><ref bean="snmpService"/></property>
+		<property name="lacpService"><ref bean="lacpService"/></property>
+		<property name="trunkService"><ref bean="trunkService"/></property>
+		<property name="switcherUserService"><ref bean="switcherUserService"/></property>
+		<property name="emulateService"><ref bean="emulateService"/></property>
+		<!-- PLC -->
+		<property name="baseOperateService"><ref bean="baseOperateService"/></property>
+		<property name="portQueryService"><ref bean="portQueryService"/></property>
+		<property name="routingQueryService"><ref bean="routingQueryService"/></property>
+		<property name="routingSetService"><ref bean="routingSetService"/></property>
+		<property name="systemUpgradeService"><ref bean="systemUpgradeService"/></property>
+		<property name="waveBandService"><ref bean="waveBandService"/></property>
+		<!-- OLT -->
+		<property name="oltBusinessConfigService"><ref bean="oltBusinessConfigService"/></property>
+		<property name="oltBaseConfigService"><ref bean="oltBaseConfigService"/></property>
+		<!-- Switch3 -->
+		<property name="vlan3Service"><ref bean="vlan3Service"/></property>
+		<property name="baseConfig3Service"><ref bean="baseConfig3Service"/></property>
+		<property name="stp3Service"><ref bean="stp3Service"/></property>
+		<property name="lldp3Service"><ref bean="lldp3Service"/></property>
+		
+	</bean>	
+
+</beans>

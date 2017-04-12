@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project default="release" name="client" xmlns:ivy="antlib:org.apache.ivy.ant">
+    <property name="src.dir" value="src" />
+    <property name="target.dir" value="dist" />
+    <property name="build.dir" value="${target.dir}/build" />
+    <property name="client.dir" value="${target.dir}/client" />
+    <property name="initial.dir" value="${target.dir}/initial" />
+    <property name="lib.dir" value="${target.dir}/lib" />
+    <property name="dist.lib.dir" value="lib" />
+    <property name="conf.dir" value="conf" />
+    <property name="res.dir" value="res" />
+    <property name="mib.dir" value="MibBrowser" />
+    <property name="version" value="2.4" />
+    <!-- VM arguments -splash:src/com/jhw/adm/client/resources/images/splash.png -->
+    <property name="splash.image" value="images/splash.png" />
+    <property name="main.class" value="com.jhw.adm.client.ui.ClientUI" />
+    <property name="init.main.class" value="com.jhw.adm.client.ui.DebugUI" />
+    <property environment="env" />
+    <property name="build.lib.dir" value="${lib.dir}" />
+    <property name="ivy.lib.dir" value="${build.lib.dir}" />
+    <property file="build.properties"/>
+
+    <condition property="ivy.home" value="${env.IVY_HOME}">
+        <isset property="env.IVY_HOME"/>
+    </condition>
+    <fail unless="ivy.home">set IVY_HOME first</fail>
+    <property name="ivy.settings.file" value="${ivy.home}\ivysettings.xml" />
+    
+    <condition property="jdk.home" value="${env.JAVA_HOME}">
+        <isset property="env.JAVA_HOME"/>
+    </condition>
+    <fail unless="jdk.home">set JAVA_HOME first</fail>
+    
+    <tstamp>
+        <format property="TODAY" pattern="yyyy.MM.dd HH:mm" />
+    </tstamp>
+    <path id="lib-classpath">
+        <fileset dir="${lib.dir}">
+            <include name="**/*.jar" />
+        </fileset>
+    </path>
+
+    <taskdef name="nsis" classname="net.sf.nsisant.Task">
+    </taskdef>
+    
+    <target name="update-src">
+        <exec executable="cmd">
+            <arg value="svn update --username liaoyijun --password liaoyijun --no-auth-cache" />
+        </exec>
+    </target>
+    
+    <target name="retrieve-compile" description="--> retreive dependencies(conf=compile) with ivy">
+        <echo message="${ivy.lib.dir}" />
+        <ivy:retrieve conf="compile" />
+        
+        <copy todir="${lib.dir}" preservelastmodified="true">
+            <fileset dir="${ejb.dir}/lib">
+                <include name="**/*.jar" />
+            </fileset>
+            <fileset dir="${ejb.dir}/dist">
+                <include name="**/*.jar" />
+            </fileset>
+        </copy>
+    </target>
+
+    <target name="clean">
+        <delete dir="${target.dir}" includeEmptyDirs="true" verbose="true" />
+    </target>
+    <target name="compile" depends="clean, retrieve-compile" description="--> Compile main source tree java files">
+        <mkdir dir="${build.dir}" />
+        <javac destdir="${build.dir}" source="1.6" verbose="false" target="1.6" debug="false" deprecation="false" optimize="true" failonerror="true">
+            <src path="${src.dir}" />
+            <classpath refid="lib-classpath" />
+            <compilerarg line="-encoding gbk -Xlint:unchecked"/>
+        </javac>
+        <copy todir="${build.dir}" preservelastmodified="true">
+            <fileset dir="${src.dir}/com/jhw/adm/client/resources">
+                <include name="${splash.image}" />
+            </fileset>
+        </copy>
+        <copy todir="${build.dir}/com/jhw/adm/client/resources" preservelastmodified="true">
+            <fileset dir="${src.dir}/com/jhw/adm/client/resources">
+                <include name="**/*.*" />
+                <exclude name="**/*.java" />
+            </fileset>
+        </copy>
+    </target>
+    <target name="jar" depends="compile">
+        <mkdir dir="${client.dir}" />
+        <mkdir dir="${initial.dir}" />
+    	<property name="war-build-id" value="Built by ${user.name} at ${TODAY} running on ${os.name} ${os.version} ${os.arch}"/>
+        <pathconvert pathsep=" " property="jar.classpath" refid="lib-classpath">
+            <chainedmapper>
+                <flattenmapper/>
+                <globmapper from="*" to="lib/*"/>
+            </chainedmapper>
+        </pathconvert>
+        <jar compress="true" destfile="${client.dir}/${ant.project.name}.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="${main.class}"/>
+                <attribute name="SplashScreen-Image" value="${splash.image}"/>              
+                <attribute name="Specification-Title" value="ADM2000 Client"/>
+                <attribute name="Specification-Version" value="${version}"/>
+                <attribute name="Implementation-Title" value="release"/>
+                <attribute name="Implementation-Version" value="${TODAY}"/>
+                <attribute name="Build-Id" value="${war-build-id}"/>
+                    
+                <attribute name="Class-Path" value="${jar.classpath}"/>
+            </manifest>
+            <fileset dir="${build.dir}"/>
+        </jar>
+        <jar compress="true" destfile="${initial.dir}/initial.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="${init.main.class}"/>
+                <attribute name="Implementation-Version" value="${version}"/>
+                <attribute name="Class-Path" value="${jar.classpath}"/>
+            </manifest>
+            <fileset dir="${build.dir}"/>
+        </jar>
+        <antcall target="copy-lib-conf"></antcall>
+    </target>
+    
+    <target name="copy-lib-conf">
+        <!-- copy client lib and conf -->
+        <copy todir="${client.dir}/${dist.lib.dir}" preservelastmodified="true">
+            <fileset dir="${lib.dir}">
+                <exclude name="slf4j-api.jar" />
+                <exclude name="slf4j-jboss-logging.jar" />
+                <include name="**/*.*" />
+            </fileset>
+        </copy>
+        <copy todir="${client.dir}/${conf.dir}" preservelastmodified="true">
+            <fileset dir="${conf.dir}">
+                <include name="**/*.*" />
+            </fileset>
+        </copy>
+
+        <!-- copy initial lib and conf -->
+        <copy todir="${initial.dir}/${dist.lib.dir}" preservelastmodified="true">
+            <fileset dir="${lib.dir}">
+                <exclude name="slf4j-api.jar" />
+                <exclude name="slf4j-jboss-logging.jar" />
+                <include name="**/*.*" />
+            </fileset>
+        </copy>
+        <copy todir="${initial.dir}/${conf.dir}" preservelastmodified="true">
+            <fileset dir="${conf.dir}">
+                <include name="**/*.*" />
+            </fileset>
+        </copy>
+
+        <copy todir="${client.dir}/${mib.dir}" preservelastmodified="true">
+            <fileset dir="${mib.dir}">
+                <include name="**/*.*" />
+            </fileset>
+        </copy>
+        <copy file="client.ini" tofile="${client.dir}/client.ini"/>
+        <!-- copy jre -->
+        <copy todir="${target.dir}//jre" preservelastmodified="true">
+            <fileset dir="${jre.dir}">
+            </fileset>
+        </copy>
+    </target>
+        
+    <target name="release" description="--> package and generate luncher">
+        <antcall target="jar"></antcall>
+        <nsis script="exec.nsi"/>
+        <nsis script="install.nsi"/>
+    </target>
+</project>

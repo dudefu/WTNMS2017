@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jee="http://www.springframework.org/schema/jee" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="
+			http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+			http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+			http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.0.xsd
+			http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+			http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+			http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd"
+	default-lazy-init="true">
+
+	<import resource="actionContext.xml" />
+	<import resource="modelContext.xml" />
+	<import resource="viewsContext.xml" />
+	<aop:aspectj-autoproxy proxy-target-class="true" />
+	<context:component-scan base-package="com.jhw.adm.client.core" />
+    <context:component-scan base-package="com.jhw.adm.client.resources" />
+	<context:component-scan base-package="com.jhw.adm.client.swing" />
+	<context:component-scan base-package="com.jhw.adm.client.ui" />
+	<context:component-scan base-package="com.jhw.adm.client.views" />
+	<context:component-scan base-package="com.jhw.adm.client.aop" />
+	<context:component-scan base-package="com.jhw.adm.client.map" />
+	<context:component-scan base-package="com.jhw.adm.client.diagram" />
+	<context:property-placeholder location="conf/jndi.properties"/>
+	
+	<util:map id="adapterRegistry">
+	</util:map>
+	
+
+	<bean class="org.springframework.beans.factory.config.CustomScopeConfigurer">
+		<property name="scopes">
+			<map>
+				<entry key="desktop">
+					<bean class="com.jhw.adm.client.ui.DesktopScope" />
+				</entry>
+			</map>
+		</property>
+	</bean>
+
+	<bean id="lazyDataCacheObjectLocator" class="com.jhw.adm.client.core.LazyJndiObjectLocator">
+		<property name="jndiName" value="remote/DataCacheRemote"></property>
+		<property name="jndiTemplate" ref="jndiTemplate"></property>
+	</bean>
+
+	<bean id="lazyAdmObjectLocator" class="com.jhw.adm.client.core.LazyJndiObjectLocator">
+		<property name="jndiName" value="remote/AdmServiceBean"></property>
+		<property name="jndiTemplate" ref="jndiTemplate"></property>
+	</bean>
+		
+	<bean id="lazyLoginObjectLocator" class="com.jhw.adm.client.core.LazyJndiObjectLocator">
+		<property name="jndiName" value="remote/LoginService"></property>
+		<property name="jndiTemplate" ref="jndiTemplate"></property>
+	</bean>
+		
+	<bean id="lazyNmsObjectLocator" class="com.jhw.adm.client.core.LazyJndiObjectLocator">
+		<property name="jndiName" value="remote/NMSServiceRemote"></property>
+		<property name="jndiTemplate" ref="jndiTemplate"></property>
+	</bean>
+	
+
+	<bean id="lazyPingTimerObjectLocator" class="com.jhw.adm.client.core.LazyJndiObjectLocator">
+		<property name="jndiName" value="remote/PingTimerRemote"></property>
+		<property name="jndiTemplate" ref="jndiTemplate"></property>
+	</bean>
+
+	<bean id="lazyCommonObjectLocator" class="com.jhw.adm.client.core.LazyJndiObjectLocator">
+		<property name="jndiName" value="remote/CommonServiceBean"></property>
+		<property name="jndiTemplate" ref="jndiTemplate"></property>
+	</bean>
+	<bean id="jndiTemplate" class="org.springframework.jndi.JndiTemplate">
+		<property name="environment">
+			<props>
+				<prop key="java.naming.factory.initial">org.jnp.interfaces.NamingContextFactory</prop>
+				<prop key="java.naming.factory.url.pkgs">org.jboss.naming:org.jnp.interfaces</prop>
+				<prop key="java.naming.provider.url">${jndi.url}</prop>
+				<prop key="jnp.timeout">${jnp.timeout}</prop>
+				<prop key="jnp.sotimeout">${jnp.sotimeout}</prop>
+				<prop key="jnp.discoveryTimeout">${jnp.discoveryTimeout}</prop>
+			</props>
+		</property>
+	</bean>
+
+	<bean id="jmsConnectionFactory" class="org.springframework.jndi.JndiObjectFactoryBean">
+		<property name="jndiTemplate" ref="jndiTemplate"></property>
+		<property name="jndiName" value="ConnectionFactory"></property>
+	</bean>
+	<bean id="cachingConnectionFactory" class="org.springframework.jms.connection.CachingConnectionFactory"> 
+		<property name="targetConnectionFactory" ref="jmsConnectionFactory" /> 
+		<property name="sessionCacheSize" value="10" /> 
+	</bean> 
+	<bean id="sendDestination" class="org.springframework.jndi.JndiObjectFactoryBean">
+		<property name="jndiTemplate" ref="jndiTemplate"></property>
+		<property name="jndiName" value="queue/CTSQueue"></property>
+	</bean>	
+	<bean id="heartbeatDestination" class="org.springframework.jndi.JndiObjectFactoryBean">
+		<property name="jndiTemplate" ref="jndiTemplate"></property>
+		<property name="jndiName" value="queue/Heartbeat"></property>
+	</bean>	
+	<bean id="receiveDestination" class="org.springframework.jndi.JndiObjectFactoryBean">
+		<property name="jndiTemplate" ref="jndiTemplate"></property>
+		<property name="jndiName" value="topic/STCTopic"></property>
+	</bean>	
+	<bean id="heartbeatTemplate" class="com.jhw.adm.client.core.JBossJmsTemplate">
+		<property name="connectionFactory" ref="cachingConnectionFactory"></property>
+		<property name="defaultDestination" ref="heartbeatDestination"></property>
+	</bean>	
+	<bean id="jmsTemplate" class="com.jhw.adm.client.core.JBossJmsTemplate">
+		<property name="connectionFactory" ref="cachingConnectionFactory"></property>
+		<property name="defaultDestination" ref="sendDestination"></property>
+	</bean>
+	<bean id="heartbeatMessageSender" class="com.jhw.adm.client.core.JBossMessageSender" scope="prototype">
+		<property name="template" ref="heartbeatTemplate" />
+		<property name="destination" ref="heartbeatDestination" />
+	</bean>
+	<bean id="messageSender" class="com.jhw.adm.client.core.JBossMessageSender" scope="prototype">
+		<property name="template" ref="jmsTemplate" />
+		<property name="destination" ref="sendDestination" />
+	</bean>
+	<bean id="messageDispatcher" class="com.jhw.adm.client.core.MessageDispatcher" />
+	<!--
+	<bean id="listenerContainer"
+		class="org.springframework.jms.listener.DefaultMessageListenerContainer">
+		<property name="autoStartup" value="false"></property>
+		<property name="connectionFactory" ref="jmsConnectionFactory" />
+		<property name="destination" ref="receiveDestination" />
+		<property name="messageListener" ref="messageDispatcher" />
+	</bean>-->
+	<bean id="listenerContainer"
+		class="com.jhw.adm.client.core.MessageListenerContainer">
+		<property name="connectionFactory" ref="cachingConnectionFactory" />
+		<property name="destination" ref="receiveDestination" />
+		<property name="messageListener" ref="messageDispatcher" />
+	</bean>
+</beans>

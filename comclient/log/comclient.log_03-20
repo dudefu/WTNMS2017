@@ -1,0 +1,44 @@
+17/03/20 22:33:23.743 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+17/03/20 22:33:23.811 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+17/03/20 22:33:25.605 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - OID config read Finish......
+17/03/20 22:33:27.431 INFO  [com.jhw.adm.comclient.jms.MessageSend] - *Connect Success*
+17/03/20 22:33:27.432 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Init Receive Constructor
+17/03/20 22:33:27.432 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - JMS Send service init Finish......
+17/03/20 22:33:27.525 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - PLC Service Init Finish......
+17/03/20 22:33:27.550 WARN  [com.jhw.adm.comclient.protocol.snmp.TrapMonitor$ConsumeTrap] - TrapQueue empty!
+17/03/20 22:33:27.551 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Snmp Trap service init Finish......
+17/03/20 22:33:27.632 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Gprs service init Finish......
+17/03/20 22:33:27.633 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Heartbeat Setup Finish......
+17/03/20 22:33:27.634 INFO  [com.jhw.adm.comclient.service.DeviceLogService$4] - Launching device log listen thread.
+17/03/20 22:33:27.634 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - DeviceLog Listen Setup Finish......
+17/03/20 22:33:27.634 INFO  [com.jhw.adm.comclient.service.DeviceLogService$5] - Launching handle device log thread.
+17/03/20 22:33:28.641 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/20 22:33:28.855 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/20 22:33:28.856 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/20 22:33:28.856 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread£º1
+17/03/20 22:33:28.857 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread£º0
+17/03/20 22:33:40.647 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/20 22:33:40.697 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/20 22:33:40.697 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/20 22:33:40.697 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread£º1
+17/03/20 22:33:52.649 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/20 22:33:52.682 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/20 22:33:52.682 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/20 22:33:52.682 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread£º0
+17/03/20 22:34:04.654 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/20 22:34:04.691 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/20 22:34:04.691 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/20 22:34:04.691 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread£º1
+17/03/20 22:34:09.863 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+17/03/20 22:34:09.932 INFO  [com.jhw.adm.comclient.jms.MessageSend] - true false
+17/03/20 22:34:09.932 WARN  [com.jhw.adm.comclient.jms.MessageSend] - 2&&&Receive Thread alive
+17/03/20 22:34:09.948 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/20 22:34:09.963 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@4f3ba2: startup date [Mon Mar 20 22:33:18 CST 2017]; root of context hierarchy
+17/03/20 22:34:09.963 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+17/03/20 22:34:09.963 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/20 22:34:09.963 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18660a9: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+17/03/20 22:34:09.963 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/20 22:34:09.963 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+17/03/20 22:34:09.963 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+17/03/20 22:34:09.963 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/20 22:34:09.963 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.

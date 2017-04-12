@@ -1,0 +1,1190 @@
+17/03/28 10:26:08.039 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+17/03/28 10:26:10.301 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/28 10:26:10.303 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:26:10.304 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:26:10.304 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:26:10.322 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@31bcc8: startup date [Tue Mar 28 10:26:05 CST 2017]; root of context hierarchy
+17/03/28 10:26:10.323 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+17/03/28 10:26:10.327 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/28 10:26:10.327 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@133fa14: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+17/03/28 10:26:10.328 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'hongdianService': java.lang.NullPointerException
+17/03/28 10:26:10.328 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'heartbeatService': java.lang.NullPointerException
+17/03/28 10:26:10.329 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/28 10:26:10.331 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+17/03/28 10:26:10.331 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+17/03/28 10:26:10.332 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/28 10:26:10.332 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+17/03/28 10:26:51.566 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/28 10:26:51.569 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:26:51.570 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:26:51.570 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:26:51.591 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@31bcc8: startup date [Tue Mar 28 10:26:49 CST 2017]; root of context hierarchy
+17/03/28 10:26:51.592 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+17/03/28 10:26:51.593 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/28 10:26:51.593 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@133fa14: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+17/03/28 10:26:51.594 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'hongdianService': java.lang.NullPointerException
+17/03/28 10:26:51.595 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'heartbeatService': java.lang.NullPointerException
+17/03/28 10:26:51.596 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/28 10:26:51.597 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+17/03/28 10:26:51.598 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+17/03/28 10:26:51.598 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/28 10:26:51.599 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+17/03/28 10:27:03.872 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+17/03/28 10:27:06.312 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/28 10:27:06.314 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:27:06.315 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:27:06.315 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:27:06.329 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@31bcc8: startup date [Tue Mar 28 10:27:01 CST 2017]; root of context hierarchy
+17/03/28 10:27:06.331 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+17/03/28 10:27:06.332 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/28 10:27:06.332 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1675463: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+17/03/28 10:27:06.333 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'hongdianService': java.lang.NullPointerException
+17/03/28 10:27:06.334 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'heartbeatService': java.lang.NullPointerException
+17/03/28 10:27:06.335 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/28 10:27:06.336 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+17/03/28 10:27:06.336 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+17/03/28 10:27:06.337 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/28 10:27:06.337 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+17/03/28 10:27:22.376 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+17/03/28 10:27:27.370 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/28 10:27:27.371 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:27:27.372 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:27:27.373 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:27:27.389 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@31bcc8: startup date [Tue Mar 28 10:27:19 CST 2017]; root of context hierarchy
+17/03/28 10:27:27.390 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+17/03/28 10:27:27.391 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/28 10:27:27.392 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@133fa14: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+17/03/28 10:27:27.393 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'hongdianService': java.lang.NullPointerException
+17/03/28 10:27:27.393 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'heartbeatService': java.lang.NullPointerException
+17/03/28 10:27:27.395 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/28 10:27:27.395 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+17/03/28 10:27:27.396 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+17/03/28 10:27:27.396 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/28 10:27:27.396 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+17/03/28 10:27:39.290 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/28 10:27:39.293 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:27:39.294 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:27:39.294 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:27:39.313 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@31bcc8: startup date [Tue Mar 28 10:27:36 CST 2017]; root of context hierarchy
+17/03/28 10:27:39.314 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+17/03/28 10:27:39.315 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/28 10:27:39.316 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@133fa14: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+17/03/28 10:27:39.317 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'hongdianService': java.lang.NullPointerException
+17/03/28 10:27:39.317 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'heartbeatService': java.lang.NullPointerException
+17/03/28 10:27:39.318 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/28 10:27:39.319 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+17/03/28 10:27:39.320 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+17/03/28 10:27:39.320 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/28 10:27:39.320 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+17/03/28 10:27:39.414 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+17/03/28 10:27:51.595 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+17/03/28 10:27:54.494 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/28 10:27:54.496 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:27:54.497 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:27:54.497 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:27:54.513 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@31bcc8: startup date [Tue Mar 28 10:27:47 CST 2017]; root of context hierarchy
+17/03/28 10:27:54.514 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+17/03/28 10:27:54.516 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/28 10:27:54.516 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@133fa14: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+17/03/28 10:27:54.517 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'hongdianService': java.lang.NullPointerException
+17/03/28 10:27:54.517 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'heartbeatService': java.lang.NullPointerException
+17/03/28 10:27:54.519 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/28 10:27:54.520 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+17/03/28 10:27:54.520 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+17/03/28 10:27:54.520 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/28 10:27:54.521 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+17/03/28 10:28:57.862 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/28 10:28:57.867 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:28:57.867 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:28:57.868 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:28:57.883 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@1d41318: startup date [Tue Mar 28 10:28:03 CST 2017]; root of context hierarchy
+17/03/28 10:28:57.885 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+17/03/28 10:28:57.887 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/28 10:28:57.888 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@133fa14: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+17/03/28 10:28:57.889 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'hongdianService': java.lang.NullPointerException
+17/03/28 10:28:57.889 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'heartbeatService': java.lang.NullPointerException
+17/03/28 10:28:57.891 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/28 10:28:57.891 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+17/03/28 10:28:57.891 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+17/03/28 10:28:57.892 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/28 10:28:57.892 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+17/03/28 10:29:08.646 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+17/03/28 10:29:27.084 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/28 10:29:27.086 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:29:27.087 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:29:27.088 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:29:27.101 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@31bcc8: startup date [Tue Mar 28 10:29:05 CST 2017]; root of context hierarchy
+17/03/28 10:29:27.103 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+17/03/28 10:29:27.104 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/28 10:29:27.105 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@133fa14: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+17/03/28 10:29:27.106 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'hongdianService': java.lang.NullPointerException
+17/03/28 10:29:27.106 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'heartbeatService': java.lang.NullPointerException
+17/03/28 10:29:27.107 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/28 10:29:27.108 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+17/03/28 10:29:27.109 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+17/03/28 10:29:27.109 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/28 10:29:27.109 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+17/03/28 10:34:36.087 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+17/03/28 10:34:45.754 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/28 10:34:45.757 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:34:45.758 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:34:45.758 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:34:45.773 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@31bcc8: startup date [Tue Mar 28 10:34:33 CST 2017]; root of context hierarchy
+17/03/28 10:34:45.774 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+17/03/28 10:34:45.775 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/28 10:34:45.776 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@133fa14: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+17/03/28 10:34:45.777 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'hongdianService': java.lang.NullPointerException
+17/03/28 10:34:45.777 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'heartbeatService': java.lang.NullPointerException
+17/03/28 10:34:45.779 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/28 10:34:45.780 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+17/03/28 10:34:45.780 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+17/03/28 10:34:45.781 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/28 10:34:45.781 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+17/03/28 10:35:04.090 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+17/03/28 10:35:05.055 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/28 10:35:05.057 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:35:05.058 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:35:05.058 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:35:05.074 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@160f5bf: startup date [Tue Mar 28 10:35:01 CST 2017]; root of context hierarchy
+17/03/28 10:35:05.075 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+17/03/28 10:35:05.076 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/28 10:35:05.077 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1675463: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+17/03/28 10:35:05.078 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'hongdianService': java.lang.NullPointerException
+17/03/28 10:35:05.078 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'heartbeatService': java.lang.NullPointerException
+17/03/28 10:35:05.079 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/28 10:35:05.080 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+17/03/28 10:35:05.081 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+17/03/28 10:35:05.081 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/28 10:35:05.081 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+17/03/28 10:35:12.273 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+17/03/28 10:35:21.206 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/28 10:35:21.208 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:35:21.208 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:35:21.209 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:35:21.230 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@31bcc8: startup date [Tue Mar 28 10:35:09 CST 2017]; root of context hierarchy
+17/03/28 10:35:21.231 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+17/03/28 10:35:21.232 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/28 10:35:21.233 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@133fa14: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+17/03/28 10:35:21.234 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'hongdianService': java.lang.NullPointerException
+17/03/28 10:35:21.234 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'heartbeatService': java.lang.NullPointerException
+17/03/28 10:35:21.235 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/28 10:35:21.236 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+17/03/28 10:35:21.236 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+17/03/28 10:35:21.237 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/28 10:35:21.237 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+17/03/28 10:35:49.505 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+17/03/28 10:35:50.449 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/28 10:35:50.451 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:35:50.452 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:35:50.453 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:35:50.473 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@31bcc8: startup date [Tue Mar 28 10:35:46 CST 2017]; root of context hierarchy
+17/03/28 10:35:50.474 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+17/03/28 10:35:50.475 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/28 10:35:50.476 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@133fa14: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+17/03/28 10:35:50.477 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'hongdianService': java.lang.NullPointerException
+17/03/28 10:35:50.477 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'heartbeatService': java.lang.NullPointerException
+17/03/28 10:35:50.478 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/28 10:35:50.479 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+17/03/28 10:35:50.480 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+17/03/28 10:35:50.480 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/28 10:35:50.480 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+17/03/28 10:36:13.551 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+17/03/28 10:37:21.537 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/28 10:37:21.539 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:37:21.540 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:37:21.540 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:37:21.555 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@31bcc8: startup date [Tue Mar 28 10:36:10 CST 2017]; root of context hierarchy
+17/03/28 10:37:21.557 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+17/03/28 10:37:21.558 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/28 10:37:21.558 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@133fa14: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+17/03/28 10:37:21.559 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'hongdianService': java.lang.NullPointerException
+17/03/28 10:37:21.560 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'heartbeatService': java.lang.NullPointerException
+17/03/28 10:37:21.561 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/28 10:37:21.562 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+17/03/28 10:37:21.562 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+17/03/28 10:37:21.562 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/28 10:37:21.563 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+17/03/28 10:37:35.691 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+17/03/28 10:37:39.438 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/28 10:37:39.440 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:37:39.440 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:37:39.441 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:37:39.457 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@31bcc8: startup date [Tue Mar 28 10:37:33 CST 2017]; root of context hierarchy
+17/03/28 10:37:39.458 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+17/03/28 10:37:39.459 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/28 10:37:39.460 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@133fa14: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+17/03/28 10:37:39.460 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'hongdianService': java.lang.NullPointerException
+17/03/28 10:37:39.461 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'heartbeatService': java.lang.NullPointerException
+17/03/28 10:37:39.462 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/28 10:37:39.463 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+17/03/28 10:37:39.464 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+17/03/28 10:37:39.464 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/28 10:37:39.465 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+17/03/28 10:37:49.007 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+17/03/28 10:38:36.917 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/28 10:38:36.920 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:38:36.921 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:38:36.922 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 10:38:36.937 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@31bcc8: startup date [Tue Mar 28 10:37:46 CST 2017]; root of context hierarchy
+17/03/28 10:38:36.939 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+17/03/28 10:38:36.940 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/28 10:38:36.940 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@133fa14: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+17/03/28 10:38:36.941 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'hongdianService': java.lang.NullPointerException
+17/03/28 10:38:36.942 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'heartbeatService': java.lang.NullPointerException
+17/03/28 10:38:36.943 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/28 10:38:36.944 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+17/03/28 10:38:36.945 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+17/03/28 10:38:36.945 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/28 10:38:36.945 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+17/03/28 11:09:45.686 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+17/03/28 11:09:59.321 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/28 11:09:59.324 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 11:09:59.329 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 11:09:59.329 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+17/03/28 11:09:59.347 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@a60191: startup date [Tue Mar 28 11:09:42 CST 2017]; root of context hierarchy
+17/03/28 11:09:59.349 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+17/03/28 11:09:59.350 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/28 11:09:59.351 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d53153: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+17/03/28 11:09:59.352 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'hongdianService': java.lang.NullPointerException
+17/03/28 11:09:59.353 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'heartbeatService': java.lang.NullPointerException
+17/03/28 11:09:59.354 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/28 11:09:59.355 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+17/03/28 11:09:59.356 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+17/03/28 11:09:59.356 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/28 11:09:59.357 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+17/03/28 14:29:41.076 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+17/03/28 14:29:41.748 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+17/03/28 14:29:42.083 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - OID config read Finish......
+17/03/28 14:29:42.728 INFO  [com.jhw.adm.comclient.jms.MessageSend] - *Connect Success*
+17/03/28 14:29:42.729 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Init Receive Constructor
+17/03/28 14:29:42.729 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - JMS Send service init Finish......
+17/03/28 14:29:42.745 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - PLC Service Init Finish......
+17/03/28 14:29:42.775 WARN  [com.jhw.adm.comclient.protocol.snmp.TrapMonitor$ConsumeTrap] - TrapQueue empty!
+17/03/28 14:29:42.776 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Snmp Trap service init Finish......
+17/03/28 14:29:42.786 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Gprs service init Finish......
+17/03/28 14:29:42.787 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Heartbeat Setup Finish......
+17/03/28 14:29:42.788 INFO  [com.jhw.adm.comclient.service.DeviceLogService$4] - Launching device log listen thread.
+17/03/28 14:29:42.789 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - DeviceLog Listen Setup Finish......
+17/03/28 14:29:42.789 INFO  [com.jhw.adm.comclient.service.DeviceLogService$5] - Launching handle device log thread.
+17/03/28 14:29:43.795 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:29:43.850 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:29:43.852 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:29:43.852 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:29:43.853 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:29:46.103 INFO  [com.jhw.adm.comclient.protocol.snmp.TrapMonitor] - 1.3.6.1.2.1.1.3.0 : 0:55:09.27
+17/03/28 14:29:46.103 INFO  [com.jhw.adm.comclient.protocol.snmp.TrapMonitor] - 1.3.6.1.6.3.1.1.4.1.0 : 1.3.6.1.4.1.44405.71.4.1.0.0
+17/03/28 14:29:46.104 INFO  [com.jhw.adm.comclient.protocol.snmp.TrapMonitor] - 1.3.6.1.4.1.44405.71.4.1.0.0 : 54:68:65:20:63:75:72:72:65:6e:74:20:74:65:6d:70:65:72:61:74:75:72:65:20:6f:66:20:73:77:69:74:63:68:20:69:73:20:68:69:67:68:65:72:20:74:68:61:6e:20:32:20:a1:e6:20:21
+17/03/28 14:29:46.104 INFO  [com.jhw.adm.comclient.protocol.snmp.TrapMonitor] - ***Trap IP:192.168.1.37
+17/03/28 14:29:46.104 INFO  [com.jhw.adm.comclient.protocol.snmp.TrapMonitor] - ***Receive Rmon trap
+17/03/28 14:29:46.108 INFO  [com.jhw.adm.comclient.protocol.snmp.TrapMonitor] - ******Send Rmon Trap
+17/03/28 14:29:46.108 INFO  [com.jhw.adm.comclient.protocol.snmp.TrapMonitor] - 1.3.6.1.2.1.1.3.0 : 0:55:09.27
+17/03/28 14:29:46.109 INFO  [com.jhw.adm.comclient.protocol.snmp.TrapMonitor] - 1.3.6.1.6.3.1.1.4.1.0 : 1.3.6.1.4.1.44405.71.4.1.0.0
+17/03/28 14:29:46.109 INFO  [com.jhw.adm.comclient.protocol.snmp.TrapMonitor] - 1.3.6.1.4.1.44405.71.4.1.0.0 : 54:68:65:20:63:75:72:72:65:6e:74:20:74:65:6d:70:65:72:61:74:75:72:65:20:6f:66:20:73:77:69:74:63:68:20:69:73:20:68:69:67:68:65:72:20:74:68:61:6e:20:32:20:a1:e6:20:21
+17/03/28 14:29:46.109 INFO  [com.jhw.adm.comclient.protocol.snmp.TrapMonitor] - ***Trap IP:192.168.1.37
+17/03/28 14:29:46.109 INFO  [com.jhw.adm.comclient.protocol.snmp.TrapMonitor] - ***Receive Rmon trap
+17/03/28 14:29:46.110 WARN  [com.jhw.adm.comclient.protocol.snmp.TrapMonitor$ConsumeTrap] - TrapQueue empty!
+17/03/28 14:29:55.800 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:29:55.821 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:29:55.821 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:29:55.823 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:29:56.954 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:29:56.954 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - MsgName：TOPOSEARCH,msgID：1
+17/03/28 14:29:56.955 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:29:56.964 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Start ip:192.168.1.37
+17/03/28 14:29:56.965 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Ip Segment:192.168.1.1 - 192.168.1.254
+17/03/28 14:29:56.966 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - TOPOLOGY_THREADPOOL_COUNT >>> 220
+17/03/28 14:29:56.966 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ICMP dectecting......
+17/03/28 14:29:56.967 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ICMP dectect finish -> 0
+17/03/28 14:29:56.989 INFO  [com.jhw.adm.comclient.service.SystemHandler] - ***系统类型: RS608-2GF6T
+17/03/28 14:29:56.997 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - JHW device Type:RS608-2GF6T
+17/03/28 14:29:57.842 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Finish discovery, now Arrangeing data......
+17/03/28 14:29:57.857 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - 发现二层: 192.168.1.37
+17/03/28 14:29:57.859 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Snmp dectecting......
+17/03/28 14:30:00.037 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:30:02.439 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:30:04.860 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:30:07.263 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:30:07.265 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Snmp dectect finish -> 1
+17/03/28 14:30:07.567 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Finish discovery, now Arrangeing data......
+17/03/28 14:30:07.810 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:30:07.840 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:30:07.842 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:30:07.843 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:30:08.606 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ***拓扑发现结束***
+17/03/28 14:30:19.813 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:30:19.826 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:30:19.826 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:30:19.826 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:30:31.819 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:30:31.850 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:30:31.851 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:30:31.852 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:30:43.829 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:30:43.864 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:30:43.865 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:30:43.866 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:30:55.838 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:30:55.867 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:30:55.868 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:30:55.868 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:30:57.049 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:30:57.050 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - MsgName：TOPOSEARCH,msgID：1
+17/03/28 14:30:57.050 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:30:57.073 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Start ip:192.168.1.37
+17/03/28 14:30:57.074 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Ip Segment:192.168.1.1 - 192.168.1.254
+17/03/28 14:30:57.074 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - TOPOLOGY_THREADPOOL_COUNT >>> 220
+17/03/28 14:30:57.074 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ICMP dectecting......
+17/03/28 14:30:57.074 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ICMP dectect finish -> 0
+17/03/28 14:30:57.086 INFO  [com.jhw.adm.comclient.service.SystemHandler] - ***系统类型: RS608-2GF6T
+17/03/28 14:30:57.093 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - JHW device Type:RS608-2GF6T
+17/03/28 14:30:57.885 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Finish discovery, now Arrangeing data......
+17/03/28 14:30:57.892 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - 发现二层: 192.168.1.37
+17/03/28 14:30:57.894 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Snmp dectecting......
+17/03/28 14:31:00.063 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:31:02.467 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:31:04.869 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:31:07.287 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:31:07.289 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Snmp dectect finish -> 1
+17/03/28 14:31:07.585 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Finish discovery, now Arrangeing data......
+17/03/28 14:31:07.839 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:31:07.870 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:31:07.871 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:31:07.873 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:31:08.603 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ***拓扑发现结束***
+17/03/28 14:31:19.842 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:31:19.873 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:31:19.873 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:31:19.874 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:31:31.853 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:31:31.883 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:31:31.884 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:31:31.885 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:31:43.864 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:31:43.893 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:31:43.894 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:31:43.894 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:31:55.871 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:31:55.901 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:31:55.902 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:31:55.903 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:31:57.006 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:31:57.007 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - MsgName：TOPOSEARCH,msgID：1
+17/03/28 14:31:57.007 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:31:57.031 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Start ip:192.168.1.37
+17/03/28 14:31:57.031 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Ip Segment:192.168.1.1 - 192.168.1.254
+17/03/28 14:31:57.031 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - TOPOLOGY_THREADPOOL_COUNT >>> 220
+17/03/28 14:31:57.031 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ICMP dectecting......
+17/03/28 14:31:57.032 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ICMP dectect finish -> 0
+17/03/28 14:31:57.043 INFO  [com.jhw.adm.comclient.service.SystemHandler] - ***系统类型: RS608-2GF6T
+17/03/28 14:31:57.049 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - JHW device Type:RS608-2GF6T
+17/03/28 14:31:57.824 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Finish discovery, now Arrangeing data......
+17/03/28 14:31:57.839 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - 发现二层: 192.168.1.37
+17/03/28 14:31:57.840 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Snmp dectecting......
+17/03/28 14:31:59.996 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:32:02.400 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:32:04.801 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:32:07.219 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:32:07.220 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Snmp dectect finish -> 1
+17/03/28 14:32:07.304 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Finish discovery, now Arrangeing data......
+17/03/28 14:32:07.873 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:32:07.902 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:32:07.903 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:32:07.904 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:32:08.326 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ***拓扑发现结束***
+17/03/28 14:32:19.882 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:32:19.912 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:32:19.913 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:32:19.914 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:32:31.889 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:32:31.922 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:32:31.922 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:32:31.923 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:32:43.899 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:32:43.929 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:32:43.930 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:32:43.930 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:32:55.908 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:32:55.938 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:32:55.939 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:32:55.939 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:32:56.970 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:32:56.970 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - MsgName：TOPOSEARCH,msgID：1
+17/03/28 14:32:56.970 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:32:56.990 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Start ip:192.168.1.37
+17/03/28 14:32:56.990 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Ip Segment:192.168.1.1 - 192.168.1.254
+17/03/28 14:32:56.991 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - TOPOLOGY_THREADPOOL_COUNT >>> 220
+17/03/28 14:32:56.991 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ICMP dectecting......
+17/03/28 14:32:56.991 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ICMP dectect finish -> 0
+17/03/28 14:32:57.008 INFO  [com.jhw.adm.comclient.service.SystemHandler] - ***系统类型: RS608-2GF6T
+17/03/28 14:32:57.015 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - JHW device Type:RS608-2GF6T
+17/03/28 14:32:57.807 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Finish discovery, now Arrangeing data......
+17/03/28 14:32:57.819 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - 发现二层: 192.168.1.37
+17/03/28 14:32:57.820 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Snmp dectecting......
+17/03/28 14:32:59.929 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:33:02.327 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:33:04.727 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:33:04.728 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:33:04.729 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Snmp dectect finish -> 1
+17/03/28 14:33:04.923 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Finish discovery, now Arrangeing data......
+17/03/28 14:33:05.931 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ***拓扑发现结束***
+17/03/28 14:33:07.908 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:33:07.926 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:33:07.927 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:33:07.928 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:33:19.916 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:33:19.945 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:33:19.946 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:33:19.946 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:33:31.925 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:33:31.957 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:33:31.958 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:33:31.958 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:33:43.934 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:33:43.963 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:33:43.964 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:33:43.965 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:33:55.945 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:33:55.976 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:33:55.977 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:33:55.978 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:33:57.042 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:33:57.043 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - MsgName：TOPOSEARCH,msgID：1
+17/03/28 14:33:57.043 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:33:57.071 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Start ip:192.168.1.37
+17/03/28 14:33:57.072 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Ip Segment:192.168.1.1 - 192.168.1.254
+17/03/28 14:33:57.073 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - TOPOLOGY_THREADPOOL_COUNT >>> 220
+17/03/28 14:33:57.073 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ICMP dectecting......
+17/03/28 14:33:57.074 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ICMP dectect finish -> 0
+17/03/28 14:33:57.089 INFO  [com.jhw.adm.comclient.service.SystemHandler] - ***系统类型: RS608-2GF6T
+17/03/28 14:33:57.100 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - JHW device Type:RS608-2GF6T
+17/03/28 14:33:57.898 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Finish discovery, now Arrangeing data......
+17/03/28 14:33:57.909 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - 发现二层: 192.168.1.37
+17/03/28 14:33:57.911 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Snmp dectecting......
+17/03/28 14:34:00.067 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:34:02.468 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:34:04.870 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:34:07.272 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:34:07.273 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Snmp dectect finish -> 1
+17/03/28 14:34:07.342 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Finish discovery, now Arrangeing data......
+17/03/28 14:34:07.948 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:34:07.976 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:34:07.977 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:34:07.978 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:34:08.366 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ***拓扑发现结束***
+17/03/28 14:34:19.963 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:34:19.991 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:34:19.991 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:34:19.992 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:34:31.971 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:34:32.001 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:34:32.002 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:34:32.003 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:34:43.979 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:34:44.009 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:34:44.010 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:34:44.011 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:34:55.987 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:34:56.016 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:34:56.017 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:34:56.017 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:34:57.039 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:34:57.040 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - MsgName：TOPOSEARCH,msgID：1
+17/03/28 14:34:57.040 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:34:57.069 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Start ip:192.168.1.37
+17/03/28 14:34:57.069 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Ip Segment:192.168.1.1 - 192.168.1.254
+17/03/28 14:34:57.070 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - TOPOLOGY_THREADPOOL_COUNT >>> 220
+17/03/28 14:34:57.070 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ICMP dectecting......
+17/03/28 14:34:57.071 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ICMP dectect finish -> 0
+17/03/28 14:34:57.086 INFO  [com.jhw.adm.comclient.service.SystemHandler] - ***系统类型: RS608-2GF6T
+17/03/28 14:34:57.094 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - JHW device Type:RS608-2GF6T
+17/03/28 14:34:57.886 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Finish discovery, now Arrangeing data......
+17/03/28 14:34:57.891 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - 发现二层: 192.168.1.37
+17/03/28 14:34:57.892 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Snmp dectecting......
+17/03/28 14:34:59.983 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:35:02.387 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:35:04.801 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:35:07.200 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:35:07.201 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Snmp dectect finish -> 1
+17/03/28 14:35:07.359 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Finish discovery, now Arrangeing data......
+17/03/28 14:35:07.994 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:35:08.015 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:35:08.015 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:35:08.016 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:35:08.370 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ***拓扑发现结束***
+17/03/28 14:35:20.005 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:35:20.023 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:35:20.023 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:35:20.024 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:35:32.012 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:35:32.044 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:35:32.045 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:35:32.045 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:35:44.018 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:35:44.046 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:35:44.047 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:35:44.047 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:35:56.023 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:35:56.053 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:35:56.054 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:35:56.054 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:35:57.042 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:35:57.043 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - MsgName：TOPOSEARCH,msgID：1
+17/03/28 14:35:57.043 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:35:57.063 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Start ip:192.168.1.37
+17/03/28 14:35:57.063 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Ip Segment:192.168.1.1 - 192.168.1.254
+17/03/28 14:35:57.063 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - TOPOLOGY_THREADPOOL_COUNT >>> 220
+17/03/28 14:35:57.064 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ICMP dectecting......
+17/03/28 14:35:57.064 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ICMP dectect finish -> 0
+17/03/28 14:35:57.075 INFO  [com.jhw.adm.comclient.service.SystemHandler] - ***系统类型: RS608-2GF6T
+17/03/28 14:35:57.082 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - JHW device Type:RS608-2GF6T
+17/03/28 14:35:57.938 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Finish discovery, now Arrangeing data......
+17/03/28 14:35:57.949 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - 发现二层: 192.168.1.37
+17/03/28 14:35:57.950 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Snmp dectecting......
+17/03/28 14:36:00.049 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:36:02.448 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:36:04.847 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:36:07.246 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:36:07.248 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Snmp dectect finish -> 1
+17/03/28 14:36:07.380 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Finish discovery, now Arrangeing data......
+17/03/28 14:36:08.024 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:36:08.053 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:36:08.054 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:36:08.054 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:36:08.400 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ***拓扑发现结束***
+17/03/28 14:36:20.025 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:36:20.034 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:36:20.034 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:36:20.035 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:36:30.824 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:36:30.825 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - MsgName：TOPOSEARCH,msgID：1
+17/03/28 14:36:30.825 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:36:30.838 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Start ip:192.168.1.37
+17/03/28 14:36:30.839 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Ip Segment:192.168.1.1 - 192.168.1.254
+17/03/28 14:36:30.839 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - TOPOLOGY_THREADPOOL_COUNT >>> 220
+17/03/28 14:36:30.839 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ICMP dectecting......
+17/03/28 14:36:30.839 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ICMP dectect finish -> 0
+17/03/28 14:36:30.851 INFO  [com.jhw.adm.comclient.service.SystemHandler] - ***系统类型: RS608-2GF6T
+17/03/28 14:36:30.857 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - JHW device Type:RS608-2GF6T
+17/03/28 14:36:31.648 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Finish discovery, now Arrangeing data......
+17/03/28 14:36:31.661 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - 发现二层: 192.168.1.37
+17/03/28 14:36:31.662 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Snmp dectecting......
+17/03/28 14:36:32.025 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:36:32.045 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:36:32.046 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:36:32.046 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:36:33.764 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:36:36.167 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:36:38.566 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:36:38.567 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:36:38.574 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Snmp dectect finish -> 1
+17/03/28 14:36:38.899 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Finish discovery, now Arrangeing data......
+17/03/28 14:36:39.909 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ***拓扑发现结束***
+17/03/28 14:36:44.034 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:36:44.062 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:36:44.063 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:36:44.064 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:36:56.045 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:36:56.075 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:36:56.076 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:36:56.076 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:36:57.035 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:36:57.036 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - MsgName：TOPOSEARCH,msgID：1
+17/03/28 14:36:57.036 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:36:57.047 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Start ip:192.168.1.37
+17/03/28 14:36:57.048 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Ip Segment:192.168.1.1 - 192.168.1.254
+17/03/28 14:36:57.048 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - TOPOLOGY_THREADPOOL_COUNT >>> 220
+17/03/28 14:36:57.048 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ICMP dectecting......
+17/03/28 14:36:57.049 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ICMP dectect finish -> 0
+17/03/28 14:36:57.062 INFO  [com.jhw.adm.comclient.service.SystemHandler] - ***系统类型: RS608-2GF6T
+17/03/28 14:36:57.069 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - JHW device Type:RS608-2GF6T
+17/03/28 14:36:57.854 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Finish discovery, now Arrangeing data......
+17/03/28 14:36:57.859 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - 发现二层: 192.168.1.37
+17/03/28 14:36:57.860 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Snmp dectecting......
+17/03/28 14:37:00.029 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:37:02.429 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:37:04.832 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:37:07.230 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:37:07.230 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Snmp dectect finish -> 1
+17/03/28 14:37:07.417 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Finish discovery, now Arrangeing data......
+17/03/28 14:37:08.054 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:37:08.083 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:37:08.084 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:37:08.084 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:37:08.444 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ***拓扑发现结束***
+17/03/28 14:37:20.064 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:37:20.082 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:37:20.083 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:37:20.083 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:37:30.855 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:37:30.855 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - MsgName：TOPOSEARCH,msgID：1
+17/03/28 14:37:30.856 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:37:30.863 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Start ip:192.168.1.37
+17/03/28 14:37:30.864 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Ip Segment:192.168.1.1 - 192.168.1.254
+17/03/28 14:37:30.864 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - TOPOLOGY_THREADPOOL_COUNT >>> 220
+17/03/28 14:37:30.864 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ICMP dectecting......
+17/03/28 14:37:30.864 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ICMP dectect finish -> 0
+17/03/28 14:37:30.875 INFO  [com.jhw.adm.comclient.service.SystemHandler] - ***系统类型: RS608-2GF6T
+17/03/28 14:37:30.883 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - JHW device Type:RS608-2GF6T
+17/03/28 14:37:31.650 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Finish discovery, now Arrangeing data......
+17/03/28 14:37:31.654 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - 发现二层: 192.168.1.37
+17/03/28 14:37:31.655 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Snmp dectecting......
+17/03/28 14:37:32.064 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:37:32.082 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:37:32.082 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:37:32.082 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:37:33.763 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:37:33.764 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:37:36.963 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:37:39.364 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:37:39.365 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Snmp dectect finish -> 1
+17/03/28 14:37:39.537 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Finish discovery, now Arrangeing data......
+17/03/28 14:37:40.565 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ***拓扑发现结束***
+17/03/28 14:37:44.073 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:37:44.088 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:37:44.088 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:37:44.088 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:37:56.078 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:37:56.106 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:37:56.107 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:37:56.107 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:37:57.030 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:37:57.031 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - MsgName：TOPOSEARCH,msgID：1
+17/03/28 14:37:57.032 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:37:57.043 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Start ip:192.168.1.37
+17/03/28 14:37:57.043 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Ip Segment:192.168.1.1 - 192.168.1.254
+17/03/28 14:37:57.044 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - TOPOLOGY_THREADPOOL_COUNT >>> 220
+17/03/28 14:37:57.044 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ICMP dectecting......
+17/03/28 14:37:57.044 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ICMP dectect finish -> 0
+17/03/28 14:37:57.057 INFO  [com.jhw.adm.comclient.service.SystemHandler] - ***系统类型: RS608-2GF6T
+17/03/28 14:37:57.065 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - JHW device Type:RS608-2GF6T
+17/03/28 14:37:57.847 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Finish discovery, now Arrangeing data......
+17/03/28 14:37:57.852 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - 发现二层: 192.168.1.37
+17/03/28 14:37:57.853 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Snmp dectecting......
+17/03/28 14:37:59.965 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:38:02.363 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:38:02.363 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:38:05.562 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:38:05.562 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Snmp dectect finish -> 1
+17/03/28 14:38:05.656 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Finish discovery, now Arrangeing data......
+17/03/28 14:38:06.669 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ***拓扑发现结束***
+17/03/28 14:38:08.087 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:38:08.105 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:38:08.106 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:38:08.106 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:38:20.094 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:38:20.113 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:38:20.114 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:38:20.115 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:38:30.891 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:38:30.892 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - MsgName：TOPOSEARCH,msgID：1
+17/03/28 14:38:30.893 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:38:30.905 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Start ip:192.168.1.37
+17/03/28 14:38:30.905 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Ip Segment:192.168.1.1 - 192.168.1.254
+17/03/28 14:38:30.906 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - TOPOLOGY_THREADPOOL_COUNT >>> 220
+17/03/28 14:38:30.906 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ICMP dectecting......
+17/03/28 14:38:30.906 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ICMP dectect finish -> 0
+17/03/28 14:38:30.919 INFO  [com.jhw.adm.comclient.service.SystemHandler] - ***系统类型: RS608-2GF6T
+17/03/28 14:38:30.926 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - JHW device Type:RS608-2GF6T
+17/03/28 14:38:31.701 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Finish discovery, now Arrangeing data......
+17/03/28 14:38:31.705 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - 发现二层: 192.168.1.37
+17/03/28 14:38:31.706 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Snmp dectecting......
+17/03/28 14:38:32.095 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:38:32.123 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:38:32.123 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:38:32.124 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:38:33.826 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:38:36.225 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:38:38.624 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:38:41.023 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+17/03/28 14:38:41.023 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Snmp dectect finish -> 1
+17/03/28 14:38:41.076 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Finish discovery, now Arrangeing data......
+17/03/28 14:38:42.099 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ***拓扑发现结束***
+17/03/28 14:38:44.103 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:38:44.133 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:38:44.133 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:38:44.134 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:38:56.107 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:38:56.142 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:38:56.143 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:38:56.144 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:39:08.111 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:39:08.120 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:39:08.121 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:39:08.121 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:39:20.115 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:39:20.139 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:39:20.140 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:39:20.141 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:39:32.121 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:39:32.130 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:39:32.130 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:39:32.131 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:39:44.127 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:39:44.140 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:39:44.141 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:39:44.141 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:39:56.134 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:39:56.165 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:39:56.165 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:39:56.166 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:40:08.140 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:40:08.169 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:40:08.170 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:40:08.170 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:40:20.146 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:40:20.175 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:40:20.176 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:40:20.176 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:40:32.153 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:40:32.182 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:40:32.183 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:40:32.184 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:40:44.162 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:40:44.191 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:40:44.192 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:40:44.192 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:40:56.166 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:40:56.196 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:40:56.197 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:40:56.197 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:41:08.171 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:41:08.201 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:41:08.202 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:41:08.203 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:41:20.179 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:41:20.206 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:41:20.207 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:41:20.208 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:41:32.186 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:41:32.217 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:41:32.218 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:41:32.219 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:41:44.194 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:41:44.224 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:41:44.224 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:41:44.225 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:41:56.201 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:41:56.232 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:41:56.232 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:41:56.233 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:42:08.208 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:42:08.232 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:42:08.233 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:42:08.233 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:42:20.212 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:42:20.242 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:42:20.243 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:42:20.244 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:42:32.219 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:42:32.248 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:42:32.249 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:42:32.249 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:42:44.220 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:42:44.251 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:42:44.251 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:42:44.252 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:42:56.227 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:42:56.255 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:42:56.256 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:42:56.257 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:43:08.234 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:43:08.263 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:43:08.264 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:43:08.265 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:43:20.239 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:43:20.270 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:43:20.271 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:43:20.271 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:43:32.247 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:43:32.279 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:43:32.280 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:43:32.281 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:43:44.255 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:43:44.284 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:43:44.284 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:43:44.285 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:43:56.261 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:43:56.287 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:43:56.288 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:43:56.288 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:44:08.267 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:44:08.298 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:44:08.299 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:44:08.300 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:44:20.273 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:44:20.302 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:44:20.303 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:44:20.303 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:44:32.281 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:44:32.310 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:44:32.311 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:44:32.311 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:44:44.289 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:44:44.317 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:44:44.317 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:44:44.318 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:44:56.288 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:44:56.309 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:44:56.309 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:44:56.310 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:45:08.293 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:45:08.324 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:45:08.324 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:45:08.325 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:45:20.299 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:45:20.326 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:45:20.327 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:45:20.328 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:45:32.301 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:45:32.330 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:45:32.331 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:45:32.331 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:45:44.305 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:45:44.334 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:45:44.335 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:45:44.335 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:45:56.310 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:45:56.339 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:45:56.340 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:45:56.341 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:46:08.315 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:46:08.343 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:46:08.344 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:46:08.344 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:46:20.318 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:46:20.349 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:46:20.350 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:46:20.351 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:46:32.326 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:46:32.357 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:46:32.357 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:46:32.358 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:46:44.328 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:46:44.356 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:46:44.357 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:46:44.357 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:46:56.336 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:46:56.365 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:46:56.365 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:46:56.366 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:47:08.344 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:47:08.373 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:47:08.374 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:47:08.374 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:47:20.350 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:47:20.378 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:47:20.379 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:47:20.380 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:47:32.356 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:47:32.382 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:47:32.382 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:47:32.382 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:47:44.360 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:47:44.388 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:47:44.389 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:47:44.390 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:47:56.366 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:47:56.398 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:47:56.399 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:47:56.399 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:48:08.367 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:48:08.395 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:48:08.396 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:48:08.397 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:48:20.370 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:48:20.400 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:48:20.401 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:48:20.401 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:48:32.374 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:48:32.404 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:48:32.404 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:48:32.405 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:48:44.378 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:48:44.406 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:48:44.407 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:48:44.407 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:48:56.386 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:48:56.414 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:48:56.415 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:48:56.416 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:49:08.388 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:49:08.406 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:49:08.406 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:49:08.407 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:49:20.394 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:49:20.413 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:49:20.414 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:49:20.414 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:49:32.400 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:49:32.430 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:49:32.430 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:49:32.431 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:49:44.406 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:49:44.434 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:49:44.435 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:49:44.436 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:49:56.422 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:49:56.451 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:49:56.452 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:49:56.453 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:50:08.428 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:50:08.458 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:50:08.459 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:50:08.460 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:50:20.435 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:50:20.463 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:50:20.463 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:50:20.463 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:50:32.441 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:50:32.470 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:50:32.471 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:50:32.472 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:50:44.448 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:50:44.477 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:50:44.478 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:50:44.478 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:50:56.449 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:50:56.477 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:50:56.478 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:50:56.479 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:51:08.456 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:51:08.485 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:51:08.486 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:51:08.486 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:51:20.459 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:51:20.488 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:51:20.489 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:51:20.490 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:51:32.465 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:51:32.494 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:51:32.495 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:51:32.496 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:51:44.472 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:51:44.502 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:51:44.503 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:51:44.504 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:51:56.477 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:51:56.506 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:51:56.507 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:51:56.507 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:52:08.485 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:52:08.495 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:52:08.495 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:52:08.495 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:52:20.491 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:52:20.522 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:52:20.523 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:52:20.523 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:52:32.499 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:52:32.530 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:52:32.530 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:52:32.531 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:52:44.506 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:52:44.537 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:52:44.538 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:52:44.538 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:52:56.516 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:52:56.535 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:52:56.536 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:52:56.537 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:53:08.525 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:53:08.554 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:53:08.555 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:53:08.556 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:53:20.532 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:53:20.560 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:53:20.561 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:53:20.562 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:53:32.538 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:53:32.551 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:53:32.552 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:53:32.552 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:53:44.543 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:53:44.574 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:53:44.575 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:53:44.576 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:53:56.549 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:53:56.579 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:53:56.580 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:53:56.581 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:54:08.555 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:54:08.585 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:54:08.585 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:54:08.586 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:54:20.559 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:54:20.588 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:54:20.589 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:54:20.590 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:54:32.565 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:54:32.583 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:54:32.584 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:54:32.585 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:54:44.567 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:54:44.598 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:54:44.599 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:54:44.600 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:54:56.575 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:54:56.590 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:54:56.591 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:54:56.591 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:55:08.579 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:55:08.608 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:55:08.609 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:55:08.609 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:55:20.584 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:55:20.614 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:55:20.615 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:55:20.616 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:55:32.592 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:55:32.623 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:55:32.624 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:55:32.625 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:55:44.599 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:55:44.627 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:55:44.628 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:55:44.629 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:55:56.606 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:55:56.636 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:55:56.636 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:55:56.637 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:56:08.612 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:56:08.641 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:56:08.641 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:56:08.642 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:56:20.617 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:56:20.646 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:56:20.646 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:56:20.647 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:56:32.627 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:56:32.656 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:56:32.657 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:56:32.657 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:56:44.636 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:56:44.664 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:56:44.665 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:56:44.666 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:56:56.642 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:56:56.671 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:56:56.672 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:56:56.672 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:57:08.648 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:57:08.679 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:57:08.679 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:57:08.680 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:57:20.656 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:57:20.687 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:57:20.688 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:57:20.689 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:57:32.661 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:57:32.690 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:57:32.691 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:57:32.692 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:57:44.668 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:57:44.697 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:57:44.698 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:57:44.699 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:57:56.677 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:57:56.706 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:57:56.707 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:57:56.707 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:58:08.685 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:58:08.694 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:58:08.695 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:58:08.695 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:58:20.685 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:58:20.710 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:58:20.710 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:58:20.711 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:58:32.686 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:58:32.693 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:58:32.693 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:58:32.693 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:58:44.687 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:58:44.715 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:58:44.715 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:58:44.716 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:58:56.687 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:58:56.711 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:58:56.712 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:58:56.712 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:59:08.687 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:59:08.695 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:59:08.695 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:59:08.695 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:59:20.687 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:59:20.703 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:59:20.703 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:59:20.704 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:59:32.687 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:59:32.696 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:59:32.697 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:59:32.697 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 14:59:44.688 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:59:44.717 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:59:44.718 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:59:44.719 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 14:59:56.689 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 14:59:56.717 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 14:59:56.718 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 14:59:56.719 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 15:00:08.689 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 15:00:08.699 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 15:00:08.699 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 15:00:08.699 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 15:00:20.690 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 15:00:20.718 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 15:00:20.719 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 15:00:20.720 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 15:00:32.690 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 15:00:32.711 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 15:00:32.711 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 15:00:32.712 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 15:00:44.691 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 15:00:44.702 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 15:00:44.702 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 15:00:44.703 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 15:00:56.692 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 15:00:56.722 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 15:00:56.723 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 15:00:56.724 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 15:01:08.692 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 15:01:08.713 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 15:01:08.714 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 15:01:08.714 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 15:01:20.693 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 15:01:20.708 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 15:01:20.708 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 15:01:20.708 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 15:01:32.703 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 15:01:32.715 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 15:01:32.715 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 15:01:32.715 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 15:01:44.710 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 15:01:44.739 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 15:01:44.739 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 15:01:44.740 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 15:01:56.714 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 15:01:56.728 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 15:01:56.728 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 15:01:56.729 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 15:02:08.718 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 15:02:08.746 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 15:02:08.747 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 15:02:08.748 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+17/03/28 15:02:20.725 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+17/03/28 15:02:20.735 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+17/03/28 15:02:20.735 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+17/03/28 15:02:20.735 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+17/03/28 15:02:26.784 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+17/03/28 15:02:26.867 INFO  [com.jhw.adm.comclient.jms.MessageSend] - true false
+17/03/28 15:02:26.867 WARN  [com.jhw.adm.comclient.jms.MessageSend] - 2&&&Receive Thread alive
+17/03/28 15:02:26.879 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/28 15:02:26.880 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@31bcc8: startup date [Tue Mar 28 14:29:38 CST 2017]; root of context hierarchy
+17/03/28 15:02:26.881 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+17/03/28 15:02:26.883 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/28 15:02:26.884 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@133fa14: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+17/03/28 15:02:26.885 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+17/03/28 15:02:26.886 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+17/03/28 15:02:26.886 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+17/03/28 15:02:26.886 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17/03/28 15:02:26.886 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.

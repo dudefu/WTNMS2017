@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="
+			http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+			http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+			http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+	<bean id="topologyHandler" class="com.jhw.adm.comclient.service.topology.TopologyHandler">
+		<property name="snmpV2"><ref bean="snmpV2"/></property>
+		<property name="diagnoseView"><ref bean="diagnoseView"/></property>
+	</bean>	
+	
+	<bean id="dot1xHandler" class="com.jhw.adm.comclient.service.Dot1xHandler">
+		<property name="snmpV2"><ref bean="snmpV2"/></property>
+		<property name="dataBufferBuilder"><ref bean="dataBufferBuilder"/></property>	
+		<property name="portHandler"><ref bean="portHandler"/></property>
+	</bean>	
+	
+	<bean id="ghringHandler" class="com.jhw.adm.comclient.service.GhringHandler">
+		<property name="snmpV2"><ref bean="snmpV2"/></property>
+		<property name="dataBufferBuilder"><ref bean="dataBufferBuilder"/></property>
+	</bean>
+	
+	<bean id="igmpHandler" class="com.jhw.adm.comclient.service.IgmpHandler">
+		<property name="snmpV2"><ref bean="snmpV2"/></property>
+		<property name="dataBufferBuilder"><ref bean="dataBufferBuilder"/></property>	
+		<property name="portHandler"><ref bean="portHandler"/></property>
+	</bean>
+	
+	<bean id="lacpHandler" class="com.jhw.adm.comclient.service.LacpHandler">
+		<property name="snmpV2"><ref bean="snmpV2"/></property>
+		<property name="dataBufferBuilder"><ref bean="dataBufferBuilder"/></property>	
+		<property name="portHandler"><ref bean="portHandler"/></property>	
+	</bean>
+	
+	<bean id="lldpHandler" class="com.jhw.adm.comclient.service.LldpHandler">
+		<property name="snmpV2"><ref bean="snmpV2"/></property>
+		<property name="portHandler"><ref bean="portHandler"/></property>
+		<property name="lacpHandler"><ref bean="lacpHandler"/></property>	
+		<property name="dataBufferBuilder"><ref bean="dataBufferBuilder"/></property>	
+		<property name="diagnoseView"><ref bean="diagnoseView"/></property>
+		<property name="topologyHandler"><ref bean="topologyHandler"/></property>
+	</bean>
+	
+	<bean id="macHandler" class="com.jhw.adm.comclient.service.MacHandler">
+		<property name="snmpV2"><ref bean="snmpV2"/></property>
+		<property name="dataBufferBuilder"><ref bean="dataBufferBuilder"/></property>	
+		<property name="portHandler"><ref bean="portHandler"/></property>
+	</bean>
+	
+	<bean id="mirrorHandler" class="com.jhw.adm.comclient.service.MirrorHandler">
+	<property name="snmpV2"><ref bean="snmpV2"/></property>
+	</bean>
+	
+	<bean id="performanceHandler" class="com.jhw.adm.comclient.service.performance.PerformanceHandler">
+	</bean>
+	
+	<bean id="pingHandler" class="com.jhw.adm.comclient.service.PingHandler">
+		<property name="snmpV2"><ref bean="snmpV2"/></property>	
+	</bean>
+	
+	<bean id="portHandler" class="com.jhw.adm.comclient.service.PortHandler" destroy-method="clear">
+		<property name="snmpV2"><ref bean="snmpV2"/></property>
+		<property name="dataBufferBuilder"><ref bean="dataBufferBuilder"/></property>
+		<property name="topologyHandler"><ref bean="topologyHandler"/></property>
+	</bean>
+	
+	<bean id="qosHandler" class="com.jhw.adm.comclient.service.QosHandler">
+		<property name="snmpV2"><ref bean="snmpV2"/></property>
+		<property name="dataBufferBuilder"><ref bean="dataBufferBuilder"/></property>	
+		<property name="portHandler"><ref bean="portHandler"/></property>
+	</bean>
+	
+	<bean id="serialHandler" class="com.jhw.adm.comclient.service.SerialHandler">
+		<property name="snmpV2"><ref bean="snmpV2"/></property>
+		<property name="dataBufferBuilder"><ref bean="dataBufferBuilder"/></property>		
+	</bean>
+	
+	<bean id="snmpHandler" class="com.jhw.adm.comclient.service.SnmpHandler">
+		<property name="snmpV2"><ref bean="snmpV2"/></property>	
+		<property name="dataBufferBuilder"><ref bean="dataBufferBuilder"/></property>		
+	</bean>
+	
+	<bean id="sntpHandler" class="com.jhw.adm.comclient.service.SntpHandler">
+		<property name="snmpV2"><ref bean="snmpV2"/></property>	
+	</bean>
+	
+	<bean id="stpHandler" class="com.jhw.adm.comclient.service.StpHandler">
+		<property name="snmpV2"><ref bean="snmpV2"/></property>
+		<property name="dataBufferBuilder"><ref bean="dataBufferBuilder"/></property>
+		<property name="portHandler"><ref bean="portHandler"/></property>
+	</bean>
+	
+	<bean id="systemHandler" class="com.jhw.adm.comclient.service.SystemHandler" destroy-method="clear">
+		<property name="snmpV2"><ref bean="snmpV2"/></property>
+		<property name="dataBufferBuilder"><ref bean="dataBufferBuilder"/></property>
+	</bean>
+	
+	<bean id="trunkHandler" class="com.jhw.adm.comclient.service.TrunkHandler">
+		<property name="snmpV2"><ref bean="snmpV2"/></property>
+		<property name="dataBufferBuilder"><ref bean="dataBufferBuilder"/></property>	
+		<property name="portHandler"><ref bean="portHandler"/></property>		
+	</bean>
+	
+	<bean id="vlanHandler" class="com.jhw.adm.comclient.service.VlanHandler">
+		<property name="snmpV2"><ref bean="snmpV2"/></property>
+		<property name="dataBufferBuilder"><ref bean="dataBufferBuilder"/></property>	
+		<property name="portHandler"><ref bean="portHandler"/></property>	
+	</bean>	
+	
+	<bean id="rmonHandler" class="com.jhw.adm.comclient.service.RmonHandler">
+		<property name="snmpV2"><ref bean="snmpV2"/></property>
+		<property name="dataBufferBuilder"><ref bean="dataBufferBuilder"/></property>	
+	</bean>		
+	<bean id="emulateHandler" class="com.jhw.adm.comclient.service.EmulateHandler">
+		<property name="snmpV2"><ref bean="snmpV2"/></property>
+		<property name="portHandler"><ref bean="portHandler"/></property>	
+	</bean>	
+	
+	<!-- Epon -->
+	<bean id="eponHandler" class="com.jhw.adm.comclient.service.topology.epon.EponHandler">
+		<property name="snmpV2"><ref bean="snmpV2"/></property>
+		<property name="diagnoseView"><ref bean="diagnoseView"/></property>
+	</bean>	
+	
+	
+	<bean id="systemUpgradeHandler" class="com.jhw.adm.comclient.service.SystemUpgradeHandler">
+		<property name="snmpV2"><ref bean="snmpV2"/></property>
+		<property name="trapMonitor"><ref bean="trapMonitor"/></property>	
+		<property name="dataBufferBuilder"><ref bean="dataBufferBuilder"/></property>	
+	</bean>	
+
+	<bean id="switcherUserHandle" class="com.jhw.adm.comclient.service.SwitcherUserHandle">
+		<property name="snmpV2"><ref bean="snmpV2"/></property>
+		<property name="dataBufferBuilder"><ref bean="dataBufferBuilder"/></property>	
+	</bean>	
+	
+	<bean id="deviceLogHandler" class="com.jhw.adm.comclient.service.DeviceLogHandler">
+		<property name="snmpV2"><ref bean="snmpV2"/></property>
+		<property name="dataBufferBuilder"><ref bean="dataBufferBuilder"/></property>	
+	</bean>		
+</beans>

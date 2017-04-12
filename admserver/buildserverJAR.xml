@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project name="ear" default="main" basedir=".">
+	<property file="build.properties" />
+	
+	<property name="app.dir" value="${basedir}" />
+	<property name="src.META-INF.dir" value="${app.dir}\${name.ejbModule.prop}\META-INF" />
+	<property name="classes.META-INF.dir" value="${app.dir}\${name.classes.prop}\META-INF" />
+	<property name="admServer.jar.name" value="${name.admserver.jar.prop}" />
+	
+	<property name="clientAnt.dir" value="../admserverClient/buildclientJAR.xml" />
+	<target name="build" description="调用ant文件打包">
+		<ant antfile="${clientAnt.dir}" />
+	</target>
+	
+
+	<target name="copy" description="把admserverclient.jar拷贝到lib中">
+		<copy todir="lib">
+			<fileset dir="${ejb.dir}/dist/">
+				<include name="*.jar" />
+			</fileset>
+		</copy>
+	</target>
+	
+	<target name="init" depends="copy" description="创建目录">
+		<mkdir dir="${name.classes.prop}" />
+	</target>
+	
+	<path id="jboss-lib-classpath" description="编译用到的jar包">
+		<fileset dir="lib">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+		
+	<target name="compile" depends="init" description="编绎代码admserver">
+		<javac destdir="${name.classes.prop}" source="1.6" verbose="false" target="1.6" debug="false" deprecation="false" optimize="true" failonerror="true">
+			<src path="${name.ejbModule.prop}" />
+			<classpath refid="jboss-lib-classpath" />
+			<compilerarg line="-encoding gbk -Xlint:unchecked" />
+		</javac>
+	</target>
+	
+	
+	
+	<target name="copyfile" depends="compile" description="把代码META-INF中所有的文件拷贝到创建的文件夹classes\META-INF中">
+		<mkdir dir="${classes.META-INF.dir}" />
+		<copy todir="${classes.META-INF.dir}">
+			<fileset dir="${src.META-INF.dir}">
+				<include name="*.*" />
+			</fileset>
+		</copy>
+	</target>
+	
+	<target name="jar" depends="copyfile" description="生成admserver.jar">
+		<jar destfile="dist/${admServer.jar.name}" basedir="${name.classes.prop}" manifest="${classes.META-INF.dir}\MANIFEST.MF" />
+	</target>
+
+	<target name="main" depends="clean,jar" description="主运行命令" />
+	<mkdir dir="dist" />
+
+	<target name="clean" description="删除admserver.jar">
+		<delete>
+			<fileset dir="dist/">
+				<include name="${admServer.jar.name}" />
+			</fileset>
+		</delete>
+
+	</target>
+
+
+</project>

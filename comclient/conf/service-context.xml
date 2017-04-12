@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="
+			http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+			http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+			http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+	<bean id="topologyService" class="com.jhw.adm.comclient.service.topology.TopologyService" init-method="init">
+		<property name="systemHandler"><ref bean="systemHandler"/></property>
+		<property name="portHandler"><ref bean="portHandler"/></property>
+		<property name="lldpHandler"><ref bean="lldpHandler"/></property>	
+		<property name="macHandler"><ref bean="macHandler"/></property>
+		<property name="ghringHandler"><ref bean="ghringHandler"/></property>
+		<property name="topologyHandler"><ref bean="topologyHandler"/></property>
+		<property name="eponHandler"><ref bean="eponHandler"/></property>
+		<property name="serialHandler"><ref bean="serialHandler"/></property>						
+		<property name="messageSend"><ref bean="messageSend"/></property>	
+		<property name="snmpV2"><ref bean="snmpV2"/></property>
+		<property name="messageQueueHandler"><ref bean="messageQueueHandler"/></property>	
+	</bean>	
+	<bean id="synEquipmentService" class="com.jhw.adm.comclient.service.synEquipment.SynEquipmentService" init-method="init">
+		<property name="systemHandler"><ref bean="systemHandler"/></property>
+		<property name="dot1xHandler"><ref bean="dot1xHandler"/></property>
+		<property name="igmpHandler"><ref bean="igmpHandler"/></property>
+		<property name="vlanHandler"><ref bean="vlanHandler"/></property>
+		<property name="mirrorHandler"><ref bean="mirrorHandler"/></property>
+		<property name="qosHandler"><ref bean="qosHandler"/></property>
+		<property name="stpHandler"><ref bean="stpHandler"/></property>
+		<property name="sntpHandler"><ref bean="sntpHandler"/></property>
+		<property name="macHandler"><ref bean="macHandler"/></property>
+		<property name="ghringHandler"><ref bean="ghringHandler"/></property>
+		<property name="lacpHandler"><ref bean="lacpHandler"/></property>
+		<property name="trunkHandler"><ref bean="trunkHandler"/></property>
+		<property name="serialHandler"><ref bean="serialHandler"/></property>
+		<property name="rmonHandler"><ref bean="rmonHandler"/></property>
+		<property name="lldpHandler"><ref bean="lldpHandler"/></property>
+		<property name="snmpHandler"><ref bean="snmpHandler"/></property>
+		<property name="switcherUserHandle"><ref bean="switcherUserHandle"/></property>
+		<property name="messageSend"><ref bean="messageSend"/></property>
+		<!-- Epon -->
+		<property name="oltBaseConfigHandler"><ref bean="oltBaseConfigHandler"/></property>
+		<property name="oltBusinessConfigHandler"><ref bean="oltBusinessConfigHandler"/></property>
+		<property name="eponHandler"><ref bean="eponHandler"/></property>
+		<!-- Switch3 -->
+		<property name="vlan3Service"><ref bean="vlan3Service"/></property>		
+		<property name="baseConfig3Service"><ref bean="baseConfig3Service"/></property>
+		<property name="stp3Service"><ref bean="stp3Service"/></property>
+		<property name="lldp3Service"><ref bean="lldp3Service"/></property>
+		
+		<property name="messageQueueHandler"><ref bean="messageQueueHandler"/></property>	
+	</bean>
+	<bean id="performanceService" class="com.jhw.adm.comclient.service.performance.PerformanceService">
+		<property name="rmonHandler"><ref bean="rmonHandler"/></property>
+		<property name="systemHandler"><ref bean="systemHandler"/></property>
+		<property name="quartzScheduler"><ref bean="quartzScheduler"/></property>
+		<property name="jobDetail"><ref bean="jobDetail"/></property>	
+		<property name="messageSend"><ref bean="messageSend"/></property>			
+	</bean>			
+	<bean id="pingService" class="com.jhw.adm.comclient.service.PingService">
+		<property name="messageSend"><ref bean="messageSend"/></property>
+	</bean>			
+	<bean id="vlanService" class="com.jhw.adm.comclient.service.VlanService" init-method="init">
+		<property name="systemHandler"><ref bean="systemHandler"/></property>
+		<property name="vlanHandler"><ref bean="vlanHandler"/></property>
+		<property name="messageSend"><ref bean="messageSend"/></property>	
+		<property name="messageQueueHandler"><ref bean="messageQueueHandler"/></property>
+	</bean>		
+	<bean id="macService" class="com.jhw.adm.comclient.service.MacService" init-method="init">
+		<property name="macHandler"><ref bean="macHandler"/></property>
+		<property name="messageSend"><ref bean="messageSend"/></property>	
+		<property name="systemHandler"><ref bean="systemHandler"/></property>
+		<property name="messageQueueHandler"><ref bean="messageQueueHandler"/></property>
+	</bean>		
+	<bean id="mirrorService" class="com.jhw.adm.comclient.service.MirrorService" init-method="init">
+		<property name="mirrorHandler"><ref bean="mirrorHandler"/></property>
+		<property name="messageSend"><ref bean="messageSend"/></property>	
+		<property name="systemHandler"><ref bean="systemHandler"/></property>
+		<property name="messageQueueHandler"><ref bean="messageQueueHandler"/></property>		
+	</bean>
+	<bean id="portService" class="com.jhw.adm.comclient.service.PortService" init-method="init">
+		<property name="portHandler"><ref bean="portHandler"/></property>
+		<property name="messageSend"><ref bean="messageSend"/></property>	
+		<property name="systemHandler"><ref bean="systemHandler"/></property>
+		<property name="messageQueueHandler"><ref bean="messageQueueHandler"/></property>
+	</bean>	
+	<bean id="stpService" class="com.jhw.adm.comclient.service.StpService" init-method="init">
+		<property name="stpHandler"><ref bean="stpHandler"/></property>
+		<property name="messageSend"><ref bean="messageSend"/></property>	
+		<property name="systemHandler"><ref bean="systemHandler"/></property>
+		<property name="messageQueueHandler"><ref bean="messageQueueHandler"/></property>
+	</bean>	
+	<bean id="igmpService" class="com.jhw.adm.comclient.service.IgmpService" init-method="init">
+		<property name="igmpHandler"><ref bean="igmpHandler"/></property>
+		<property name="messageSend"><ref bean="messageSend"/></property>	
+		<property name="systemHandler"><ref bean="systemHandler"/></property>
+		<property name="messageQueueHandler"><ref bean="messageQueueHandler"/></property>		
+	</bean>	
+	<bean id="sntpService" class="com.jhw.adm.comclient.service.SntpService" init-method="init">
+		<property name="sntpHandler"><ref bean="sntpHandler"/></property>
+		<property name="messageSend"><ref bean="messageSend"/></property>	
+		<property name="systemHandler"><ref bean="systemHandler"/></property>
+		<property name="messageQueueHandler"><ref bean="messageQueueHandler"/></property>
+	</bean>		
+	<bean id="dot1xService" class="com.jhw.adm.comclient.service.Dot1xService">
+		<property name="dot1xHandler"><ref bean="dot1xHandler"/></property>
+		<property name="messageSend"><ref bean="messageSend"/></property>	
+	</bean>	
+	<bean id="ghringService" class="com.jhw.adm.comclient.service.GhringService" init-method="init">
+		<property name="ghringHandler"><ref bean="ghringHandler"/></property>
+		<property name="messageSend"><ref bean="messageSend"/></property>	
+		<property name="systemHandler"><ref bean="systemHandler"/></property>
+		<property name="messageQueueHandler"><ref bean="messageQueueHandler"/></property>
+	</bean>		
+	<bean id="qosService" class="com.jhw.adm.comclient.service.QosService" init-method="init">
+		<property name="qosHandler"><ref bean="qosHandler"/></property>
+		<property name="messageSend"><ref bean="messageSend"/></property>	
+		<property name="systemHandler"><ref bean="systemHandler"/></property>
+		<property name="messageQueueHandler"><ref bean="messageQueueHandler"/></property>
+	</bean>	
+	<bean id="trunkService" class="com.jhw.adm.comclient.service.TrunkService" init-method="init">
+		<property name="trunkHandler"><ref bean="trunkHandler"/></property>
+		<property name="messageSend"><ref bean="messageSend"/></property>	
+		<property name="systemHandler"><ref bean="systemHandler"/></property>
+		<property name="messageQueueHandler"><ref bean="messageQueueHandler"/></property>		
+	</bean>		
+	<bean id="serialService" class="com.jhw.adm.comclient.service.SerialService" init-method="init">
+		<property name="serialHandler"><ref bean="serialHandler"/></property>
+		<property name="messageSend"><ref bean="messageSend"/></property>	
+		<property name="systemHandler"><ref bean="systemHandler"/></property>
+		<property name="messageQueueHandler"><ref bean="messageQueueHandler"/></property>
+	</bean>		
+	<bean id="rmonService" class="com.jhw.adm.comclient.service.RmonService" init-method="init">
+		<property name="rmonHandler"><ref bean="rmonHandler"/></property>
+		<property name="messageSend"><ref bean="messageSend"/></property>	
+		<property name="systemHandler"><ref bean="systemHandler"/></property>
+		<property name="messageQueueHandler"><ref bean="messageQueueHandler"/></property>
+	</bean>		
+	<bean id="lldpService" class="com.jhw.adm.comclient.service.LldpService" init-method="init">
+		<property name="lldpHandler"><ref bean="lldpHandler"/></property>
+		<property name="messageSend"><ref bean="messageSend"/></property>	
+		<property name="systemHandler"><ref bean="systemHandler"/></property>
+		<property name="messageQueueHandler"><ref bean="messageQueueHandler"/></property>
+	</bean>		
+	<bean id="lacpService" class="com.jhw.adm.comclient.service.LacpService" init-method="init">
+		<property name="lacpHandler"><ref bean="lacpHandler"/></property>
+		<property name="messageSend"><ref bean="messageSend"/></property>	
+		<property name="systemHandler"><ref bean="systemHandler"/></property>
+		<property name="messageQueueHandler"><ref bean="messageQueueHandler"/></property>		
+	</bean>	
+	<bean id="snmpService" class="com.jhw.adm.comclient.service.SnmpService" init-method="init">
+		<property name="snmpHandler"><ref bean="snmpHandler"/></property>
+		<property name="messageSend"><ref bean="messageSend"/></property>	
+		<property name="systemHandler"><ref bean="systemHandler"/></property>
+		<property name="messageQueueHandler"><ref bean="messageQueueHandler"/></property>
+	</bean>	
+
+	<bean id="systemUpgradeService" class="com.jhw.adm.comclient.service.SystemUpgradeService" destroy-method="stop">
+		<property name="messageSend"><ref bean="messageSend"/></property>		
+		<property name="systemHandler"><ref bean="systemHandler"/></property>
+		<property name="systemUpgradeHandler"><ref bean="systemUpgradeHandler"/></property>
+	</bean>	
+	<bean id="switcherUserService" class="com.jhw.adm.comclient.service.SwitcherUserService" init-method="init">
+		<property name="switcherUserHandle"><ref bean="switcherUserHandle"/></property>
+		<property name="messageSend"><ref bean="messageSend"/></property>		
+		<property name="systemHandler"><ref bean="systemHandler"/></property>
+		<property name="messageQueueHandler"><ref bean="messageQueueHandler"/></property>		
+	</bean>
+	
+	<bean id="emulateService" class="com.jhw.adm.comclient.service.EmulateService">
+		<property name="emulateHandler"><ref bean="emulateHandler"/></property>
+		<property name="messageSend"><ref bean="messageSend"/></property>	
+	</bean>				
+	<bean id="heartbeatService" class="com.jhw.adm.comclient.service.HeartbeatService" destroy-method="stop">
+		<property name="messageSend"><ref bean="messageSend"/></property>	
+	</bean>			
+	
+	<bean id="systemService" class="com.jhw.adm.comclient.service.SystemService" init-method="init">
+		<property name="messageSend"><ref bean="messageSend"/></property>		
+		<property name="systemHandler"><ref bean="systemHandler"/></property>
+		<property name="messageQueueHandler"><ref bean="messageQueueHandler"/></property>
+	</bean>				
+	
+	<bean id="deviceLogService" class="com.jhw.adm.comclient.service.DeviceLogService" init-method="init" destroy-method="clear">
+		<property name="messageSend"><ref bean="messageSend"/></property>
+		<property name="deviceLogHandler"><ref bean="deviceLogHandler"/></property>
+		<property name="messageQueueHandler"><ref bean="messageQueueHandler"/></property>
+		<property name="systemHandler"><ref bean="systemHandler"/></property>
+	</bean>					
+</beans>

@@ -1,0 +1,103 @@
+<project name="server-adm2000" default="main" basedir=".">
+	<property file="build.properties" />
+		
+	<property name="app.dir" value="${basedir}" />
+	
+	<property name="ear.xml.dir" value="buildear.xml" />
+	<target name="build1" description="调用ant文件打包">
+		<ant antfile="${ear.xml.dir}" />
+	</target>
+	
+	<target name="clean1" depends="build1" description="删除jboss中原有的.ear文件">
+		<delete>
+			<fileset dir="${name.jboss.prop}/server/default/deploy/">
+				<include name="*.ear" />
+			</fileset>
+		</delete>
+	</target>
+	
+	<target name="copy1" depends="clean1" description="把.ear文件copy到jboss中">
+		<copy todir="${name.jboss.prop}/server/default/deploy">
+			<fileset dir="dist">
+				<include name="*.ear" />
+			</fileset>
+		</copy>
+	</target>
+	
+	<target name="delete1" depends="copy1" description="删除.ear文件">
+		<delete>
+			<fileset dir="dist/">
+				<include name="*.ear" />
+			</fileset>
+		</delete>
+	</target>
+	
+	<target name="zip1" depends="delete1" description="把jboss压缩为.rar文件">
+		<zip destfile="dist/${name.jboss.rar.prop}">
+			<fileset dir="../${name.jboss.prop}" />
+		</zip>
+	</target>
+	
+	<!--*********************************************************-->
+	
+	<property name="serverAnt.dir" value="buildserverJAR.xml" />
+	<target name="build" description="调用ant文件打包" depends="cleanAll">
+		<ant antfile="${serverAnt.dir}" />
+	</target>
+
+	<target name="copy" depends="build" description="把admserverclient.jar拷贝到dist中">
+		<copy todir="dist">
+			<fileset dir="${ejb.dir}/dist/">
+				<include name="*.jar" />
+			</fileset>
+		</copy>
+	</target>
+	
+	<target name="zip" depends="copy" description="把admserver.jar和admserverclient.jar打成.ear文件">
+		<!--<zip destfile="dist/admserver${dateFormat.day}.ear">-->
+		<zip destfile="dist/admserver.ear">
+			<fileset dir="dist">
+				<include name="${name.admserverclient.jar.prop}" />
+				<include name="${name.admserver.jar.prop}" />
+			</fileset>
+		</zip>
+	</target>
+	
+	<tstamp prefix="dateFormat">
+	        <format property="day" pattern="yyyy-MM-dd"/>
+	        <format property="time" pattern="HH:mm:ss"/>
+	        <format property="dt" pattern="yyyy-MM-dd HH:mm:ss.SSS"/>
+	</tstamp>
+
+	<target name="main" depends="cleanServer_Client" description="主运行命令" />
+	
+	<mkdir dir="dist" />
+	
+	<target name="cleanServer_Client" depends="zip" description="删除admserver.jar和admserverclient.jar">
+			<delete>
+				<fileset dir="dist/">
+					<include name="${name.admserver.jar.prop}" />
+				</fileset>
+				<fileset dir="dist/">
+					<include name="${name.admserverclient.jar.prop}" />
+				</fileset>
+			</delete>
+		</target>
+	
+	<target name="cleanAll">
+		<delete>
+			<!--
+			<fileset dir="../${jar.dir}/">
+				<include name="admserver.ear" />
+			</fileset>
+			-->
+			<fileset dir="dist/">
+				<include name="${name.admserver.jar.prop}" />
+			</fileset>
+			<fileset dir="dist/">
+				<include name="${name.admserverclient.jar.prop}" />
+			</fileset>
+		</delete>
+	</target>	
+	
+</project>

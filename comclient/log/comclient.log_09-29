@@ -1,0 +1,1434 @@
+16/09/29 10:20:52.221 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+16/09/29 10:22:31.461 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/29 10:22:33.662 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - OID config read Finish......
+16/09/29 10:22:37.984 INFO  [com.jhw.adm.comclient.jms.MessageSend] - *Connect Success*
+16/09/29 10:22:38.032 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Init Receive Constructor
+16/09/29 10:22:38.047 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - JMS Send service init Finish......
+16/09/29 10:22:38.843 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(COM2) opened...
+16/09/29 10:22:38.969 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - PLC Service Init Finish......
+16/09/29 10:22:39.359 WARN  [com.jhw.adm.comclient.protocol.snmp.TrapMonitor$ConsumeTrap] - TrapQueue empty!
+16/09/29 10:22:39.374 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Snmp Trap service init Finish......
+16/09/29 10:22:40.062 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Gprs service init Finish......
+16/09/29 10:22:40.077 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Heartbeat Setup Finish......
+16/09/29 10:22:40.108 INFO  [com.jhw.adm.comclient.service.DeviceLogService$4] - Launching device log listen thread.
+16/09/29 10:22:40.108 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - DeviceLog Listen Setup Finish......
+16/09/29 10:22:40.124 INFO  [com.jhw.adm.comclient.service.DeviceLogService$5] - Launching handle device log thread.
+16/09/29 10:22:41.091 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 10:22:41.342 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 10:22:41.373 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 10:22:41.373 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 10:22:41.373 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 10:22:53.104 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 10:22:53.120 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 10:22:53.136 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 10:22:53.136 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 10:23:05.119 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 10:23:05.167 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 10:23:05.167 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 10:23:05.167 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 10:23:17.132 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 10:23:17.148 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 10:23:17.148 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 10:23:17.148 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 10:23:29.147 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 10:23:29.179 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 10:23:29.179 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 10:23:29.179 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 10:23:40.692 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/29 10:23:40.880 INFO  [com.jhw.adm.comclient.jms.MessageSend] - true false
+16/09/29 10:23:40.880 WARN  [com.jhw.adm.comclient.jms.MessageSend] - 2&&&Receive Thread alive
+16/09/29 10:23:40.896 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(COM2) closed...
+16/09/29 10:23:40.974 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@1ee4648: startup date [Thu Sep 29 10:20:45 CST 2016]; root of context hierarchy
+16/09/29 10:23:40.974 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+16/09/29 10:23:41.005 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/09/29 10:23:41.005 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@19bfb30: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+16/09/29 10:23:41.021 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(COM2) closed...
+16/09/29 10:23:41.021 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+16/09/29 10:23:41.021 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+16/09/29 10:23:41.021 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/09/29 10:23:41.021 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+16/09/29 10:39:01.851 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+16/09/29 10:39:15.393 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/29 10:39:16.923 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - OID config read Finish......
+16/09/29 10:39:18.515 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: WTNMS not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor375.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/09/29 10:39:20.638 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: WTNMS not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor375.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/09/29 10:39:22.731 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: WTNMS not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor375.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/09/29 10:39:24.902 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: WTNMS not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor375.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/09/29 10:39:27.118 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: WTNMS not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor375.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/09/29 10:39:29.194 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: WTNMS not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor375.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/09/29 10:39:31.285 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: WTNMS not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor375.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/09/29 10:39:33.408 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: WTNMS not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor375.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/09/29 10:40:56.704 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+16/09/29 10:41:02.758 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/29 10:41:07.252 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/29 10:41:11.699 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/29 10:41:15.459 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/29 10:41:23.011 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/29 10:41:23.370 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - OID config read Finish......
+16/09/29 10:41:24.525 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: WTNMS not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor375.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/09/29 10:41:26.620 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: WTNMS not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor375.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/09/29 10:41:28.742 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: WTNMS not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor375.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/09/29 10:41:30.849 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: WTNMS not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor375.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/09/29 10:41:31.256 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/29 10:41:31.443 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+16/09/29 10:41:31.443 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/09/29 10:41:31.459 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/09/29 10:41:31.459 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/09/29 10:41:31.459 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@184ec44: startup date [Thu Sep 29 10:40:54 CST 2016]; root of context hierarchy
+16/09/29 10:41:31.474 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+16/09/29 10:41:31.490 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/09/29 10:41:31.490 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@19bfb30: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+16/09/29 10:41:31.521 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'hongdianService': java.lang.NullPointerException
+16/09/29 10:41:31.521 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'heartbeatService': java.lang.NullPointerException
+16/09/29 10:41:31.521 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+16/09/29 10:41:31.521 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+16/09/29 10:41:31.521 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+16/09/29 10:41:31.661 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/09/29 10:41:31.661 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+16/09/29 10:45:55.881 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+16/09/29 10:46:01.966 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/29 10:46:07.195 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/29 10:46:11.143 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/29 10:46:17.041 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/29 10:46:17.557 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - OID config read Finish......
+16/09/29 10:46:18.836 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: WTNMS not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/09/29 10:46:20.990 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: WTNMS not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/09/29 10:46:23.128 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: WTNMS not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor313.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/09/29 10:46:25.226 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: WTNMS not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor313.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/09/29 10:46:27.426 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: WTNMS not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor313.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/09/29 10:46:29.533 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: WTNMS not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor313.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/09/29 10:46:31.675 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: WTNMS not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor313.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/09/29 10:46:33.782 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: WTNMS not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor313.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/09/29 10:46:35.891 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: WTNMS not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor313.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/09/29 10:46:37.983 WARN  [com.jhw.adm.comclient.jms.MessageSend] - Reconnecting Server...javax.naming.NameNotFoundException: WTNMS not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor313.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:142)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:392)
+	at com.jhw.adm.comclient.jms.MessageSend.init(MessageSend.java:94)
+	at com.jhw.adm.comclient.ui.LoginDialog.initSYS(LoginDialog.java:315)
+	at com.jhw.adm.comclient.ui.LoginDialog.access$5(LoginDialog.java:308)
+	at com.jhw.adm.comclient.ui.LoginDialog$7.run(LoginDialog.java:208)
+
+16/09/29 10:46:39.045 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/29 10:46:39.248 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+16/09/29 10:46:39.248 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/09/29 10:46:39.248 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/09/29 10:46:39.248 ERROR [com.jhw.adm.comclient.ui.LoginDialog] - java.lang.NullPointerException
+16/09/29 10:46:39.248 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@482923: startup date [Thu Sep 29 10:45:52 CST 2016]; root of context hierarchy
+16/09/29 10:46:39.248 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+16/09/29 10:46:39.264 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/09/29 10:46:39.264 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1884174: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+16/09/29 10:46:39.264 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'hongdianService': java.lang.NullPointerException
+16/09/29 10:46:39.264 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'stop' failed on bean with name 'heartbeatService': java.lang.NullPointerException
+16/09/29 10:46:39.264 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(null) closed...
+16/09/29 10:46:39.264 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+16/09/29 10:46:39.280 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+16/09/29 10:46:39.280 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/09/29 10:46:39.280 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+16/09/29 10:48:46.438 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+16/09/29 10:48:50.698 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/29 10:48:51.417 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - OID config read Finish......
+16/09/29 10:48:52.524 INFO  [com.jhw.adm.comclient.jms.MessageSend] - *Connect Success*
+16/09/29 10:48:52.540 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Init Receive Constructor
+16/09/29 10:48:52.540 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - JMS Send service init Finish......
+16/09/29 10:48:52.791 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(COM2) opened...
+16/09/29 10:48:52.854 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - PLC Service Init Finish......
+16/09/29 10:48:52.932 WARN  [com.jhw.adm.comclient.protocol.snmp.TrapMonitor$ConsumeTrap] - TrapQueue empty!
+16/09/29 10:48:52.948 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Snmp Trap service init Finish......
+16/09/29 10:48:53.026 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Gprs service init Finish......
+16/09/29 10:48:53.026 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Heartbeat Setup Finish......
+16/09/29 10:48:53.026 INFO  [com.jhw.adm.comclient.service.DeviceLogService$4] - Launching device log listen thread.
+16/09/29 10:48:53.026 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - DeviceLog Listen Setup Finish......
+16/09/29 10:48:53.026 INFO  [com.jhw.adm.comclient.service.DeviceLogService$5] - Launching handle device log thread.
+16/09/29 10:48:54.040 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 10:48:54.275 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 10:48:54.446 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 10:48:54.446 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 10:48:54.446 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 10:49:06.053 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 10:49:06.085 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 10:49:06.085 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 10:49:06.085 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 10:49:18.067 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 10:49:18.083 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 10:49:18.098 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 10:49:18.099 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 10:49:30.081 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 10:49:30.113 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 10:49:30.113 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 10:49:30.113 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 10:49:42.094 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 10:49:42.125 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 10:49:42.142 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 10:49:42.142 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 10:49:54.108 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 10:49:54.139 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 10:49:54.140 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 10:49:54.140 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 10:50:06.109 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 10:50:06.150 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 10:50:06.151 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 10:50:06.151 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 10:50:18.112 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 10:50:18.144 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 10:50:18.144 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 10:50:18.144 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 10:50:30.113 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 10:50:30.157 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 10:50:30.157 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 10:50:30.158 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 10:50:42.126 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 10:50:42.173 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 10:50:42.173 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 10:50:42.173 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 10:50:54.130 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 10:50:54.172 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 10:50:54.173 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 10:50:54.173 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 10:51:06.132 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 10:51:06.164 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 10:51:06.164 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 10:51:06.164 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 10:51:15.321 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/29 10:51:15.525 INFO  [com.jhw.adm.comclient.jms.MessageSend] - true false
+16/09/29 10:51:15.525 WARN  [com.jhw.adm.comclient.jms.MessageSend] - 2&&&Receive Thread alive
+16/09/29 10:51:15.540 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(COM2) closed...
+16/09/29 10:51:15.572 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@1b9240e: startup date [Thu Sep 29 10:48:43 CST 2016]; root of context hierarchy
+16/09/29 10:51:15.572 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+16/09/29 10:51:15.572 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/09/29 10:51:15.587 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1a68ef9: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+16/09/29 10:51:15.587 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(COM2) closed...
+16/09/29 10:51:15.587 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+16/09/29 10:51:15.587 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+16/09/29 10:51:15.587 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/09/29 10:51:15.587 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+16/09/29 15:43:35.936 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+16/09/29 15:43:41.059 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/29 15:43:42.768 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - OID config read Finish......
+16/09/29 15:43:48.487 INFO  [com.jhw.adm.comclient.jms.MessageSend] - *Connect Success*
+16/09/29 15:43:48.523 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Init Receive Constructor
+16/09/29 15:43:48.524 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - JMS Send service init Finish......
+16/09/29 15:43:48.945 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(COM2) opened...
+16/09/29 15:43:49.055 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - PLC Service Init Finish......
+16/09/29 15:43:49.483 WARN  [com.jhw.adm.comclient.protocol.snmp.TrapMonitor$ConsumeTrap] - TrapQueue empty!
+16/09/29 15:43:49.608 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Snmp Trap service init Finish......
+16/09/29 15:43:50.440 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Gprs service init Finish......
+16/09/29 15:43:50.441 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Heartbeat Setup Finish......
+16/09/29 15:43:50.501 INFO  [com.jhw.adm.comclient.service.DeviceLogService$4] - Launching device log listen thread.
+16/09/29 15:43:50.562 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - DeviceLog Listen Setup Finish......
+16/09/29 15:43:50.564 INFO  [com.jhw.adm.comclient.service.DeviceLogService$5] - Launching handle device log thread.
+16/09/29 15:43:51.441 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:43:52.003 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:43:52.076 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 15:43:52.076 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:43:52.077 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 15:44:03.441 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:44:03.458 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:44:03.459 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:44:03.459 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 15:44:15.442 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:44:15.455 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:44:15.456 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:44:15.456 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 15:44:27.443 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:44:27.463 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:44:27.463 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:44:27.464 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 15:44:39.443 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:44:39.454 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:44:39.455 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:44:39.456 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 15:44:50.599 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/29 15:44:50.811 INFO  [com.jhw.adm.comclient.jms.MessageSend] - true false
+16/09/29 15:44:50.812 WARN  [com.jhw.adm.comclient.jms.MessageSend] - 2&&&Receive Thread alive
+16/09/29 15:44:50.833 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(COM2) closed...
+16/09/29 15:44:50.849 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@1ee4648: startup date [Thu Sep 29 15:43:27 CST 2016]; root of context hierarchy
+16/09/29 15:44:50.851 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+16/09/29 15:44:50.884 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/09/29 15:44:50.886 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1f48262: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+16/09/29 15:44:50.899 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(COM2) closed...
+16/09/29 15:44:50.909 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+16/09/29 15:44:50.910 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+16/09/29 15:44:50.910 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/09/29 15:44:50.911 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+16/09/29 15:46:41.852 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/29 15:46:42.697 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - OID config read Finish......
+16/09/29 15:46:43.917 INFO  [com.jhw.adm.comclient.jms.MessageSend] - *Connect Success*
+16/09/29 15:46:43.918 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Init Receive Constructor
+16/09/29 15:46:43.919 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - JMS Send service init Finish......
+16/09/29 15:46:44.009 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(COM2) opened...
+16/09/29 15:46:44.033 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - PLC Service Init Finish......
+16/09/29 15:46:44.077 WARN  [com.jhw.adm.comclient.protocol.snmp.TrapMonitor$ConsumeTrap] - TrapQueue empty!
+16/09/29 15:46:44.078 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Snmp Trap service init Finish......
+16/09/29 15:46:44.087 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Gprs service init Finish......
+16/09/29 15:46:44.088 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Heartbeat Setup Finish......
+16/09/29 15:46:44.091 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - DeviceLog Listen Setup Finish......
+16/09/29 15:46:44.093 INFO  [com.jhw.adm.comclient.service.DeviceLogService$5] - Launching handle device log thread.
+16/09/29 15:46:44.094 INFO  [com.jhw.adm.comclient.service.DeviceLogService$4] - Launching device log listen thread.
+16/09/29 15:46:45.088 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:46:45.139 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:46:45.140 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 15:46:45.140 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:46:45.141 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 15:46:57.088 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:46:57.103 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:46:57.105 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:46:57.106 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 15:47:09.089 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:47:09.101 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:47:09.102 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:47:09.103 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 15:47:21.090 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:47:21.114 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:47:21.115 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:47:21.116 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 15:47:33.090 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:47:33.108 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:47:33.110 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:47:33.110 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 15:47:45.091 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:47:45.103 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:47:45.104 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:47:45.105 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 15:47:57.092 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:47:57.105 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:47:57.106 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:47:57.107 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 15:48:09.092 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:48:09.107 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:48:09.108 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:48:09.108 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 15:48:21.093 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:48:21.117 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:48:21.118 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:48:21.119 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 15:48:33.094 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:48:33.107 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:48:33.108 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:48:33.109 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 15:48:45.094 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:48:45.106 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:48:45.106 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:48:45.106 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 15:48:57.095 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:48:57.117 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:48:57.118 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:48:57.118 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 15:49:09.096 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:49:09.121 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:49:09.121 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:49:09.122 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 15:49:21.097 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:49:21.118 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:49:21.119 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:49:21.120 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 15:49:33.097 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:49:33.123 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:49:33.124 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:49:33.124 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 15:49:45.098 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:49:45.116 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:49:45.118 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:49:45.118 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 15:49:57.099 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:49:57.117 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:49:57.118 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:49:57.118 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 15:50:09.099 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:50:09.115 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:50:09.115 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:50:09.116 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 15:50:21.100 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:50:21.112 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:50:21.113 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:50:21.113 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 15:50:33.101 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:50:33.114 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:50:33.115 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:50:33.116 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 15:50:45.101 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:50:45.112 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:50:45.114 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:50:45.114 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 15:50:57.102 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:50:57.122 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:50:57.124 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:50:57.124 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 15:51:09.103 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:51:09.121 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:51:09.125 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:51:09.127 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 15:51:21.103 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:51:21.114 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:51:21.116 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:51:21.116 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 15:51:33.104 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:51:33.122 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:51:33.124 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:51:33.127 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 15:51:45.105 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:51:45.147 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:51:45.148 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:51:45.149 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 15:51:57.105 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:51:57.123 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:51:57.125 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:51:57.125 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 15:52:09.106 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:52:09.139 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:52:09.142 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:52:09.142 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 15:52:21.107 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:52:21.118 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:52:21.119 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:52:21.119 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 15:52:33.107 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:52:33.145 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:52:33.148 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:52:33.148 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 15:52:45.108 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:52:45.123 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:52:45.124 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:52:45.124 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 15:52:57.109 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:52:57.125 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:52:57.126 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:52:57.126 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 15:53:09.110 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:53:09.129 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:53:09.130 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:53:09.131 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 15:53:21.110 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:53:21.123 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:53:21.128 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:53:21.128 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 15:53:33.111 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:53:33.123 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:53:33.124 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:53:33.124 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 15:53:45.112 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:53:45.132 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:53:45.133 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:53:45.134 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 15:53:57.112 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:53:57.125 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:53:57.128 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:53:57.128 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 15:54:09.113 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:54:09.147 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:54:09.148 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:54:09.149 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 15:54:21.114 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 15:54:21.127 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 15:54:21.128 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 15:54:21.128 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 16:04:46.592 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+16/09/29 16:04:52.053 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/29 16:04:55.986 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/29 16:04:56.751 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - OID config read Finish......
+16/09/29 16:05:00.885 INFO  [com.jhw.adm.comclient.jms.MessageSend] - *Connect Success*
+16/09/29 16:05:00.901 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Init Receive Constructor
+16/09/29 16:05:00.901 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - JMS Send service init Finish......
+16/09/29 16:05:01.354 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(COM2) opened...
+16/09/29 16:05:01.417 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - PLC Service Init Finish......
+16/09/29 16:05:01.495 WARN  [com.jhw.adm.comclient.protocol.snmp.TrapMonitor$ConsumeTrap] - TrapQueue empty!
+16/09/29 16:05:01.527 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Snmp Trap service init Finish......
+16/09/29 16:05:02.026 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Gprs service init Finish......
+16/09/29 16:05:02.026 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Heartbeat Setup Finish......
+16/09/29 16:05:02.089 INFO  [com.jhw.adm.comclient.service.DeviceLogService$4] - Launching device log listen thread.
+16/09/29 16:05:02.120 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - DeviceLog Listen Setup Finish......
+16/09/29 16:05:02.120 INFO  [com.jhw.adm.comclient.service.DeviceLogService$5] - Launching handle device log thread.
+16/09/29 16:05:03.041 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:05:03.494 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:05:03.525 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:05:03.525 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 16:05:03.525 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 16:05:15.054 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:05:15.086 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:05:15.102 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:05:15.102 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 16:05:27.067 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:05:27.099 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:05:27.099 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:05:27.099 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 16:05:39.080 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:05:39.112 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:05:39.112 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:05:39.112 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 16:05:51.085 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:05:51.118 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:05:51.118 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:05:51.118 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 16:06:03.098 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:06:03.131 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:06:03.131 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:06:03.131 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 16:06:15.099 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:06:15.139 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:06:15.141 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:06:15.141 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 16:06:27.099 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:06:27.127 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:06:27.128 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:06:27.129 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 16:06:39.100 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:06:39.122 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:06:39.123 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:06:39.124 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 16:06:51.106 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:06:51.121 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:06:51.121 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:06:51.121 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 16:07:03.108 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:07:03.176 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:07:03.179 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:07:03.179 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 16:07:15.110 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:07:15.143 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:07:15.143 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:07:15.143 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 16:07:27.111 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:07:27.156 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:07:27.157 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:07:27.158 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 16:07:39.116 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:07:39.148 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:07:39.148 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:07:39.148 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 16:07:51.120 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:07:51.152 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:07:51.152 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:07:51.152 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 16:08:03.131 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:08:03.147 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:08:03.147 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:08:03.163 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 16:08:15.144 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:08:15.177 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:08:15.177 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:08:15.177 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 16:08:27.157 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:08:27.173 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:08:27.173 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:08:27.173 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 16:08:39.170 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:08:39.170 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:08:39.170 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:08:39.170 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 16:08:51.171 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:08:51.203 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:08:51.203 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:08:51.203 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 16:09:03.184 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:09:03.216 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:09:03.216 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:09:03.216 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 16:09:15.197 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:09:15.212 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:09:15.212 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:09:15.212 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 16:09:27.212 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:09:27.278 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:09:27.278 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:09:27.278 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 16:09:39.212 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:09:39.228 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:09:39.228 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:09:39.228 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 16:09:51.227 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:09:51.243 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:09:51.243 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:09:51.243 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 16:10:03.240 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:10:03.256 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:10:03.256 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:10:03.256 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 16:10:15.253 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:10:15.286 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:10:15.286 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:10:15.286 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 16:10:27.254 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:10:27.269 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:10:27.269 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:10:27.269 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 16:10:39.267 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:10:39.282 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:10:39.282 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:10:39.282 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 16:10:51.282 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:10:51.314 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:10:51.314 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:10:51.314 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 16:11:03.295 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:11:03.327 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:11:03.327 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:11:03.327 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 16:11:15.308 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:11:15.340 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:11:15.340 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:11:15.340 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 16:11:27.323 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:11:27.338 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:11:27.338 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:11:27.338 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 16:11:39.336 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:11:39.509 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:11:39.509 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:11:39.509 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 16:11:51.351 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:11:51.383 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:11:51.383 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:11:51.383 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 16:12:03.361 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:12:03.393 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:12:03.393 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:12:03.393 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 16:12:15.375 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:12:15.390 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:12:15.390 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:12:15.407 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 16:12:27.386 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:12:27.434 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:12:27.434 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:12:27.434 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 16:12:39.398 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:12:39.434 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:12:39.434 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:12:39.434 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 16:12:51.405 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:12:51.421 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:12:51.421 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:12:51.421 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 16:13:03.409 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:13:03.425 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:13:03.425 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:13:03.425 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 16:13:15.423 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:13:15.438 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:13:15.438 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:13:15.438 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 16:13:25.935 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/29 16:13:26.310 INFO  [com.jhw.adm.comclient.jms.MessageSend] - true false
+16/09/29 16:13:26.310 WARN  [com.jhw.adm.comclient.jms.MessageSend] - 2&&&Receive Thread alive
+16/09/29 16:13:26.716 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(COM2) closed...
+16/09/29 16:13:26.778 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@1b9240e: startup date [Thu Sep 29 16:04:24 CST 2016]; root of context hierarchy
+16/09/29 16:13:26.778 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+16/09/29 16:13:26.809 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/09/29 16:13:26.809 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@609959: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+16/09/29 16:13:26.887 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(COM2) closed...
+16/09/29 16:13:26.887 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+16/09/29 16:13:26.887 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+16/09/29 16:13:26.887 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/09/29 16:13:26.887 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+16/09/29 16:15:55.544 INFO  [org.jboss.logging.Logger] - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+16/09/29 16:16:07.767 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/29 16:16:08.797 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - OID config read Finish......
+16/09/29 16:16:10.366 INFO  [com.jhw.adm.comclient.jms.MessageSend] - *Connect Success*
+16/09/29 16:16:10.382 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Init Receive Constructor
+16/09/29 16:16:10.382 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - JMS Send service init Finish......
+16/09/29 16:16:10.664 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(COM2) opened...
+16/09/29 16:16:10.727 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - PLC Service Init Finish......
+16/09/29 16:16:10.805 WARN  [com.jhw.adm.comclient.protocol.snmp.TrapMonitor$ConsumeTrap] - TrapQueue empty!
+16/09/29 16:16:10.836 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Snmp Trap service init Finish......
+16/09/29 16:16:10.977 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Gprs service init Finish......
+16/09/29 16:16:10.977 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - Heartbeat Setup Finish......
+16/09/29 16:16:11.008 INFO  [com.jhw.adm.comclient.service.DeviceLogService$4] - Launching device log listen thread.
+16/09/29 16:16:11.023 INFO  [com.jhw.adm.comclient.ui.LoginDialog] - DeviceLog Listen Setup Finish......
+16/09/29 16:16:11.023 INFO  [com.jhw.adm.comclient.service.DeviceLogService$5] - Launching handle device log thread.
+16/09/29 16:16:11.991 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:16:12.054 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:16:12.132 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:16:12.132 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 16:16:12.132 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 16:16:23.996 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:16:24.028 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:16:24.028 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:16:24.028 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 16:16:36.010 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:16:36.010 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:16:36.010 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:16:36.010 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 16:16:48.022 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:16:48.037 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:16:48.037 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:16:48.037 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 16:17:00.029 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:17:00.061 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:17:00.061 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:17:00.061 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 16:17:12.043 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:17:12.075 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:17:12.075 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:17:12.075 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 16:17:24.056 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:17:24.071 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:17:24.071 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:17:24.071 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 16:17:27.530 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:17:27.530 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - MsgName：TOPOSEARCH,msgID：1
+16/09/29 16:17:27.563 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 16:17:27.594 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Start ip:192.168.1.38
+16/09/29 16:17:27.609 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Ip Segment:192.168.1.1 - 192.168.1.255
+16/09/29 16:17:27.609 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - TOPOLOGY_THREADPOOL_COUNT >>> 220
+16/09/29 16:17:27.609 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ICMP dectecting......
+16/09/29 16:17:27.609 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ICMP dectect finish -> 0
+16/09/29 16:17:27.734 INFO  [com.jhw.adm.comclient.service.SystemHandler] - ***系统类型: RS608-2GF6T
+16/09/29 16:17:27.734 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - JHW device Type:RS608-2GF6T
+16/09/29 16:17:28.501 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Finish discovery, now Arrangeing data......
+16/09/29 16:17:28.516 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - 发现二层: 192.168.1.38
+16/09/29 16:17:28.516 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Snmp dectecting......
+16/09/29 16:17:35.774 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+16/09/29 16:17:36.056 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:17:36.076 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:17:36.077 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:17:36.077 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 16:17:42.180 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+16/09/29 16:17:48.056 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:17:48.071 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:17:48.072 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:17:48.072 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 16:17:48.989 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+16/09/29 16:17:55.843 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - <<<detect snmp thread finish>>>
+16/09/29 16:17:55.843 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - Snmp dectect finish -> 0
+16/09/29 16:17:56.860 INFO  [com.jhw.adm.comclient.service.topology.TopologyService] - ***拓扑发现结束***
+16/09/29 16:18:00.069 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:18:00.069 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:18:00.069 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:18:00.069 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 16:18:12.071 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:18:12.087 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:18:12.087 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:18:12.087 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 16:18:24.087 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:18:24.087 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:18:24.087 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:18:24.087 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 16:18:36.094 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:18:36.125 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:18:36.144 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:18:36.144 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 16:18:48.107 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:18:48.139 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:18:48.155 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:18:48.155 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 16:19:00.122 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:19:00.137 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:19:00.137 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:19:00.137 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 16:19:12.126 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:19:12.173 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:19:12.173 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:19:12.173 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 16:19:24.126 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:19:24.177 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:19:24.178 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:19:24.178 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 16:19:36.131 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:19:36.146 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:19:36.146 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:19:36.146 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 16:19:48.145 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:19:48.178 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:19:48.178 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:19:48.178 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 16:20:00.156 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:20:00.204 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:20:00.204 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:20:00.204 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 16:20:12.162 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:20:12.177 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:20:12.177 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:20:12.177 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：0
+16/09/29 16:20:24.168 INFO  [com.jhw.adm.comclient.service.HeartbeatService$DoTask] - Sended heartbeat
+16/09/29 16:20:24.183 INFO  [com.jhw.adm.comclient.jms.MessageSend$Receive] - Receive a message.
+16/09/29 16:20:24.183 INFO  [com.jhw.adm.comclient.jms.MessageQueueHandler] - Heartbeat Message:52
+16/09/29 16:20:24.183 WARN  [com.jhw.adm.comclient.jms.MessageQueueHandler$QueueHandler] - messageQueue empty!Thread：1
+16/09/29 16:20:27.764 INFO  [com.jhw.adm.comclient.ui.LoginDialog$CounterThread] - ......Login...........................
+16/09/29 16:20:27.967 INFO  [com.jhw.adm.comclient.jms.MessageSend] - true false
+16/09/29 16:20:27.967 WARN  [com.jhw.adm.comclient.jms.MessageSend] - 2&&&Receive Thread alive
+16/09/29 16:20:27.999 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(COM2) closed...
+16/09/29 16:20:28.077 INFO  [org.springframework.context.support.AbstractApplicationContext] - Closing org.springframework.context.support.FileSystemXmlApplicationContext@1b9240e: startup date [Thu Sep 29 16:15:50 CST 2016]; root of context hierarchy
+16/09/29 16:20:28.077 INFO  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] - Stopping beans in phase 2147483647
+16/09/29 16:20:28.108 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/09/29 16:20:28.108 INFO  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1a68ef9: defining beans [topologyHandler,dot1xHandler,ghringHandler,igmpHandler,lacpHandler,lldpHandler,macHandler,mirrorHandler,performanceHandler,pingHandler,portHandler,qosHandler,serialHandler,snmpHandler,sntpHandler,stpHandler,systemHandler,trunkHandler,vlanHandler,rmonHandler,emulateHandler,eponHandler,systemUpgradeHandler,switcherUserHandle,deviceLogHandler,topologyService,synEquipmentService,performanceService,pingService,vlanService,macService,mirrorService,portService,stpService,igmpService,sntpService,dot1xService,ghringService,qosService,trunkService,serialService,rmonService,lldpService,lacpService,snmpService,systemUpgradeService,switcherUserService,emulateService,heartbeatService,systemService,deviceLogService,quartzScheduler,jobDetail,waveBandService,autoMonitorSetService,baseOperateService,portQueryService,routingQueryService,routingSetService,serialSetService,hongdianService,oltBaseConfigHandler,oltBaseConfigService,oltBusinessConfigHandler,oltBusinessConfigService,eponSynService,loginUI,loginDialog,loginImagePanel,consolePanel,tabbedPanel,logPanel,diagnoseView,vlan3Service,baseConfig3Service,stp3Service,lldp3Service,snmpV2,snmpV3,dataBufferBuilder,snmpTrap,trapMonitor,messageSend,messageQueueHandler]; root of factory hierarchy
+16/09/29 16:20:28.108 INFO  [com.jhw.adm.comclient.carrier.serial.SerialServer] - Serial port(COM2) closed...
+16/09/29 16:20:28.123 INFO  [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Shutting down Quartz Scheduler
+16/09/29 16:20:28.123 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+16/09/29 16:20:28.123 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16/09/29 16:20:28.123 INFO  [org.jboss.logging.Logger] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.

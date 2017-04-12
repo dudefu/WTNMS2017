@@ -1,0 +1,49 @@
+28端口网管型工业以太网交换机型号： CM6028-4GF-8S-16T
+2光8电 （千兆）型号： RS1010-2GF8GT-AF
+3光7电型号： RS6010-3GF7T
+3光6电型号： RS609-3GF6T
+4光4电（百兆）型号： RS606-2F4T4D
+4光4电（百兆）型号： RS608-4F4T
+2光6电型号： RS608-2GF6T
+2光6电（百兆）型号： RS608-2F6T
+
+/**
+	 * 2光6电（百兆）
+	 * IETH802
+	 */
+	public final static int RS608_2F6T = 1;
+	/**
+	 * 2光6电（千兆）
+	 * IETH804
+	 */
+	public final static int RS608_2GF6T = 2;
+	/**
+	 * 3光6电
+	 * IETH804_H
+	 */
+	public final static int RS609_3GF6T = 3;
+	/**
+	 * 3光7电
+	 * IETH8008
+	 */
+	public final static int RS6010_3GF7T = 4;
+	/**
+	 * 2光8电 （千兆）
+	 * IETH8026
+	 */
+	public final static int RS1010_2GF8GT_AF = 5;
+	/**
+	 * 4光4电（百兆）
+	 * IETH8008_U
+	 */
+	public final static int RS608_4F4T = 6;
+	/**
+	 * 4光4电（百兆）
+	 * IETH9028
+	 */
+	public final static int RS606_2F4T4D = 7;
+	/**
+	 * 28端口网管型工业以太网交换机
+	 * IETH9024
+	 */
+	public final static int CM6028_4GF_8S_16T = 8;
